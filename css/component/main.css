@@ -1,5 +1,7 @@
 
+.mainSwiper .swiper-slide img{display: block; width: 100%; height: auto;}
+.mainSwiper .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets{top: calc(50vh - 48px);}
 
-.mainSeaction1{background:green;}
-.mainSeaction2{background:blue;}
-.mainSeaction3{background:yellow;}
+.mainSection1{background:green;}
+.mainSection2{background:blue;}
+.mainSection3{background:yellow;}
