@@ -133,7 +133,59 @@
                         <img src="img/shutterstock_1491056378.jpg">
                     </div>
                     <div class="swiper-slide contentSection mainSection2">
-        
+                        <div class="mainBannerSlide">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="bannerTxtBox">
+                                        <h2 class="bannerTit">호두까기 인형</h2>
+                                        <p class="bannerSub1">2019. 12. 14 - 12. 24</p>
+                                        <p class="bannerSub2">예술의전당 오페라극장</p>
+                                    </div>
+                                    <div class="bannerImgBox">
+                                        <img src="" alt="banner">
+                                    </div>
+                                    <span class="bannerSquare"></span>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bannerTxtBox">
+                                        <h2 class="bannerTit">2022 정단원 채용</h2>
+                                        <p class="bannerSub1"><strong>원서접수</strong> 2021. 10. 25 - 11. 9</p>
+                                        <p class="bannerSub2"><strong>오디션</strong> 1차 2021. 11. 13 ｜ 2차 2021. 11. 14</p>
+                                        <a class="bannerBtn">상세요강</a>
+                                    </div>
+                                    <div class="bannerImgBox">
+                                        <img src="" alt="banner">
+                                    </div>
+                                    <span class="bannerSquare"></span>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bannerTxtBox">
+                                        <h2 class="bannerTit">2022 준단원 채용</h2>
+                                        <p class="bannerSub1"><strong>원서접수</strong> 2021. 10. 29 - 11. 14</p>
+                                        <p class="bannerSub2"><strong>오디션</strong> 2021. 11. 20</p>
+                                        <a class="bannerBtn">상세요강</a>
+                                    </div>
+                                    <div class="bannerImgBox">
+                                        <img src="" alt="banner">
+                                    </div>
+                                    <span class="bannerSquare"></span>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bannerTxtBox">
+                                        <h2 class="bannerTit">2022 Coming Soon</h2>
+                                        <p class="bannerSub1">2022년에도 국립발레단은 멋진 공연으로<br>함께하겠습니다.</p>
+                                        <a class="bannerBtn">공연일정</a>
+                                    </div>
+                                    <div class="bannerImgBox">
+                                        <img src="" alt="banner">
+                                    </div>
+                                    <span class="bannerSquare"></span>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
                     </div>
                     <div class="swiper-slide contentSection mainSection3">
         
@@ -256,11 +308,28 @@
                 //mainContent swiper
                 var mainSwiper = new Swiper(".mainSwiper", {
                     direction: "vertical",
+                    slidesPerView: 1,
                     pagination: {
                     el: ".swiper-pagination",
                     clickable: true,
                     },
                     mousewheel: true,
+                });
+
+                //maisSection banner swiper
+                var mainBannerSlide = new Swiper(".mainBannerSlide", {
+                    navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                    },
+                    pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                    },
+                    autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                    },
                 });
             });
         </script>
