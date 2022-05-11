@@ -24,4 +24,15 @@
 .mainBannerSlide .swiper-pagination{left: 43%; width: auto !important; height: 15px !important;}
 .mainBannerSlide .swiper-pagination-bullet{display: inline-block; vertical-align: middle; margin: 0 16px;}
 .mainBannerSlide .swiper-pagination-bullet-active{width: 12px; height: 12px; background-color: #68171C;}
-.mainSection3{background:yellow;}
+.mainSection3{padding: 100px 320px 80px}
+.contentTitleBox{margin-bottom: 40px;}
+.contentTitleBox h3{display: inline-block; font-size: 28px; font-weight: bold;}
+.contentTitleBox .snsBox{display: inline-block; text-align: right; width: calc(100% - 60px);}
+.snsBox a{width: 40px; height: 40px; background-color: #f5f5f5; margin-right: 20px;}
+.snsBox a:last-child{margin-right: 0;}
+.snsPreviewBox ul{display: flex;}
+.snsList_Big{margin-bottom: 20px;}
+.snsList_Big li{width: 33.3333%; height: 300px; margin-right: 20px; background-color: #f5f5f5;}
+.snsList_Big li:last-child{margin-right: 0;}
+.snslist_small li{width: 25%; height: 240px; margin-right: 20px; background-color: #f5f5f5;}
+.snslist_small li:last-child{margin-right: 0;}
