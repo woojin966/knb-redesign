@@ -1,15 +1,19 @@
 .mainSwiper{height: 100vh; min-height: 100vh; width: 100%; min-width: 1920px;}
-.mainSwiper .swiper-slide img{display: block; width: 100%; height: auto;}
+.mainSwiper > .swiper-wrapper > .swiper-slide > img{display: block; width: 100%; height: auto; position: relative;
+    bottom: 290px;}
 .mainSwiper .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets{top: calc(50vh - 48px);}
 
 .mainSection1{overflow: hidden;}
 .mainSection2{overflow: hidden;}
 .mainBannerSlide .swiper-slide{padding: 150px 320px 0; height: 100vh; overflow: hidden;}
 .mainBannerSlide .swiper-slide > div{display: inline-block; vertical-align: top;}
-.bannerTxtBox .bannerTit{font-size: 48px; font-weight: bold; margin-bottom: 20px;}
+.bannerTxtBox .bannerTit{font-size: 48px; font-weight: bold; margin-bottom: 40px;}
 .bannerTxtBox{width: 39%;}
-.bannerTxtBox p{font-size: 20px; margin-bottom: 10px;}
+.bannerTxtBox p{font-size: 20px; margin-bottom: 10px; line-height: 1.2;}
+.bannerTxtBox .bannersub1_4th{line-height: 1.8;}
 .bannerTxtBox p strong{font-weight: bold; color: #68171C;}
-.bannerImgBox{width: 59%;}
-.bannerSquare{position: absolute; right: -5%; top: 14%; width: 550px; height: 550px; border: 30px solid #68171C; z-index: 2; opacity: .6;}
+.bannerTxtBox .bannerBtn{margin-top: 10px; padding: 16px 20px; font-size: 16px; background-color: #68171C; color: #fff; font-weight: bold; text-align: center;}
+.bannerImgBox{width: 59%; padding: 10% 0;}
+.bannerImgBox img{width: 100%; height: 410px; background-color: #f5f5f5;}
+.bannerSquare{position: absolute; right: -5%; top: 14%; width: 550px; height: 550px; border: 30px solid #68171C; z-index: -1; opacity: .6;}
 .mainSection3{background:yellow;}
