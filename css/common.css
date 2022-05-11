@@ -37,4 +37,20 @@ main{position: relative; /*top: 96px;*/ padding-top: 96px;}
 .contentSection{width: 100%; height: 100%; min-height: 100vh;}
 
 /* footer */
-footer{position: absolute; top: 160px; left: 100px;}
+footer{position: absolute; top: 160px; left: 100px; z-index: 2; width: 165px;}
+footer > div{margin-bottom: 16px;}
+footer p{font-size: 12px; line-height: 1.4;}
+footer strong{font-weight: bold; font-size: 12px; line-height: 1.4; color: #68171C;}
+.fbtneBox{width: 30px; height: 30px; margin-bottom: 40px;}
+.fbtneBox a{width: 100%; height: 100%; border: 2px solid #000; position: relative; border-radius: 30px;}
+.fopenBtn:before{content: 'info'; font-size: 12;}
+.fcloseBtn:before{content: ''; position: absolute; width: 20px; height: 1px; background-color: #000; top: 12px; left: 3px; transform: rotate(45deg);}
+.fcloseBtn:after{content: ''; position: absolute; width: 20px; height: 1px; background-color: #000; top: 12px; left: 3px; transform: rotate(-45deg);}
+.fcontentBox{display: none;}
+.fcontentBox.on{display: block;}
+.fcontentBox img{width: auto; height: 20px; margin-bottom: 8px;}
+.flogoList, .fsponserList{margin-bottom: 16px;} 
+.fsponserList{margin-top: 8px;}
+.flogoList li:last-child img, .fsponserList li:last-child img{margin-bottom: 0;}
+.fadressBox p{margin-bottom: 8px;}
+.privacyBtn{font-size: 12px; font-weight: bold; text-decoration: underline;}
