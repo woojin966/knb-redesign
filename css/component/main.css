@@ -1,11 +1,12 @@
-.mainSwiper{height: 100vh; min-height: 100vh; width: 100%; min-width: 1920px;}
+.mainSwiper{height: 100vh; min-height: 1080px; width: 100%; min-width: 1920px;}
 .mainSwiper > .swiper-wrapper > .swiper-slide > img{display: block; width: 100%; height: auto; position: relative;
     bottom: 290px;}
 .mainSwiper .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets{top: calc(50vh - 48px);}
 
 .mainSection1{overflow: hidden;}
 .mainSection2{overflow: hidden;}
-.mainBannerSlide .swiper-slide{padding: 150px 320px 0; height: 100vh; overflow: hidden;}
+.mainBannerSlide{position: relative; height: 100%; /*top: 96px;*/}
+.mainBannerSlide .swiper-slide{padding: 160px 320px 0; overflow: hidden;}
 .mainBannerSlide .swiper-slide > div{display: inline-block; vertical-align: top;}
 .bannerTxtBox .bannerTit{font-size: 48px; font-weight: bold; margin-bottom: 40px;}
 .bannerTxtBox{width: 39%;}
@@ -13,7 +14,14 @@
 .bannerTxtBox .bannersub1_4th{line-height: 1.8;}
 .bannerTxtBox p strong{font-weight: bold; color: #68171C;}
 .bannerTxtBox .bannerBtn{margin-top: 10px; padding: 16px 20px; font-size: 16px; background-color: #68171C; color: #fff; font-weight: bold; text-align: center;}
-.bannerImgBox{width: 59%; padding: 10% 0;}
+.bannerImgBox{width: 59%; padding: 3% 0;}
 .bannerImgBox img{width: 100%; height: 410px; background-color: #f5f5f5;}
-.bannerSquare{position: absolute; right: -5%; top: 14%; width: 550px; height: 550px; border: 30px solid #68171C; z-index: -1; opacity: .6;}
+.bannerSquare{position: absolute; right: -5%; top: 13%; width: 550px; height: 550px; border: 30px solid #68171C; z-index: -1; opacity: .6;}
+.mainBannerSlide .swiper-button-prev, .mainBannerSlide .swiper-button-next, .mainBannerSlide .swiper-pagination{top: 60%}
+.mainBannerSlide .swiper-button-prev{left: 320px; width: 30px; height: 30px; border-top: 2px solid #000; border-left: 2px solid #000; transform: rotate(-45deg);}
+.mainBannerSlide .swiper-button-prev:after, .mainBannerSlide .swiper-button-next:after{content: '' !important;}
+.mainBannerSlide .swiper-button-next{left: 400px; width: 30px; height: 30px; border-top: 2px solid #000; border-right: 2px solid #000; transform: rotate(45deg);}
+.mainBannerSlide .swiper-pagination{left: 43%; width: auto !important; height: 15px !important;}
+.mainBannerSlide .swiper-pagination-bullet{display: inline-block; vertical-align: middle; margin: 0 16px;}
+.mainBannerSlide .swiper-pagination-bullet-active{width: 12px; height: 12px; background-color: #68171C;}
 .mainSection3{background:yellow;}

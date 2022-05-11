@@ -4,15 +4,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Prata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;400;600;900&display=swap");
 
-html,body {width:100%; height:100%;}
+html,body {width:100%; height:100%; min-width: 1920px;}
 p, span, h1, h2, h3, h4, strong{letter-spacing: -1px;}
 
 /* header */
-header{width: 100%; min-width: 1920px; padding: 0 300px; background-color: #68171C; display: flex; justify-content: space-between; position: fixed; z-index: 2;}
+header{width: 100%; min-width: 1920px; padding: 0 10%; background-color: #68171C; display: flex; justify-content: space-between; position: fixed; z-index: 2;}
 header > div {display: inline-block;}
 .logoBox{width: 200px; padding: 25px 20px 25px 0}
 .logoBox img{width: auto; height: 40px;}
-.menuBox{width: calc(100% - 400px);}
+.menuBox{width: calc(100% - 400px); padding: 0 40px;}
 .menuBox ul{display: flex; justify-content: space-between; padding: 0 20px;}
 .menuBox li{display: inline-block;}
 .menuBox li a{text-align: center; color: #fff; }
@@ -29,8 +29,9 @@ header > div {display: inline-block;}
 .loginlangBox a{display: inline-block; padding: 40px 20px; text-align: center; color: #fff; font-size: 16px;}
 .headerBg{position: absolute; top: 96px; left: 0; display: none; z-index: 2; width: 100%; height: 162px; background: #68171C;}
 .headerBg.on{display: block;}
+/* .fake_top{position: relative; width: 100%; height: 96px; top: 41px; left: 0;} */
 
 /* main */
-main{position: relative; top: 96px;}
+main{position: relative; /*top: 96px;*/ padding-top: 96px;}
 /* main > div{height: 100vh; min-height: 100vh; width: 100%; min-width: 1920px;} */
-.contentSection{width: 100%; min-width: 1920px; height: 100vh !important; min-height: 100vh;}
+.contentSection{width: 100%; height: 100%; min-height: 100vh;}
