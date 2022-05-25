@@ -23,7 +23,7 @@
                     <li class="menuLi menuLi1">
                         <dl>
                             <dt>
-                                <a href="javascript:void(0)" class="menuBtn menuBtn1">국립발레단 소개</a>
+                                <a href="knbIntro.html" class="menuBtn menuBtn1">국립발레단 소개</a>
                             </dt>
                             <dd>
                                 <span class="menuTitle">국립발레단<br>소개</span>
@@ -130,10 +130,10 @@
         <main>         
             <div class="mainSwiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide contentSection mainSection1">
+                    <div class="swiper-slide mainSection1">
                         <img src="img/shutterstock_1491056378.jpg">
                     </div>
-                    <div class="swiper-slide contentSection mainSection2">
+                    <div class="swiper-slide mainSection2">
                         <div class="mainBannerSlide">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -188,7 +188,7 @@
                             <div class="swiper-pagination"></div>
                         </div>
                     </div>
-                    <div class="swiper-slide contentSection mainSection3">
+                    <div class="swiper-slide mainSection3">
                         <div class="contentTitleBox">
                             <h3>SNS</h3>
                             <div class="snsBox">
@@ -311,45 +311,9 @@
         </footer>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-        <script>
+        <script src="js/menu.js"></script>
+       <script>
             $(document).ready(function(){
-                //menu script
-                $('.menuBtn').mouseover(function(){
-                    var ACT_MENU = $(this);
-                    var ACT_SUB = ACT_MENU.closest('dt').next('dd');
-                    // $('.activeMenu').removeClass('activeMenu');
-                    // $('.submenuBlk').removeClass('submenuBlk');
-                    // $('.headerBg.on').removeClass('on');
-                    ACT_MENU.addClass('activeMenu');
-                    ACT_SUB.addClass('submenuBlk');
-                    $('.headerBg').addClass('on');
-                });
-                $('.menuBtn').mouseout(function(){
-                    var ACT_MENU = $(this);
-                    var ACT_SUB = ACT_MENU.closest('dt').next('dd');
-                    ACT_MENU.removeClass('activeMenu');
-                    ACT_SUB.removeClass('submenuBlk');
-                    $('.headerBg').removeClass('on');
-                });
-                $('.menusubBtn').mouseover(function(){
-                    var ACT_SUBM = $(this);
-                    var ACT_SUB = ACT_SUBM.closest('dd');
-                    var ACT_MENU = ACT_SUBM.closest('dd').prev('dt').children('a');
-                    ACT_SUBM.addClass('subHover');
-                    ACT_MENU.addClass('activeMenu');
-                    ACT_SUB.addClass('submenuBlk');
-                    $('.headerBg').addClass('on');
-                });
-                $('.menusubBtn').mouseout(function(){
-                    var ACT_SUBM = $(this);
-                    var ACT_SUB = ACT_SUBM.closest('dd');
-                    var ACT_MENU = ACT_SUBM.closest('dd').prev('dt').children('a');
-                    ACT_SUBM.removeClass('subHover');
-                    ACT_MENU.removeClass('activeMenu');
-                    ACT_SUB.removeClass('submenuBlk');
-                    $('.headerBg').removeClass('on');
-                });
-
                 //mainContent swiper
                 var mainSwiper = new Swiper(".mainSwiper", {
                     direction: "vertical",
