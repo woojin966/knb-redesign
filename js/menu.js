@@ -3,19 +3,16 @@ $(document).ready(function(){
     $('.menuBtn').mouseover(function(){
         var ACT_MENU = $(this);
         var ACT_SUB = ACT_MENU.closest('dt').next('dd');
-        // $('.activeMenu').removeClass('activeMenu');
-        // $('.submenuBlk').removeClass('submenuBlk');
-        // $('.headerBg.on').removeClass('on');
         ACT_MENU.addClass('activeMenu');
         ACT_SUB.addClass('submenuBlk');
-        $('.headerBg').addClass('on');
+        //$('.headerBg').addClass('on');
     });
     $('.menuBtn').mouseout(function(){
         var ACT_MENU = $(this);
         var ACT_SUB = ACT_MENU.closest('dt').next('dd');
         ACT_MENU.removeClass('activeMenu');
         ACT_SUB.removeClass('submenuBlk');
-        $('.headerBg').removeClass('on');
+        //$('.headerBg').removeClass('on');
     });
     $('.menusubBtn').mouseover(function(){
         var ACT_SUBM = $(this);
@@ -24,7 +21,7 @@ $(document).ready(function(){
         ACT_SUBM.addClass('subHover');
         ACT_MENU.addClass('activeMenu');
         ACT_SUB.addClass('submenuBlk');
-        $('.headerBg').addClass('on');
+        //$('.headerBg').addClass('on');
     });
     $('.menusubBtn').mouseout(function(){
         var ACT_SUBM = $(this);
@@ -33,6 +30,6 @@ $(document).ready(function(){
         ACT_SUBM.removeClass('subHover');
         ACT_MENU.removeClass('activeMenu');
         ACT_SUB.removeClass('submenuBlk');
-        $('.headerBg').removeClass('on');
+        //$('.headerBg').removeClass('on');
     });
 });

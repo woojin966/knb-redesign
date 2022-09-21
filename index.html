@@ -124,11 +124,11 @@
                 <a href="javascript:void(0)" class="loginBtn">로그인</a>
                 <a href="javascript:void(0)" class="langBtn english">ENGLISH</a>
             </div>
-            <span class="headerBg"></span>
+            <!-- <span class="headerBg"></span> -->
         </header>
         <!-- <div class="fake_top"></div> -->
         <main>         
-            <div class="mainSwiper">
+            <article class="mainSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide mainSection1">
                         <img src="img/shutterstock_1491056378.jpg">
@@ -237,32 +237,46 @@
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
-            </div>
+                <section class="subscribeSection">
+                    <div class="subsL_Box">
+                        <p class="middleSentence_bold">국립발레단 뉴스레터 & 공연 소식 받기</p>
+                        <p clss="nomalSentence">국립발레단의 다양한 소식을 만나보세요!</p>
+                    </div>
+                    <div class="subsR_Box subsInput_Box">
+                        <form action="javascript:void(0)" id="frm" method="post">
+                            <input type="text" id="subsForName" name="subsName" class="subsInput nomalSentence" placeholder="이름" value="">
+                            <input type="email" id="subsForName" name="subsName" class="subsInput nomalSentence" placeholder="이메일" value="">
+                            <input type="tel" id="subsForName" name="subsName" class="subsInput nomalSentence" placeholder="전화번호" value="">
+                            <a href="javascript:void(0)" class="subscribeSubmit nomalSentence_bold">신청하기</a>
+                        </form>
+                    </div>
+                </section>
+            </article>
         </main>
         <footer>
-            <div class="fbtneBox">
+            <section class="fbtneBox">
                 <a href="javascript:void(0)" class="fopenBtn"></a>
-            </div>
-            <div class="fcontentBox">
+            </section>
+            <section class="fcontentBox">
                 <ul class="flogoList">
                     <li class="flogoLi flogoLi1">
                         <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_1.png" alt="flogo">
+                            <img src="img/logo/footer_1.png" class="flogo1" alt="flogo">
                         </a>
                     </li>
                     <li class="flogoLi flogoLi2">
                         <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_2.png" alt="flogo">
+                            <img src="img/logo/footer_2.png" class="flogo2" alt="flogo">
                         </a>
                     </li>
                     <li class="flogoLi flogoLi3">
                         <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_3.png" alt="flogo">
+                            <img src="img/logo/footer_3.png" class="flogo3" alt="flogo">
                         </a>
                     </li>
                     <li class="flogoLi flogoLi4">
                         <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_4.png" alt="flogo">
+                            <img src="img/logo/footer_4.png" class="flogo4" alt="flogo">
                         </a>
                     </li>
                 </ul>
@@ -270,28 +284,28 @@
                 <ul class="fsponserList">
                     <li class="flogoLi fsponserLi1">
                         <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_5.png" alt="flogo">
+                            <img src="img/logo/footer_5.png" class="flogo5" alt="flogo">
                         </a>
                     </li>
                     <li class="flogoLi fsponserLi2">
                         <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_6.png" alt="flogo">
+                            <img src="img/logo/footer_6.png" class="flogo6" alt="flogo">
                         </a>
                     </li>
                     <li class="flogoLi fsponserLi3">
                         <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_7.png" alt="flogo">
+                            <img src="img/logo/footer_7.png" class="flogo7" alt="flogo">
                         </a>
                     </li>
                     <li class="flogoLi fsponserLi4">
                         <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_8.png" alt="flogo">
+                            <img src="img/logo/footer_8.png" class="flogo8" alt="flogo">
                         </a>
                     </li>
                 </ul>
                 <div class="fadressBox">
                     <p class="adress">
-                        06757<br>서울시 서초구 남부순환로 2406<br>예술의전당 오페라하우서 4층(재)<br>국립발레단
+                        06757<br>서울시 서초구 남부순환로 2406<br>예술의전당 오페라하우스 4층(재)<br>국립발레단
                     </p>
                     <p class="knbNumber">
                         <strong>국립발레단</strong><br><strong>Tel </strong>02-587-6180~5<br><strong>Fax </strong>02-587-6186
@@ -301,19 +315,31 @@
                     </p>
                     <a class="privacyBtn">개인정보 처리방침</a>
                 </div>
-            </div>
-            <div class="flawinfoBox">
-                <strong>청탁급지법 적용대상 기관안내</strong><br><p>(재)국립발레단은 공직자윤리법 제3조의2에 따른 공직유관단체로서 부정척탁 및 금품 등 수수의 금지에 관한 법률(청탁금지법) 적용 대상 기관임을 알립니다.</p>
-            </div>
-            <div clss="fcopyBox">
-                <p>Copyright(c) KOREAN NATIONAL BALLET 2021.</p>
-            </div>
+                <div class="flawinfoBox">
+                    <strong>청탁급지법 적용대상 기관안내</strong><br><p>(재)국립발레단은 공직자윤리법 제3조의2에 따른 공직유관단체로서 부정척탁 및 금품 등 수수의 금지에 관한 법률(청탁금지법) 적용 대상 기관임을 알립니다.</p>
+                </div>
+                <div clss="fcopyBox">
+                    <p>Copyright(c) KOREAN NATIONAL BALLET 2021.</p>
+                </div>
+            </section>
         </footer>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
         <script src="js/menu.js"></script>
        <script>
             $(document).ready(function(){
+                $('.subscribeSection').css('display','none');
+                $('.fbtneBox a').addClass('slide1fBtn');
+                $('footer p').css('color','#fff');
+                $('footer strong').css('color', '#fff');
+                $('.flogo1').attr('src','img/logo/footer_w_1.png');
+                $('.flogo2').attr('src','img/logo/footer_w_2.png');
+                $('.flogo3').attr('src','img/logo/footer_w_3.png');
+                $('.flogo4').attr('src','img/logo/footer_w_4.png');
+                $('.flogo5').attr('src','img/logo/footer_w_5.png');
+                $('.flogo6').attr('src','img/logo/footer_w_6.png');
+                $('.flogo7').attr('src','img/logo/footer_w_7.png');
+                $('.flogo8').attr('src','img/logo/footer_w_8.png');
                 //mainContent swiper
                 var mainSwiper = new Swiper(".mainSwiper", {
                     direction: "vertical",
@@ -323,6 +349,38 @@
                     clickable: true,
                     },
                     mousewheel: true,
+                });
+
+                mainSwiper.on('slideChange', function(){
+                    if(this.activeIndex === 0){
+                        console.log('aaaaa');
+                        $('.subscribeSection').css('display','none');
+                        $('.fbtneBox a').addClass('slide1fBtn');
+                        $('footer p').css('color','#fff');
+                        $('footer strong').css('color', '#fff');
+                        $('.flogo1').attr('src','img/logo/footer_w_1.png');
+                        $('.flogo2').attr('src','img/logo/footer_w_2.png');
+                        $('.flogo3').attr('src','img/logo/footer_w_3.png');
+                        $('.flogo4').attr('src','img/logo/footer_w_4.png');
+                        $('.flogo5').attr('src','img/logo/footer_w_5.png');
+                        $('.flogo6').attr('src','img/logo/footer_w_6.png');
+                        $('.flogo7').attr('src','img/logo/footer_w_7.png');
+                        $('.flogo8').attr('src','img/logo/footer_w_8.png');
+                    }else{
+                        console.log('bbbbb');
+                        $('.subscribeSection').css('display','flex');
+                        $('.fbtneBox a').removeClass('slide1fBtn');
+                        $('footer p').css('color','#000');
+                        $('footer strong').css('color', '#68171C');
+                        $('.flogo1').attr('src','img/logo/footer_1.png');
+                        $('.flogo2').attr('src','img/logo/footer_2.png');
+                        $('.flogo3').attr('src','img/logo/footer_3.png');
+                        $('.flogo4').attr('src','img/logo/footer_4.png');
+                        $('.flogo5').attr('src','img/logo/footer_5.png');
+                        $('.flogo6').attr('src','img/logo/footer_6.png');
+                        $('.flogo7').attr('src','img/logo/footer_7.png');
+                        $('.flogo8').attr('src','img/logo/footer_8.png');
+                    }      
                 });
 
                 //maisSection banner swiper
@@ -342,14 +400,16 @@
                 });
 
                 //footer btn
-                // $('.fopenBtn').on('click',function(){
-                //     var F_BTN = $(this);
-                //     if(F_BTN.hasClass('fcloseBtn')){
-                //         F_BTN.remove('fcloseBtn');
-                //     }else{
-                //         F_BTN.addClass('fcloseBtn');
-                //     }
-                // });
+                $('.fopenBtn').on('click',function(){
+                    var F_BTN = $(this);
+                    if(F_BTN.hasClass('fcloseBtn')){
+                        F_BTN.removeClass('fcloseBtn');
+                        $('.fcontentBox').removeClass('on');
+                    }else{
+                        F_BTN.addClass('fcloseBtn');
+                        $('.fcontentBox').addClass('on');
+                    }
+                });
             });
         </script>
     </body>
