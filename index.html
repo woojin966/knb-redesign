@@ -131,7 +131,13 @@
             <article class="mainSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide mainSection1">
-                        <img src="img/shutterstock_1491056378.jpg">
+                        <img src="img/shutterstock_1491056378.jpg" class="mainS1Bg">
+                        <div class="mainS1Logo_Box">
+                            <img src="img/mainS1logo.png">
+                        </div>
+                        <div class="mainS1Btn_Box">
+                            <a href="javascript:void(0)" class="mainS1Btn"></a>
+                        </div>
                     </div>
                     <div class="swiper-slide mainSection2">
                         <div class="mainBannerSlide">
@@ -187,6 +193,9 @@
                             <div class="swiper-button-prev"></div>
                             <div class="swiper-pagination"></div>
                         </div>
+                        <div class="mainS2Btn_Box">
+                            <a href="javascript:void(0)" class="mainS2Btn nomalSentence">scroll</a>
+                        </div>
                     </div>
                     <div class="swiper-slide mainSection3">
                         <div class="contentTitleBox">
@@ -233,6 +242,9 @@
                                     </a>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="mainS3Btn_Box">
+                            <a href="javascript:void(0)" class="mainS3Btn nomalSentence">scroll</a>
                         </div>
                     </div>
                 </div>
@@ -397,6 +409,22 @@
                     delay: 4000,
                     disableOnInteraction: false,
                     },
+                });
+
+                $('.mainS1Btn').mouseover(function(){
+                    $('.mainS1Bg').addClass('mainS1Bg_blur');
+                });
+                $('.mainS1Btn').mouseout(function(){
+                    $('.mainS1Bg').removeClass('mainS1Bg_blur');
+                });
+                $('.mainS1Btn').on('click', function(){
+                    mainSwiper.slideTo( 1 , 1000 );
+                });
+                $('.mainS2Btn').on('click', function(){
+                    mainSwiper.slideTo( 2 , 1000 );
+                });
+                $('.mainS3Btn').on('click', function(){
+                    mainSwiper.slideTo( 1 , 1000 );
                 });
 
                 //footer btn
