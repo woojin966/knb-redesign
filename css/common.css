@@ -62,4 +62,4 @@ footer strong{font-weight: bold; font-size: 12px; line-height: 1.4; color: #6817
 .fsponserList{margin-top: 8px;}
 .flogoList li:last-child img, .fsponserList li:last-child img{margin-bottom: 0;}
 .fadressBox p{margin-bottom: 8px;}
-.privacyBtn{font-size: 12px; font-weight: bold; text-decoration: underline;}
+.privacyBtn{font-size: 12px; font-weight: bold; text-decoration: underline; margin-bottom: 8px;}
