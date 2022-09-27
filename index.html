@@ -336,7 +336,7 @@
         </footer>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-        <script src="js/menu.js"></script>
+        <script src="js/common.js"></script>
        <script>
             $(document).ready(function(){
                 $('.subscribeSection').css('display','none');
@@ -427,18 +427,6 @@
                 });
                 $('.mainS3Btn').on('click', function(){
                     mainSwiper.slideTo( 1 , 1000 );
-                });
-
-                //footer btn
-                $('.fopenBtn').on('click',function(){
-                    var F_BTN = $(this);
-                    if(F_BTN.hasClass('fcloseBtn')){
-                        F_BTN.removeClass('fcloseBtn');
-                        $('.fcontentBox').removeClass('on');
-                    }else{
-                        F_BTN.addClass('fcloseBtn');
-                        $('.fcontentBox').addClass('on');
-                    }
                 });
             });
         </script>
