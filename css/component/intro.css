@@ -19,3 +19,13 @@ html, body{overflow-x: hidden;}
 .iS3Box2{margin-bottom: 40px;}
 .namecardList111 li{height: 111px;}
 .organizationBox{height: 320px;}
+
+.introSection4 > div{display: flex; margin-bottom: 40px;}
+.iS4Box1 .cotentTitleBox{width: 20%;}
+.introSection4 .ciSubtitle{color: #68171C;}
+.ciImgBox {height: 290px;}
+.iS4Box2 span b, .iS4Box3 span b{font-weight: bold;}
+.introSection4 > .iS4_btnBox{display: block; width: 100%; margin-top: 80px; margin-bottom: 0; text-align: right;}
+.iS4_btnBox a{display: inline-block; margin-right: 10px; padding: 20px 30px; background-color: #000; color: #fff; transition: .4s; text-align: center;}
+.iS4_btnBox a:hover{background-color: #68171C; transition: .4s; font-weight: bold;}
+.iS4_btnBox a:last-child{margin-right: 0;}
