@@ -354,114 +354,319 @@
             <div class="cotentTitleBox introTitle4">
                 <p class="contentTitle">연보</p>
             </div>
-            <div class="contentBox introContBox">
+            <div class="yearcontentBox introContBox">
                 <div class="tabMenuBox iS5Box1">
-                    <a class="tabbtn introTab1">국내공연</a>
-                    <a class="tabbtn introTab2">해외공연</a>
+                    <a href="javascript:void(0)" data-tab="domestic" class="tabbtn introTab1 currentTab">국내공연</a>
+                    <a href="javascript:void(0)" data-tab="abroad" class="tabbtn introTab2">해외공연</a>
                 </div>
-                <div class="iS5Box2 yearTabBox">
-                    <ul class="yearTablist">
-                        <li>
-                            <a class="yearTab" href="javascript:void(0)">1962~</a>
-                        </li>
-                        <li>
-                            <a class="yearTab" href="javascript:void(0)">1970~</a>
-                        </li>
-                        <li>
-                            <a class="yearTab" href="javascript:void(0)">1980~</a>
-                        </li>
-                        <li>
-                            <a class="yearTab" href="javascript:void(0)">1990~</a>
-                        </li>
-                        <li>
-                            <a class="yearTab" href="javascript:void(0)">2000~</a>
-                        </li>
-                        <li>
-                            <a class="yearTab" href="javascript:void(0)">2010~</a>
-                        </li>
-                        <li>
-                            <a class="yearTab act_yearTab" href="javascript:void(0)">2020~</a>
-                        </li>
-                    </ul>
+                <div id="domestic" class="tabContentContainer currentTabCont">
+                    <div class="iS5Box2 yearTabBox">
+                        <ul class="yearTablist yearContlistD">
+                            <li>
+                                <a data-tab="yearTab1" class="yearTab yearTab1" href="javascript:void(0)">1962~</a>
+                            </li>
+                            <li>
+                                <a data-tab="yearTab2" class="yearTab yearTab2" href="javascript:void(0)">1970~</a>
+                            </li>
+                            <li>
+                                <a data-tab="yearTab3" class="yearTab yearTab3" href="javascript:void(0)">1980~</a>
+                            </li>
+                            <li>
+                                <a data-tab="yearTab4" class="yearTab yearTab4" href="javascript:void(0)">1990~</a>
+                            </li>
+                            <li>
+                                <a data-tab="yearTab5" class="yearTab yearTab5" href="javascript:void(0)">2000~</a>
+                            </li>
+                            <li>
+                                <a data-tab="yearTab6" class="yearTab yearTab6" href="javascript:void(0)">2010~</a>
+                            </li>
+                            <li>
+                                <a data-tab="yearTab7" class="yearTab yearTab7 currentYearTab" href="javascript:void(0)">2020~</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="yearTab1" class="iS5Box3 yearTabCont">
+                        <span>aaaaa</span>
+                    </div>
+                    <div id="yearTab2" class="iS5Box3 yearTabCont">
+                        <span>bbbbb</span>
+                    </div>
+                    <div id="yearTab3" class="iS5Box3 yearTabCont">
+                        <span>ccccc</span>
+                    </div>
+                    <div id="yearTab4" class="iS5Box3 yearTabCont">
+                        <span>ddddd</span>
+                    </div>
+                    <div id="yearTab5" class="iS5Box3 yearTabCont">
+                        <span>eeeee</span>
+                    </div>
+                    <div id="yearTab6" class="iS5Box3 yearTabCont">
+                        <span>fffff</span>
+                    </div>
+                    <div id="yearTab7" class="iS5Box3 yearTabCont currentYearTabCont">
+                        <ul class="yearContlist">
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2022</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2022.2.25 ~ 2.27</span>
+                                        <span class="yearTit yearContTxt">주얼스</span>
+                                        <span class="yearStaring yearContTxt"><b>연출 | </b>조지 발란신</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2022.4.20 ~ 4.24</span>
+                                        <span class="yearTit yearContTxt">해적</span>
+                                        <span class="yearStaring yearContTxt"><b>출연 | </b>송정빈</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2022.5.21 ~ 5.22</span>
+                                        <span class="yearTit yearContTxt">History of KNB Movement Series 2</span>
+                                        <span class="yearStaring yearContTxt"><b>출연 | </b>송정빈 이영철 강효형 박슬기 박나리 배민순</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2022.6.8 ~ 6.11</span>
+                                        <span class="yearTit yearContTxt">고집쟁이 딸</span>
+                                        <span class="yearStaring yearContTxt"><b>연출 | </b>프레데릭 애쉬튼</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2021</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2021.3.23 ~ 3.28</span>
+                                        <span class="yearTit yearContTxt"><184회 정기공연>해적</span>
+                                        <span class="yearStaring yearContTxt"><b>출연 | </b>송정빈</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2021.4.27 ~ 5.2</span>
+                                        <span class="yearTit yearContTxt"><185회 정기공연>라 바야데</span>
+                                        <span class="yearStaring yearContTxt"><b>연출 | </b>유리 그리고로비치</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2021.5.22 ~ 5.23</span>
+                                        <span class="yearTit yearContTxt">허난설현 - 수월경화</span>
+                                        <span class="yearStaring yearContTxt"><b>출연 | </b>강효형</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2021.6.15 ~ 6.20</span>
+                                        <span class="yearTit yearContTxt"><185회 정기공연>말괄량이 길들이기</span>
+                                        <span class="yearStaring yearContTxt"><b>연출 | </b>존 프랭코</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2021.8.28 ~ 8.29</span>
+                                        <span class="yearTit yearContTxt">KNB Movement Series 6</span>
+                                        <span class="yearStaring yearContTxt"><b>출연 | </b>박슬기 강효형 배민순 박나리 김나연 신승원 김경림 이영철</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2021.10.20 ~ 10.24</span>
+                                        <span class="yearTit yearContTxt"><187회 정기공연>주얼스</span>
+                                        <span class="yearStaring yearContTxt"><b>연출 | </b>조지 발란신</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2020</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2020.8.1 ~ 8.2</span>
+                                        <span class="yearTit yearContTxt">History of KNB Movement Series</span>
+                                        <span class="yearStaring yearContTxt"><b>출연 | </b>송정빈 신승원 박나리 김나연 박슬기 이영철 강효형</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2020.11.4~ 11.8</span>
+                                        <span class="yearTit yearContTxt"><183회 정기공연>해적</span>
+                                        <span class="yearStaring yearContTxt"><b>출연 | </b>송정빈</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="iS5Box3 yearTabBox">
-                    <ul class="yearContlist">
-                        <li>
-                            <div class="yearContleft"><span class="yearBig">2022</span></div>
-                            <div class="yearContright">
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2022.2.25 ~ 2.27</span>
-                                    <span class="yearTit yearContTxt">주얼스</span>
-                                    <span class="yearStaring yearContTxt"><b>연출 | </b>조지 발란신</span>
+                <div id="abroad" class="tabContentContainer">
+                    <div class="iS5Box2 yearTabBox">
+                        <ul class="yearTablist yearContlistA">
+                            <li>
+                                <a data-tab="yearTab8" class="yearTab yearTab8" href="javascript:void(0)">1997~</a>
+                            </li>
+                            <li>
+                                <a data-tab="yearTab9" class="yearTab yearTab9" href="javascript:void(0)">2000~</a>
+                            </li>
+                            <li>
+                                <a data-tab="yearTab10" class="yearTab yearTab10 currentYearTab" href="javascript:void(0)">2010~</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="yearTab8" class="iS5Box3 yearTabCont">
+                        <span>ggggg</span>
+                    </div>
+                    <div id="yearTab9" class="iS5Box3 yearTabCont">
+                        <span>hhhhh</span>
+                    </div>
+                    <div id="yearTab10" class="iS5Box3 yearTabCont  currentYearTabCont">
+                        <ul class="yearContlist">
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2019</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2019.11.13 – 2019.11.15</span>
+                                        <span class="yearTit yearContTxt">Kylián - Bridges of Time < Forgotten Land ></span>
+                                        <span class="yearStaring yearContTxt">체코 국립극장</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2019.03.07 – 2019.03.07</span>
+                                        <span class="yearTit yearContTxt">지젤</span>
+                                        <span class="yearStaring yearContTxt">에미리트 팰리스 오디토리움</span>
+                                    </div>
                                 </div>
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2022.4.20 ~ 4.24</span>
-                                    <span class="yearTit yearContTxt">해적</span>
-                                    <span class="yearStaring yearContTxt"><b>출연 | </b>송정빈</span>
+                            </li>
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2018</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2018.11.16 – 2018.11.17</span>
+                                        <span class="yearTit yearContTxt">스파르타쿠스</span>
+                                        <span class="yearStaring yearContTxt">홍콩문화센터</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2018.08.01 – 2018.08.04</span>
+                                        <span class="yearTit yearContTxt">제5회 안무가 페스티벌</span>
+                                        <span class="yearStaring yearContTxt">칠레 산티아고 시립극장</span>
+                                    </div>
                                 </div>
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2022.5.21 ~ 5.22</span>
-                                    <span class="yearTit yearContTxt">History of KNB Movement Series 2</span>
-                                    <span class="yearStaring yearContTxt"><b>출연 | </b>송정빈 이영철 강효형 박슬기 박나리 배민순</span>
+                            </li>
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2017</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2017.09.10 – 2017.09.10</span>
+                                        <span class="yearTit yearContTxt">KOREAN NATIONAL GALA</span>
+                                        <span class="yearStaring yearContTxt">캐나다 오타와 국립역사박물관</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2017.09.08 – 2017.09.08</span>
+                                        <span class="yearTit yearContTxt">KOREAN NATIONAL GALA</span>
+                                        <span class="yearStaring yearContTxt">캐나다 토론토 포시즌 센터 포 더 퍼포밍 아트</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2017.06.30 – 2017.07.01</span>
+                                        <span class="yearTit yearContTxt">Korean National Ballet Gala</span>
+                                        <span class="yearStaring yearContTxt">콜롬비아 보고타 마요르극장</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2017.05.31 – 2017.05.31</span>
+                                        <span class="yearTit yearContTxt">브누아 드 라 당스</span>
+                                        <span class="yearStaring yearContTxt">러시아 모스크바 볼쇼이극장</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2017.02.02 – 2017.02.04</span>
+                                        <span class="yearTit yearContTxt">스파르타쿠스</span>
+                                        <span class="yearStaring yearContTxt">벨기에 플랑드르발레단 초청공연 (벨기에 안트베르펜시립극장)</span>
+                                    </div>
                                 </div>
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2022.6.8 ~ 6.11</span>
-                                    <span class="yearTit yearContTxt">고집쟁이 딸</span>
-                                    <span class="yearStaring yearContTxt"><b>연출 | </b>프레데릭 애쉬튼</span>
+                            </li>
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2016</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2016.07.16 – 2016.07.16</span>
+                                        <span class="yearTit yearContTxt">Next Generation</span>
+                                        <span class="yearStaring yearContTxt">독일 슈투트가르트오페라극장</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2016.05.19 – 2016.05.19</span>
+                                        <span class="yearTit yearContTxt">국립발레단 갈라</span>
+                                        <span class="yearStaring yearContTxt">캄보디아 프놈펜 샤또묵극장</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2016.05.17 – 2016.05.17</span>
+                                        <span class="yearTit yearContTxt">국립발레단 갈라</span>
+                                        <span class="yearStaring yearContTxt">라오스 비엔티안 라오국립극장</span>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="yearContleft"><span class="yearBig">2021</span></div>
-                            <div class="yearContright">
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2021.3.23 ~ 3.28</span>
-                                    <span class="yearTit yearContTxt"><184회 정기공연>해적</span>
-                                    <span class="yearStaring yearContTxt"><b>출연 | </b>송정빈</span>
+                            </li>
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2015</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2015.08.22 – 2015.08.22</span>
+                                        <span class="yearTit yearContTxt">2015 인도네시아 발레 비엔날레 갈라</span>
+                                        <span class="yearStaring yearContTxt">인도네시아 자카르타 찌부뜨라 예술홀</span>
+                                    </div>
                                 </div>
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2021.4.27 ~ 5.2</span>
-                                    <span class="yearTit yearContTxt"><185회 정기공연>라 바야데</span>
-                                    <span class="yearStaring yearContTxt"><b>연출 | </b>유리 그리고로비치</span>
+                            </li>
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2014</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2014.05.22 – 2014.05.23</span>
+                                        <span class="yearTit yearContTxt">국립발레단 갈라</span>
+                                        <span class="yearStaring yearContTxt">한국-세르비아 수교 25주년 기념공연 (세르비아 국립극장)</span>
+                                    </div>
                                 </div>
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2021.5.22 ~ 5.23</span>
-                                    <span class="yearTit yearContTxt">허난설현 - 수월경화</span>
-                                    <span class="yearStaring yearContTxt"><b>출연 | </b>강효형</span>
+                            </li>
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2013</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2013.11.12 – 2013.11.13</span>
+                                        <span class="yearTit yearContTxt">아를르의 여인&카르멘</span>
+                                        <span class="yearStaring yearContTxt">중국 북경 텐차오극장</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2013.10.26 – 2013.10.27</span>
+                                        <span class="yearTit yearContTxt">해설이 있는 발레</span>
+                                        <span class="yearStaring yearContTxt">중인도 뉴델리 시리포트극장</span>
+                                    </div>
                                 </div>
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2021.6.15 ~ 6.20</span>
-                                    <span class="yearTit yearContTxt"><185회 정기공연>말괄량이 길들이기</span>
-                                    <span class="yearStaring yearContTxt"><b>연출 | </b>존 프랭코</span>
+                            </li>
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2012</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2012.12.06 – 2012.12.06</span>
+                                        <span class="yearTit yearContTxt">스파르타쿠스</span>
+                                        <span class="yearStaring yearContTxt">러시아 모스크바 볼쇼이극장</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2012.11.24 – 2012.11.25</span>
+                                        <span class="yearTit yearContTxt">갈라</span>
+                                        <span class="yearStaring yearContTxt">한-중 수교 20주년 기념 중국 상해 동방예술중심</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2012.11.01 – 2012.11.30</span>
+                                        <span class="yearTit yearContTxt">왕자 호동</span>
+                                        <span class="yearStaring yearContTxt">한-중 수교 20주년 기념 중국 상해 동방예술중심</span>
+                                    </div>
                                 </div>
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2021.8.28 ~ 8.29</span>
-                                    <span class="yearTit yearContTxt">KNB Movement Series 6</span>
-                                    <span class="yearStaring yearContTxt"><b>출연 | </b>박슬기 강효형 배민순 박나리 김나연 신승원 김경림 이영철</span>
+                            </li>
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2011</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2011.10.12 – 2011.10.13</span>
+                                        <span class="yearTit yearContTxt">왕자 호동</span>
+                                        <span class="yearStaring yearContTxt">Ottobre Danza 2011 페스티벌 초청 개막작 (이탈리아 나폴리 산카를로극장)</span>
+                                    </div>
                                 </div>
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2021.10.20 ~ 10.24</span>
-                                    <span class="yearTit yearContTxt"><187회 정기공연>주얼스</span>
-                                    <span class="yearStaring yearContTxt"><b>연출 | </b>조지 발란신</span>
+                            </li>
+                            <li>
+                                <div class="yearContleft"><span class="yearBig">2010</span></div>
+                                <div class="yearContright">
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2010.11.26 – 2010.11.26</span>
+                                        <span class="yearTit yearContTxt">차이코프스키 : 삶과 죽음의 미스터리</span>
+                                        <span class="yearStaring yearContTxt">러시아 상트페테르부르크 알렉산드린스키극장</span>
+                                    </div>
+                                    <div class="contRigntChild">
+                                        <span class="yearSmall yearContTxt">2010.10.07 – 2010.10.08</span>
+                                        <span class="yearTit yearContTxt">로미오와 줄리엣</span>
+                                        <span class="yearStaring yearContTxt">한-러 수교 20주년 기념 러시아 볼쇼이발레단 합동공연 (러시아 모스크바 볼쇼이극장)</span>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="yearContleft"><span class="yearBig">2020</span></div>
-                            <div class="yearContright">
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2020.8.1 ~ 8.2</span>
-                                    <span class="yearTit yearContTxt">History of KNB Movement Series</span>
-                                    <span class="yearStaring yearContTxt"><b>출연 | </b>송정빈 신승원 박나리 김나연 박슬기 이영철 강효형</span>
-                                </div>
-                                <div class="contRigntChild">
-                                    <span class="yearSmall yearContTxt">2020.11.4~ 11.8</span>
-                                    <span class="yearTit yearContTxt"><183회 정기공연>해적</span>
-                                    <span class="yearStaring yearContTxt"><b>출연 | </b>송정빈</span>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -475,11 +680,11 @@
                 </div>
                 <div class="iS6Box2">
                     <div class="iS6BoxTab">
-                        <a class="contactWay wayBtn1" href="javascript:void(0)" data-Tab="1">승용차</a>
-                        <a class="contactWay wayBtn2" href="javascript:void(0)" data-Tab="2">버스</a>
-                        <a class="contactWay wayBtn3" href="javascript:void(0)" data-Tab="3">지하철</a>
+                        <a class="contactWay wayBtn1 currentContactTab" href="javascript:void(0)" data-tab="direct1">승용차</a>
+                        <a class="contactWay wayBtn2" href="javascript:void(0)" data-tab="direct2">버스</a>
+                        <a class="contactWay wayBtn3" href="javascript:void(0)" data-tab="direct3">지하철</a>
                     </div>
-                    <div class="iS6BoxCont" data-Tab="1">
+                    <div class="iS6BoxCont currentContactCont" id="direct1">
                         <div class="contactCont">
                             <p class="contactTit">음악당 주차</p>
                             <p class="contactdes">콘서트 홀, IBK챔버홀, 서울서예박물관, 한가람디자인마술관, 음악분수, 광장</p>
@@ -493,7 +698,7 @@
                             <a class="contactdes" href="javascript:void(0)">http://www.sac.or.kr/SacHome/useguide/lacationGuide</a>
                         </div>
                     </div>
-                    <div class="iS6BoxCont" data-Tab="2">
+                    <div class="iS6BoxCont" id="direct2">
                         <div class="contactCont">
                             <p class="contactTit">셔틀버스</p>
                             <p class="contactdes"><b>운행노선</b><br>남부터미널역 5번 출구 마을버스 정류장 승차 > 전당 앞 스타벅스 하차<br>※ 마지막 버스는 음악당 주차장에서 하차합니다.</p>
@@ -517,7 +722,7 @@
                             <p class="contactdes"><b>1500-2</b><br>(에버랜드~외대입구~예술의전당~방배동~래미안타워~사당역[2호선, 4호선 3번 출구])</p>
                         </div>
                     </div>
-                    <div class="iS6BoxCont" data-Tab="3">
+                    <div class="iS6BoxCont" id="direct3">
                         <div class="contactCont">
                             <p class="contactTit">지하철 교통안내</p>
                             <p class="contactdes"><b>3호선</b><br>남부터미널(예술의전당)역 5번 출구 혹은 4번 출구 -> 도보 이동 (약 5~10분 소요)<br>남부터미널(예술의전당)역 5번 출구 -> 예술의전당 셔틀버스<br>남부터미널(예술의전당)역 5번 출구 -> 초록버스 22번<br>양재역 1번 출구 -> 초록버스 17번</p>
@@ -600,5 +805,71 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/common.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.currentTab').css({ 'pointer-events': 'none' });
+            $('.currentYearTab').css({ 'pointer-events': 'none' });
+            $('.tabbtn').on('click', function(){
+                var ACT_TAB = $(this);
+                var actTab_DATA = ACT_TAB.attr('data-tab');
+                var ACT_TABCONTENT = $('#' + actTab_DATA);
+
+                if(ACT_TAB.hasClass('currentTab')){
+                    ACT_TAB.removeClass('currentTab').css({ 'pointer-events': 'auto' });
+                    ACT_TABCONTENT.removeClass('currentTabCont');
+                }else{
+                    $('.currentTab').removeClass('currentTab').css({ 'pointer-events': 'auto' });
+                    $('.currentTabCont').removeClass('currentTabCont');
+                    ACT_TAB.addClass('currentTab').css({ 'pointer-events': 'none' });
+                    ACT_TABCONTENT.addClass('currentTabCont');
+                    if($('.currentTab').hasClass('introTab1')){
+                        $('.currentYearTabCont').removeClass('currentYearTabCont');
+                        $('.currentYearTab').removeClass('currentYearTab').css({ 'pointer-events': 'auto' });;
+                        $('#domestic').addClass('currentTabCont');
+                        $('.yearTab7').addClass('currentYearTab');
+                        $('#yearTab7').addClass('currentYearTabCont');
+                    }else if($('.currentTab').hasClass('introTab2')){
+                        $('.currentYearTabCont').removeClass('currentYearTabCont');
+                        $('.currentYearTab').removeClass('currentYearTab').css({ 'pointer-events': 'auto' });;
+                        $('#abroad').addClass('currentTabCont');
+                        $('.yearTab10').addClass('currentYearTab');
+                        $('#yearTab10').addClass('currentYearTabCont');
+                    }
+                }
+            });
+            
+            $('.yearTab').on('click', function(){
+                var ACT_yearTAB = $(this);
+                var actyearTab_DATA = ACT_yearTAB.attr('data-tab');
+                var ACT_yeatTABCONTENT = $('#' + actyearTab_DATA);
+
+                if(ACT_yearTAB.hasClass('currentYearTab')){
+                    ACT_yearTAB.removeClass('currentYearTab').css({ 'pointer-events': 'auto' });
+                    ACT_yeatTABCONTENT.removeClass('currentYearTabCont');
+                }else{
+                    $('.currentYearTab').removeClass('currentYearTab').css({ 'pointer-events': 'auto' });
+                    $('.currentYearTabCont').removeClass('currentYearTabCont');
+                    ACT_yearTAB.addClass('currentYearTab').css({ 'pointer-events': 'none' });
+                    ACT_yeatTABCONTENT.addClass('currentYearTabCont');
+                }
+            });
+
+            $('.contactWay').on('click', function(){
+                var ACT_contactTAB = $(this);
+                var actContactTab_DATA = ACT_contactTAB.attr('data-tab');
+                var ACT_contactTABCONTENT = $('#' + actContactTab_DATA);
+
+                if(ACT_contactTAB.hasClass('currentContactTab')){
+                    ACT_contactTAB.removeClass('currentContactTab').css({ 'pointer-events': 'auto' });
+                    ACT_contactTABCONTENT.removeClass('currentContactCont');
+                }else{
+                    $('.currentContactTab').removeClass('currentContactTab').css({ 'pointer-events': 'auto' });
+                    $('.currentContactCont').removeClass('currentContactCont');
+                    ACT_contactTAB.addClass('currentContactTab').css({ 'pointer-events': 'none' });
+                    ACT_contactTABCONTENT.addClass('currentContactCont');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

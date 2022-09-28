@@ -29,3 +29,54 @@ html, body{overflow-x: hidden;}
 .iS4_btnBox a{display: inline-block; margin-right: 10px; padding: 20px 30px; background-color: #000; color: #fff; transition: .4s; text-align: center;}
 .iS4_btnBox a:hover{background-color: #68171C; transition: .4s; font-weight: bold;}
 .iS4_btnBox a:last-child{margin-right: 0;}
+
+.tabContentContainer{display: none;}
+.tabContentContainer.currentTabCont{display: block;}
+.yearTabCont{display: none;}
+.yearTabCont.currentYearTabCont{display: block;}
+.tabMenuBox{position: absolute; top: -88px; right: 0;}
+.tabbtn{position: relative; padding: 10px 20px; font-size: 20px;}
+.tabbtn.currentTab{font-weight: bold;}
+.tabbtn.currentTab:before{content: ''; position: absolute; bottom: 0; width: calc(100% - 40px); height: 3px; background-color: #68171C; left: 20px;}
+.yearTablist{display: flex; justify-content: space-between; border-bottom: 1px solid #EFE7E7;}
+.yearTablist li{text-align: center;}
+.yearContlistD li{width: calc(100% / 7);}
+.yearContlistA li{width: calc(100% / 3);}
+.yearTab{padding: 20px; font-size: 20px; color: rgba(0,0,0,.8); width: 100%;}
+.currentYearTab{background-color: #EFE7E7; color: #68171C; font-weight: bold;}
+.yearTabCont{padding-top: 40px; height: 530px; overflow-y: scroll;}
+.yearTabCont::-webkit-scrollbar {width: 10px;}
+.yearTabCont::-webkit-scrollbar-thumb {background-color: rgba(0,0,0,.15); border-radius: 5px; background-clip: padding-box; border: 2px solid transparent;}
+.yearTabCont::-webkit-scrollbar-track {background-color: ##fff; border-radius: 10px;}
+.yearContlist li{display: flex; justify-content: space-between;}
+.yearcontentBox{height: calc(100% - 78px);}
+.yearContleft{width: 90px;}
+.yearBig{position: relative; display: inline-block; font-size: 20px; color: #68171C;}
+.yearBig:before{content: ''; position: absolute; top: 5px; right: -40px; width: 10px; height: 10px; border-radius: 10px; background-color: #68171C;}
+.yearContright{width: calc(100% - 90px);}
+.contRigntChild{display: flex; padding: 20px 0 10px;}
+.yearContlist{position: relative;}
+.yearContlist:before{content: ''; position: absolute; top: -40px; left: 75px; width: 1px; height: calc(100% + 60px); background-color: #68171C;}
+.yearContlist:after{content: ''; position: absolute; top: -40px; right: 465px; width: 1px; height: calc(100% + 60px); background-color: #EFE7E7;}
+.yearContlist li:first-child .contRigntChild:first-child{padding-top: 0;}
+.yearContTxt{display: inline-block; padding-left: 20px; font-size: 16px; line-height: 1.4;}
+.yearSmall{width: 200px;}
+.yearTit{width: 500px;}
+.yearStaring{width: calc(100% - 700px);}
+.yearStaring b{color: #68171C; font-weight: bold;}
+
+.iS6BoxCont{display: none; height: 525px; overflow-y: auto;}
+.iS6BoxCont .contactCont{margin-top: 40px;}
+.iS6BoxCont::-webkit-scrollbar {width: 10px;}
+.iS6BoxCont::-webkit-scrollbar-thumb {background-color: rgba(0,0,0,.15); border-radius: 5px; background-clip: padding-box; border: 2px solid transparent;}
+.iS6BoxCont::-webkit-scrollbar-track {background-color: ##fff; border-radius: 10px;}
+.iS6BoxCont.currentContactCont{display: block;}
+.introSection6 .contentBox{display: flex;}
+.iS6Box1{padding-right: 20px; width: 50%;}
+.iS6Box2{padding-left: 20px; width: 50%;}
+.iS6BoxTab{display: flex; border-bottom: 1px solid #68171C;}
+.iS6BoxTab a{padding: 20px; text-align: center; width: calc(100% / 3); font-size: 20px;}
+.iS6BoxTab .currentContactTab{background-color: #68171C; color: #fff; font-weight: bold;}
+.contactTit{font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #68171C;}
+.contactdes{font-size: 16px; line-height: 1.4;}
+.contactdes b{line-height: 1.8; color: #68171C; font-weight: bold;}
