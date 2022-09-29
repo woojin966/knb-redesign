@@ -1,0 +1,16 @@
+.artStaffSwiper{overflow: hidden;}
+
+.contentBox{display: flex; justify-content: space-between;}
+.contentBox > div{height: 100%;}
+.crueContBox2, .crueContBox3{height: 100%;}
+.cSBox1{width: 290px;}
+.cS1Top{width: 100%; height: 290px; overflow: hidden;}
+.cS1Top img{position: relative; top: -20px; width: 100%;}
+.cSBox2{width: 400px;}
+.cSBox3{width: 440px;}
+
+.artistList{display: none;}
+.artistList.currentTabCont{display: block;}
+
+.officeList{display: none;}
+.officeList.currentTabCont{display: block;}

@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <!-- coponent css -->
-    <link rel="stylesheet" href="css/component/main.css">
+    <link rel="stylesheet" href="css/component/crue.css">
     <title>국립발레단</title>
 </head>
 <body>
     <header>
         <div class="logoBox">
-            <a class="logoBtn" href="index.html">
+            <a class="logoBtn">
                 <img src="img/logo/knblogo_w.png" alt="logo">
             </a>
         </div>
@@ -28,12 +28,12 @@
                         <dd>
                             <span class="menuTitle">국립발레단<br>소개</span>
                             <div class="menusubBox">
-                                <a href="javascript:void(0)" class="menusubBtn">인사말</a>
-                                <a href="javascript:void(0)" class="menusubBtn">발레단 소개</a>
-                                <a href="javascript:void(0)" class="menusubBtn">조직도·이사진·자문위원</a>
-                                <a href="javascript:void(0)" class="menusubBtn">CI소개</a>
-                                <a href="javascript:void(0)" class="menusubBtn">연보</a>
-                                <a href="javascript:void(0)" class="menusubBtn">찾아오시는 길</a>
+                                <a href="knbIntro.html" class="menusubBtn">인사말</a>
+                                <a href="knbIntro.html" class="menusubBtn">발레단 소개</a>
+                                <a href="knbIntro.html" class="menusubBtn">조직도·이사진·자문위원</a>
+                                <a href="knbIntro.html" class="menusubBtn">CI소개</a>
+                                <a href="knbIntro.html)" class="menusubBtn">연보</a>
+                                <a href="knbIntro.html" class="menusubBtn">찾아오시는 길</a>
                             </div>
                         </dd>
                     </dl>
@@ -41,14 +41,14 @@
                 <li class="menuLi menuLi2">
                     <dl>
                         <dt>
-                            <a href="javascript:void(0)" class="menuBtn menuBtn2">발레단 사람들</a>
+                            <a href="knbcrue.html" class="menuBtn menuBtn2">발레단 사람들</a>
                         </dt>
                         <dd>
                             <span class="menuTitle">발레단<br>사람들</span>
                             <div class="menusubBox">
-                                <a href="javascript:void(0)" class="menusubBtn">예술스태프</a>
-                                <a href="javascript:void(0)" class="menusubBtn">아티스트</a>
-                                <a href="javascript:void(0)" class="menusubBtn">행정스태프</a>
+                                <a href="knbcrue.html" class="menusubBtn">예술스태프</a>
+                                <a href="knbcrue.html" class="menusubBtn">아티스트</a>
+                                <a href="knbcrue.html" class="menusubBtn">행정스태프</a>
                             </div>
                         </dd>
                     </dl>
@@ -124,349 +124,492 @@
             <a href="javascript:void(0)" class="loginBtn">로그인</a>
             <a href="javascript:void(0)" class="langBtn english">ENGLISH</a>
         </div>
-        <span class="headerBg"></span>
+        <!-- <span class="headerBg"></span> -->
     </header>
     <main>
         <div class="contentSection crueSection1">
             <div class="cotentTitleBox crueTitle1">
                 <p class="contentTitle">예술스태프</p>
             </div>
-            <div class="contentBox crueContBox">
-                <div class="cSBox1 cS1profile">
-                    <div class="cS1Top">
-                        <img src="img/master1.jpg">
-                        <div class="profileTxt">
-                            <p class="pfPosition">단장·예술감독</p>
-                            <p class="pfName">강 수 진</p>
+            <div class="artStaffSwiper contentBox">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide crueContBox1">
+                        <div class="cSBox1 cS1profile">
+                            <div class="cS1Top">
+                                <img src="img/master1.jpg">
+                                <div class="profileTxt">
+                                    <p class="pfPosition">단장·예술감독</p>
+                                    <p class="pfName">강 수 진</p>
+                                </div>
+                            </div>
+                            <div class="cS1Bottom">
+                                <p class="pfTitle">교육 및 수료사항</p>
+                                <ul class="pfList">
+                                    <li>
+                                        <span class="pfYear">1985</span>
+                                        <span class="pfCont">모나코 왕립발레학교 졸업</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2016</span>
+                                        <span class="pfCont">숙명여자대학교 명예 무용학 박사</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cSBox2">
+                            <div class="cS2Top">
+                                <p class="pfTitle">경력사항</p>
+                                <ul class="pfList">
+                                    <li>
+                                        <span class="pfYear">1986 - 2016</span>
+                                        <span class="pfCont">독일 슈투트가르트 발레단</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">- 1994</span>
+                                        <span class="pfCont">독일 슈투트가르트 발레단 솔리스트</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">- 1997</span>
+                                        <span class="pfCont">독일 슈투트가르트 발레단 수석 무용수</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cS2Bottom">
+                                <p class="pfTitle">국제무용콩쿠르 심사위원 위촉</p>
+                                <ul class="pfList">
+                                    <li>
+                                        <span class="pfYear">2006</span>
+                                        <span class="pfCont">스위스 로잔 국제발레콩쿠르 심사위원<br>서울국제무용콩쿠르 발레 부문 심사위원</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2010</span>
+                                        <span class="pfCont">이스탄불 국제발레콩쿠르 심사위원</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2012</span>
+                                        <span class="pfCont">스위스 로잔 국제발레콩쿠르 심사위원</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2017</span>
+                                        <span class="pfCont">스위스 로잔 국제발레콩쿠르 심사위원<br>러시아 브누아 드 라 당스 심사위원<br>베이징 국제발레 •안무대회(IBCC) 심사위원</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cSBox3">
+                            <div class="cS3Top">
+                                <p class="pfTitle">수상</p>
+                                <ul class="pfList">
+                                    <li>
+                                        <span class="pfYear">1985</span>
+                                        <span class="pfCont">스위스 로잔 국제발레콩쿠르 입상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">1990</span>
+                                        <span class="pfCont">대한민국 '대통령상' 수상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">1999</span>
+                                        <span class="pfCont">러시아 브누아 드 라 당스 '최우수 여성무용수상' 수상<br>대한민국 '보관문화훈장' 수훈</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2001</span>
+                                        <span class="pfCont">대한민국 제9회 KBS 해외동포상 '문화예술 부문' 수상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2002</span>
+                                        <span class="pfCont">호암재단 호암상 '예술상' 수상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2007</span>
+                                        <span class="pfCont">독일 존 크랭코재단 '존 크랭코상' 수상<br>대한민국 국민훈장 '석류장' 수훈</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2014</span>
+                                        <span class="pfCont">독일 바덴 뷔르템베르크 '공로훈장' 수훈<br>고운문화재단 고운문화상 '고운문예인상' 수상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2015</span>
+                                        <span class="pfCont">대한민국 문체부 세종문화상 '문화예술 부문' 수상<br>한국언론인연합회 자랑스런한국인대상 '문화예술' 수상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2016</span>
+                                        <span class="pfCont">파라다이스 문화재단 파라다이스상<br>사단법인 한독협회 제9회 '이미륵상' 수상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2017</span>
+                                        <span class="pfCont">제7회 대한민국 한류대상 '순수문화공로대상' 수상</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cS3Bottom">
+                                <p class="pfTitle">저서</p>
+                                <ul class="pfList">
+                                    <li>
+                                        <span class="pfCont">나는 내일을 기다리지 않는다(2013)</span>
+                                        <span class="pfCont">한 걸음을 걸어도 나답게(2017)</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="cS1Bottom">
-                        <p class="pfTitle">교육 및 수료사항</p>
-                        <ul class="pfList">
+                    <div class="swiper-slide crueContBox2">
+                        <div class="cSBox1 cS1profile">
+                            <div class="cS1Top">
+                                <img src="img/master2.jpg">
+                                <div class="profileTxt">
+                                    <p class="pfPosition">부예술감독</p>
+                                    <p class="pfName">신 무 섭</p>
+                                </div>
+                            </div>
+                            <div class="cS1Bottom">
+                                <p class="pfTitle">교육 및 수료사항</p>
+                                <ul class="pfList">
+                                    <li>
+                                        <span class="pfYear">1993</span>
+                                        <span class="pfCont">세종대학교 무용과 졸업</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2003</span>
+                                        <span class="pfCont">세종대학교 공연예술대학원 졸업</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cSBox2">
+                            <div class="cS2Top">
+                                <p class="pfTitle">경력사항</p>
+                                <ul class="pfList">
+                                    <li>
+                                        <span class="pfYear">1993 - 1994</span>
+                                        <span class="pfCont">국립발레단 솔리스트</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">1995 - 1996</span>
+                                        <span class="pfCont">국립발레단 수석무용수</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">1999 - 1999</span>
+                                        <span class="pfCont">미국 뉴욕시어터발레컴퍼니 수석무용수</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">1998</span>
+                                        <span class="pfCont">쇼어발레컴퍼니 객원무용수</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2000 - 2010</span>
+                                        <span class="pfCont">국립발레단 수석무용수</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2008</span>
+                                        <span class="pfCont">한양대학교 ERICA캠퍼스 생활무용예술학과 강의전담교수</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2009 - 2010</span>
+                                        <span class="pfCont">한양대학교 ERICA캠퍼스 생활무용예술학과 겸임교수</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2009 - 2013</span>
+                                        <span class="pfCont">국립발레단 발레마스터</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2014 -</span>
+                                        <span class="pfCont">국립발레단 부예술감독</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2019 -</span>
+                                        <span class="pfCont">한국발레협회 부회장</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cS2Bottom">
+                                <p class="pfTitle">수상</p>
+                                <ul class="pfList">
+                                    <li>
+                                        <span class="pfYear">1988</span>
+                                        <span class="pfCont">동아무용콩쿠르 학생부 금상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">1989</span>
+                                        <span class="pfCont">전국대학생무용콩쿠르 최우수상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">1990</span>
+                                        <span class="pfCont">한국발레협회콩쿠르 금상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">1991</span>
+                                        <span class="pfCont">한국발레협회콩쿠르 듀엣 부문 금상</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cSBox3">
+                            <div class="cS3Top">
+                                <ul class="pfList">
+                                    <li>
+                                        <span class="pfYear">1992</span>
+                                        <span class="pfCont">동아일보무용콩쿠르 일반부 금상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2005</span>
+                                        <span class="pfCont">문화관광부 장관상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2006</span>
+                                        <span class="pfCont">발레협회 신인안무가상</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2009</span>
+                                        <span class="pfCont">부산국제무용제 'AK21 국제안무가육성공연' 백마상</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cS2Bottom">
+                                <p class="pfTitle">안무작</p>
+                                <ul class="pfList">
+                                    <li>
+                                        <span class="pfYear">1996</span>
+                                        <span class="pfCont">젊은 안무가의 밤 <느낌></span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2004</span>
+                                        <span class="pfCont">개인발표회 <LOVE IS ...></span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2005</span>
+                                        <span class="pfCont">제9회 한국발레협회 안무가전 <이면><br>이원국발레단 트라이앵글<THROB></span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2007</span>
+                                        <span class="pfCont">부산 INTERNATIONAL BEACH DANCE FESTIVAL 안무</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2009</span>
+                                        <span class="pfCont">제5회 부산국제무용제AK21국제안무가육성공연</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2011</span>
+                                        <span class="pfCont">서울 스프링실내악축제 초청 안무<br>PIAZZOLLA <Primavera Portena>(탱고)</span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2012 - 2014</span>
+                                        <span class="pfCont">대한민국발레축제 초청작 <Carmen></span>
+                                    </li>
+                                    <li>
+                                        <span class="pfYear">2012</span>
+                                        <span class="pfCont">인천공항 SKY FESTIVAL <타이스 명상곡></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide crueContBox3">
+                        <ul class="masterCrueList">
                             <li>
-                                <span class="pfYear">1985</span>
-                                <span class="pfCont">모나코 왕립발레학교 졸업</span>
+                                <img src="img/master3.jpg'">
+                                <div class="profileTxt">
+                                    <p class="pfPosition">발레마스터</p>
+                                    <p class="pfName">박 일</p>
+                                </div>
                             </li>
                             <li>
-                                <span class="pfYear">2016</span>
-                                <span class="pfCont">숙명여자대학교 명예 무용학 박사</span>
+                                <img src="img/master4.jpg">
+                                <div class="profileTxt">
+                                    <p class="pfPosition">발레마스터</p>
+                                    <p class="pfName">정 현 옥</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/master5.jpg">
+                                <div class="profileTxt">
+                                    <p class="pfPosition">발레마스터</p>
+                                    <p class="pfName">안 효 진</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/master6.jpg">
+                                <div class="profileTxt">
+                                    <p class="pfPosition">발레마스터</p>
+                                    <p class="pfName">이 영 철</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/master7.jpg">
+                                <div class="profileTxt">
+                                    <p class="pfPosition">게스트 발레마스터</p>
+                                    <p class="pfName">레나토 아리스맨디</p>
+                                </div>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="cSBox2">
-                    <div class="cS2Top">
-                        <p class="pfTitle">경력사항</p>
-                        <ul class="pfList">
-                            <li>
-                                <span class="pfYear">1986 - 2016</span>
-                                <span class="pfCont">독일 슈투트가르트 발레단</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">- 1994</span>
-                                <span class="pfCont">독일 슈투트가르트 발레단 솔리스트</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">- 1997</span>
-                                <span class="pfCont">독일 슈투트가르트 발레단 수석 무용수</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="cS2Bottom">
-                        <p class="pfTitle">국제무용콩쿠르 심사위원 위촉</p>
-                        <ul class="pfList">
-                            <li>
-                                <span class="pfYear">2006</span>
-                                <span class="pfCont">스위스 로잔 국제발레콩쿠르 심사위원<br>서울국제무용콩쿠르 발레 부문 심사위원</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2010</span>
-                                <span class="pfCont">이스탄불 국제발레콩쿠르 심사위원</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2012</span>
-                                <span class="pfCont">스위스 로잔 국제발레콩쿠르 심사위원</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2017</span>
-                                <span class="pfCont">스위스 로잔 국제발레콩쿠르 심사위원<br>러시아 브누아 드 라 당스 심사위원<br>베이징 국제발레 •안무대회(IBCC) 심사위원</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cSBox3">
-                    <div class="cS3Top">
-                        <p class="pfTitle">수상</p>
-                        <ul class="pfList">
-                            <li>
-                                <span class="pfYear">1985</span>
-                                <span class="pfCont">스위스 로잔 국제발레콩쿠르 입상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">1990</span>
-                                <span class="pfCont">대한민국 '대통령상' 수상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">1999</span>
-                                <span class="pfCont">러시아 브누아 드 라 당스 '최우수 여성무용수상' 수상<br>대한민국 '보관문화훈장' 수훈</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2001</span>
-                                <span class="pfCont">대한민국 제9회 KBS 해외동포상 '문화예술 부문' 수상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2002</span>
-                                <span class="pfCont">호암재단 호암상 '예술상' 수상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2007</span>
-                                <span class="pfCont">독일 존 크랭코재단 '존 크랭코상' 수상<br>대한민국 국민훈장 '석류장' 수훈</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2014</span>
-                                <span class="pfCont">독일 바덴 뷔르템베르크 '공로훈장' 수훈<br>고운문화재단 고운문화상 '고운문예인상' 수상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2015</span>
-                                <span class="pfCont">대한민국 문체부 세종문화상 '문화예술 부문' 수상<br>한국언론인연합회 자랑스런한국인대상 '문화예술' 수상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2016</span>
-                                <span class="pfCont">파라다이스 문화재단 파라다이스상<br>사단법인 한독협회 제9회 '이미륵상' 수상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2017</span>
-                                <span class="pfCont">제7회 대한민국 한류대상 '순수문화공로대상' 수상</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="cS3Bottom">
-                        <p class="pfTitle">저서</p>
-                        <ul class="pfList">
-                            <li>
-                                <span class="pfCont">나는 내일을 기다리지 않는다(2013)</span>
-                                <span class="pfCont">한 걸음을 걸어도 나답게(2017)</span>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="contentSection crueSection2">
+            <div class="cotentTitleBox crueTitle2">
+                <p class="contentTitle">아티스트</p>
+                <div class="tabMenuBox iS5Box1">
+                    <a href="javascript:void(0)" data-tab="artist1" class="tabbtn artistTab1">수석무용수</a>
+                    <a href="javascript:void(0)" data-tab="artist2" class="tabbtn artistTab2 currentTab">솔리스트</a>
+                    <a href="javascript:void(0)" data-tab="artist3" class="tabbtn artistTab3">드미솔리스트</a>
+                    <a href="javascript:void(0)" data-tab="artist4" class="tabbtn artistTab4">코르드발레</a>
+                    <a href="javascript:void(0)" data-tab="artist5" class="tabbtn artistTab5">연수단원</a>
                 </div>
             </div>
-            <div class="contentBox crueContBox">
-                <div class="cSBox1 cS1profile">
-                    <div class="cS1Top">
-                        <img src="img/master2.jpg">
-                        <div class="profileTxt">
-                            <p class="pfPosition">부예술감독</p>
-                            <p class="pfName">신 무 섭</p>
-                        </div>
-                    </div>
-                    <div class="cS1Bottom">
-                        <p class="pfTitle">교육 및 수료사항</p>
-                        <ul class="pfList">
-                            <li>
-                                <span class="pfYear">1993</span>
-                                <span class="pfCont">세종대학교 무용과 졸업</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2003</span>
-                                <span class="pfCont">세종대학교 공연예술대학원 졸업</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cSBox2">
-                    <div class="cS2Top">
-                        <p class="pfTitle">경력사항</p>
-                        <ul class="pfList">
-                            <li>
-                                <span class="pfYear">1993 - 1994</span>
-                                <span class="pfCont">국립발레단 솔리스트</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">1995 - 1996</span>
-                                <span class="pfCont">국립발레단 수석무용수</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">1999 - 1999</span>
-                                <span class="pfCont">미국 뉴욕시어터발레컴퍼니 수석무용수</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">1998</span>
-                                <span class="pfCont">쇼어발레컴퍼니 객원무용수</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2000 - 2010</span>
-                                <span class="pfCont">국립발레단 수석무용수</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2008</span>
-                                <span class="pfCont">한양대학교 ERICA캠퍼스 생활무용예술학과 강의전담교수</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2009 - 2010</span>
-                                <span class="pfCont">한양대학교 ERICA캠퍼스 생활무용예술학과 겸임교수</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2009 - 2013</span>
-                                <span class="pfCont">국립발레단 발레마스터</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2014 -</span>
-                                <span class="pfCont">국립발레단 부예술감독</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2019 -</span>
-                                <span class="pfCont">한국발레협회 부회장</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="cS2Bottom">
-                        <p class="pfTitle">수상</p>
-                        <ul class="pfList">
-                            <li>
-                                <span class="pfYear">1988</span>
-                                <span class="pfCont">동아무용콩쿠르 학생부 금상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">1989</span>
-                                <span class="pfCont">전국대학생무용콩쿠르 최우수상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">1990</span>
-                                <span class="pfCont">한국발레협회콩쿠르 금상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">1991</span>
-                                <span class="pfCont">한국발레협회콩쿠르 듀엣 부문 금상</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cSBox3">
-                    <div class="cS3Top">
-                        <ul class="pfList">
-                            <li>
-                                <span class="pfYear">1992</span>
-                                <span class="pfCont">동아일보무용콩쿠르 일반부 금상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2005</span>
-                                <span class="pfCont">문화관광부 장관상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2006</span>
-                                <span class="pfCont">발레협회 신인안무가상</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2009</span>
-                                <span class="pfCont">부산국제무용제 'AK21 국제안무가육성공연' 백마상</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="cS2Bottom">
-                        <p class="pfTitle">안무작</p>
-                        <ul class="pfList">
-                            <li>
-                                <span class="pfYear">1996</span>
-                                <span class="pfCont">젊은 안무가의 밤 <느낌></span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2004</span>
-                                <span class="pfCont">개인발표회 <LOVE IS ...></span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2005</span>
-                                <span class="pfCont">제9회 한국발레협회 안무가전 <이면><br>이원국발레단 트라이앵글<THROB></span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2007</span>
-                                <span class="pfCont">부산 INTERNATIONAL BEACH DANCE FESTIVAL 안무</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2009</span>
-                                <span class="pfCont">제5회 부산국제무용제AK21국제안무가육성공연</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2011</span>
-                                <span class="pfCont">서울 스프링실내악축제 초청 안무<br>PIAZZOLLA <Primavera Portena>(탱고)</span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2012 - 2014</span>
-                                <span class="pfCont">대한민국발레축제 초청작 <Carmen></span>
-                            </li>
-                            <li>
-                                <span class="pfYear">2012</span>
-                                <span class="pfCont">인천공항 SKY FESTIVAL <타이스 명상곡></span>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="contentBox">
+                <ul id="artist1" class="artistList">
+                    <span>aaaaa</span>
+                </ul>
+                <ul id="artist2" class="artistList currentTabCont">
+                    <li>
+                        <a href="javascript:void(0)" class="artistBtn artist1">
+                            <img src="img/artist1.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="artistBtn artist2">
+                            <img src="img/artist2.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="artistBtn artist3">
+                            <img src="img/artist3.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="artistBtn artist4">
+                            <img src="img/artist4.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="artistBtn artist5">
+                            <img src="img/artist5.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="artistBtn artist6">
+                            <img src="img/artist6.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="artistBtn artist7">
+                            <img src="img/artist7.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="artistBtn artist8">
+                            <img src="img/artist8.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="artistBtn artist9">
+                            <img src="img/artist9.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="artistBtn artist10">
+                            <img src="img/artist10.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                </ul>
+                <ul id="artist3" class="artistList">
+                    <span>bbbbb</span>
+                </ul>
+                <ul id="artist4" class="artistList">
+                    <span>ccccc</span>
+                </ul>
+                <ul id="artist5" class="artistList">
+                    <span>ddddd</span>
+                </ul>
+            </div>
+        </div>
+        <div class="contentSection crueSection3">
+            <div class="cotentTitleBox crueTitle3">
+                <p class="contentTitle">행정스태프</p>
+                <div class="tabMenuBox iS5Box1">
+                    <a href="javascript:void(0)" data-tab="office1" class="tabbtn officeTab1 currentTab">수석무용수</a>
+                    <a href="javascript:void(0)" data-tab="office2" class="tabbtn officeTab2">솔리스트</a>
+                    <a href="javascript:void(0)" data-tab="office3" class="tabbtn officeTab3">드미솔리스트</a>
+                    <a href="javascript:void(0)" data-tab="office4" class="tabbtn officeTab4">코르드발레</a>
                 </div>
             </div>
-            <div class="contentBox crueContBox">
-                <ul class="masterCrueList">
+            <div class="contentBox">
+                <ul id="office1" class="officeList currentTabCont">
                     <li>
-                        <img src="img/master3.jpg'">
-                        <div class="profileTxt">
-                            <p class="pfPosition">발레마스터</p>
-                            <p class="pfName">박 일</p>
-                        </div>
+                        <a href="javascript:void(0)" class="officeBtn office1">
+                            <img src="img/office1.jpg" alt="knbartist">
+                        </a>
                     </li>
                     <li>
-                        <img src="img/master4.jpg">
-                        <div class="profileTxt">
-                            <p class="pfPosition">발레마스터</p>
-                            <p class="pfName">정 현 옥</p>
-                        </div>
+                        <a href="javascript:void(0)" class="officeBtn office2">
+                            <img src="img/office2.jpg" alt="knbartist">
+                        </a>
                     </li>
                     <li>
-                        <img src="img/master5.jpg">
-                        <div class="profileTxt">
-                            <p class="pfPosition">발레마스터</p>
-                            <p class="pfName">안 효 진</p>
-                        </div>
+                        <a href="javascript:void(0)" class="officeBtn office3">
+                            <img src="img/office3.jpg" alt="knbartist">
+                        </a>
                     </li>
                     <li>
-                        <img src="img/master6.jpg">
-                        <div class="profileTxt">
-                            <p class="pfPosition">발레마스터</p>
-                            <p class="pfName">이 영 철</p>
-                        </div>
+                        <a href="javascript:void(0)" class="officeBtn office4">
+                            <img src="img/office4.jpg" alt="knbartist">
+                        </a>
                     </li>
                     <li>
-                        <img src="img/master7.jpg">
-                        <div class="profileTxt">
-                            <p class="pfPosition">게스트 발레마스터</p>
-                            <p class="pfName">레나토 아리스맨디</p>
-                        </div>
+                        <a href="javascript:void(0)" class="officeBtn office5">
+                            <img src="img/office5.jpg" alt="knbartist">
+                        </a>
                     </li>
+                    <li>
+                        <a href="javascript:void(0)" class="officeBtn office6">
+                            <img src="img/office6.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="officeBtn office7">
+                            <img src="img/office7.jpg" alt="knbartist">
+                        </a>
+                    </li>
+                </ul>
+                <ul id="office2" class="officeList">
+                    <span>aaaaa</span>
+                </ul>
+                <ul id="office3" class="officeList">
+                    <span>bbbbb</span>
+                </ul>
+                <ul id="office4" class="officeList">
+                    <span>ccccc</span>
                 </ul>
             </div>
         </div>
     </main>
     <footer>
-        <div class="fbtneBox">
+        <section class="fbtneBox">
             <a href="javascript:void(0)" class="fopenBtn"></a>
-        </div>
-        <div class="fcontentBox">
+        </section>
+        <section class="fcontentBox">
             <ul class="flogoList">
                 <li class="flogoLi flogoLi1">
                     <a href="javascript:void(0)" class="flogoBtn">
-                        <img src="img/logo/footer_1.png" alt="flogo">
+                        <img src="img/logo/footer_1.png" class="flogo1" alt="flogo">
                     </a>
                 </li>
                 <li class="flogoLi flogoLi2">
                     <a href="javascript:void(0)" class="flogoBtn">
-                        <img src="img/logo/footer_2.png" alt="flogo">
+                        <img src="img/logo/footer_2.png" class="flogo2" alt="flogo">
                     </a>
                 </li>
                 <li class="flogoLi flogoLi3">
                     <a href="javascript:void(0)" class="flogoBtn">
-                        <img src="img/logo/footer_3.png" alt="flogo">
+                        <img src="img/logo/footer_3.png" class="flogo3" alt="flogo">
                     </a>
                 </li>
                 <li class="flogoLi flogoLi4">
                     <a href="javascript:void(0)" class="flogoBtn">
-                        <img src="img/logo/footer_4.png" alt="flogo">
+                        <img src="img/logo/footer_4.png" class="flogo4" alt="flogo">
                     </a>
                 </li>
             </ul>
@@ -474,46 +617,77 @@
             <ul class="fsponserList">
                 <li class="flogoLi fsponserLi1">
                     <a href="javascript:void(0)" class="flogoBtn">
-                        <img src="img/logo/footer_5.png" alt="flogo">
+                        <img src="img/logo/footer_5.png" class="flogo5" alt="flogo">
                     </a>
                 </li>
                 <li class="flogoLi fsponserLi2">
                     <a href="javascript:void(0)" class="flogoBtn">
-                        <img src="img/logo/footer_6.png" alt="flogo">
+                        <img src="img/logo/footer_6.png" class="flogo6" alt="flogo">
                     </a>
                 </li>
                 <li class="flogoLi fsponserLi3">
                     <a href="javascript:void(0)" class="flogoBtn">
-                        <img src="img/logo/footer_7.png" alt="flogo">
+                        <img src="img/logo/footer_7.png" class="flogo7" alt="flogo">
                     </a>
                 </li>
                 <li class="flogoLi fsponserLi4">
                     <a href="javascript:void(0)" class="flogoBtn">
-                        <img src="img/logo/footer_8.png" alt="flogo">
+                        <img src="img/logo/footer_8.png" class="flogo8" alt="flogo">
                     </a>
                 </li>
             </ul>
             <div class="fadressBox">
                 <p class="adress">
-                    06757<br>서울시 서초구 남부순환로 2406<br>예술의전당 오페라하우서 4층(재)<br>국립발레단
+                    06757<br>서울시 서초구 남부순환로 2406<br>예술의전당 오페라하우스 4층(재)<br>국립발레단
                 </p>
                 <p class="knbNumber">
                     <strong>국립발레단</strong><br><strong>Tel </strong>02-587-6180~5<br><strong>Fax </strong>02-587-6186
                 </p>
                 <p class="academyNumber">
-                    <strong>Tel </strong>02-587-6199
+                    <strong>아카데미</strong><br><strong>Tel </strong>02-587-6199
                 </p>
                 <a class="privacyBtn">개인정보 처리방침</a>
             </div>
-        </div>
-        <div class="flawinfoBox">
-            <strong>청탁급지법 적용대상 기관안내</strong><br><p>(재)국립발레단은 공직자윤리법 제3조의2에 따른 공직유관단체로서 부정척탁 및 금품 등 수수의 금지에 관한 법률(청탁금지법) 적용 대상 기관임을 알립니다.</p>
-        </div>
-        <div clss="fcopyBox">
-            <p>Copyright(c) KOREAN NATIONAL BALLET 2021.</p>
-        </div>
+            <div class="flawinfoBox">
+                <strong>청탁급지법 적용대상 기관안내</strong><br><p>(재)국립발레단은 공직자윤리법 제3조의2에 따른 공직유관단체로서 부정척탁 및 금품 등 수수의 금지에 관한 법률(청탁금지법) 적용 대상 기관임을 알립니다.</p>
+            </div>
+            <div clss="fcopyBox">
+                <p>Copyright(c) KOREAN NATIONAL BALLET 2021.</p>
+            </div>
+        </section>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/menu.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.currentTab').css({ 'pointer-events': 'none' });
+            $('.currentYearTab').css({ 'pointer-events': 'none' });
+
+            var artStaffSwiper = new Swiper(".artStaffSwiper", {
+                slidesPerView: 1,
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+            });
+
+            $('.tabbtn').on('click', function(){
+                var ACT_TAB = $(this);
+                var actTab_DATA = ACT_TAB.attr('data-tab');
+                var ACT_TABCONTENT = $('#' + actTab_DATA);
+
+                if(ACT_TAB.hasClass('currentTab')){
+                    ACT_TAB.removeClass('currentTab').css({ 'pointer-events': 'auto' });
+                    ACT_TABCONTENT.removeClass('currentTabCont');
+                }else{
+                    $('.currentTab').removeClass('currentTab').css({ 'pointer-events': 'auto' });
+                    $('.currentTabCont').removeClass('currentTabCont');
+                    ACT_TAB.addClass('currentTab').css({ 'pointer-events': 'none' });
+                    ACT_TABCONTENT.addClass('currentTabCont');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
