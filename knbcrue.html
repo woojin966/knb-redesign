@@ -137,9 +137,9 @@
                         <div class="cSBox1 cS1profile">
                             <div class="cS1Top">
                                 <img src="img/master1.jpg">
-                                <div class="profileTxt">
-                                    <p class="pfPosition">단장·예술감독</p>
-                                    <p class="pfName">강 수 진</p>
+                                <div class="photoTxt profileTxt">
+                                    <p class="photoPosition">단장·예술감독</p>
+                                    <p class="photoName">강 수 진</p>
                                 </div>
                             </div>
                             <div class="cS1Bottom">
@@ -257,9 +257,9 @@
                         <div class="cSBox1 cS1profile">
                             <div class="cS1Top">
                                 <img src="img/master2.jpg">
-                                <div class="profileTxt">
-                                    <p class="pfPosition">부예술감독</p>
-                                    <p class="pfName">신 무 섭</p>
+                                <div class="photoTxt profileTxt">
+                                    <p class="photoPosition">부예술감독</p>
+                                    <p class="photoName">신 무 섭</p>
                                 </div>
                             </div>
                             <div class="cS1Bottom">
@@ -405,40 +405,55 @@
                         </div>
                     </div>
                     <div class="swiper-slide crueContBox3">
-                        <ul class="masterCrueList">
+                        <ul class="photoCardList masterCrueList">
                             <li>
-                                <img src="img/master3.jpg'">
-                                <div class="profileTxt">
-                                    <p class="pfPosition">발레마스터</p>
-                                    <p class="pfName">박 일</p>
+                                <a href="javascript:void(0)" class="photoCardBtn masterBtn master1">
+                                    <img src="img/master3.jpg'">
+                                </a>
+                                <div class="photoTxt profileTxt">
+                                    <p class="photoPosition">발레마스터</p>
+                                    <p class="photoName">박 일</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="img/master4.jpg">
-                                <div class="profileTxt">
-                                    <p class="pfPosition">발레마스터</p>
-                                    <p class="pfName">정 현 옥</p>
+                                <a href="javascript:void(0)" class="photoCardBtn masterBtn master2">
+                                    <img src="img/master4.jpg">
+                                </a>
+                                <div class="photoTxt profileTxt">
+                                    <p class="photoPosition">발레마스터</p>
+                                    <p class="photoName">정 현 옥</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="img/master5.jpg">
-                                <div class="profileTxt">
-                                    <p class="pfPosition">발레마스터</p>
-                                    <p class="pfName">안 효 진</p>
+                                <a href="javascript:void(0)" class="photoCardBtn masterBtn master3">
+                                    <img src="img/master5.jpg">
+                                </a>
+                                <div class="photoTxt profileTxt">
+                                    <p class="photoPosition">발레마스터</p>
+                                    <p class="photoName">안 효 진</p>
+                                </div>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li>
+                                <a href="javascript:void(0)" class="photoCardBtn masterBtn master4">
+                                    <img src="img/master6.jpg">
+                                </a>
+                                <div class="photoTxt profileTxt">
+                                    <p class="photoPosition">발레마스터</p>
+                                    <p class="photoName">이 영 철</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="img/master6.jpg">
-                                <div class="profileTxt">
-                                    <p class="pfPosition">발레마스터</p>
-                                    <p class="pfName">이 영 철</p>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="img/master7.jpg">
-                                <div class="profileTxt">
-                                    <p class="pfPosition">게스트 발레마스터</p>
-                                    <p class="pfName">레나토 아리스맨디</p>
+                                <a href="javascript:void(0)" class="photoCardBtn masterBtn master5">
+                                    <img src="img/master7.jpg">
+                                </a>
+                                <div class="photoTxt profileTxt">
+                                    <p class="photoPosition">게스트 발레마스터</p>
+                                    <p class="photoName">레나토 아리스맨디</p>
                                 </div>
                             </li>
                         </ul>
@@ -452,67 +467,98 @@
             <div class="cotentTitleBox crueTitle2">
                 <p class="contentTitle">아티스트</p>
                 <div class="tabMenuBox iS5Box1">
-                    <a href="javascript:void(0)" data-tab="artist1" class="tabbtn artistTab1">수석무용수</a>
-                    <a href="javascript:void(0)" data-tab="artist2" class="tabbtn artistTab2 currentTab">솔리스트</a>
-                    <a href="javascript:void(0)" data-tab="artist3" class="tabbtn artistTab3">드미솔리스트</a>
-                    <a href="javascript:void(0)" data-tab="artist4" class="tabbtn artistTab4">코르드발레</a>
-                    <a href="javascript:void(0)" data-tab="artist5" class="tabbtn artistTab5">연수단원</a>
+                    <a href="javascript:void(0)" data-tab="artist1" class="tabbtn tabArtisteBtn artistTab1">수석무용수</a>
+                    <a href="javascript:void(0)" data-tab="artist2" class="tabbtn tabArtisteBtn artistTab2 currentTab">솔리스트</a>
+                    <a href="javascript:void(0)" data-tab="artist3" class="tabbtn tabArtisteBtn artistTab3">드미솔리스트</a>
+                    <a href="javascript:void(0)" data-tab="artist4" class="tabbtn tabArtisteBtn artistTab4">코르드발레</a>
+                    <a href="javascript:void(0)" data-tab="artist5" class="tabbtn tabArtisteBtn artistTab5">연수단원</a>
                 </div>
             </div>
             <div class="contentBox">
                 <ul id="artist1" class="artistList">
                     <span>aaaaa</span>
                 </ul>
-                <ul id="artist2" class="artistList currentTabCont">
+                <ul id="artist2" class="photoCardList artistList currentTabCont">
                     <li>
-                        <a href="javascript:void(0)" class="artistBtn artist1">
+                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist1">
                             <img src="img/artist1.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoName">이 수 희</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="artistBtn artist2">
+                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist2">
                             <img src="img/artist2.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoName">송 정 빈</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="artistBtn artist3">
+                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist3">
                             <img src="img/artist3.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoName">정 은 영</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="artistBtn artist4">
+                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist4">
                             <img src="img/artist4.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoName">배 민 순</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="artistBtn artist5">
+                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist5">
                             <img src="img/artist5.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoName">한 나 래</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="artistBtn artist6">
+                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist6">
                             <img src="img/artist6.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoName">김 희 현</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="artistBtn artist7">
+                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist7">
                             <img src="img/artist7.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoName">변 성 완</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="artistBtn artist8">
+                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist8">
                             <img src="img/artist8.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoName">강 효 형</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="artistBtn artist9">
+                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist9">
                             <img src="img/artist9.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoName">박 나 리</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="artistBtn artist10">
+                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist10">
                             <img src="img/artist10.jpg" alt="knbartist">
+                            <span class="photoshade"></span>
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoName">하 지 석</p>
+                        </div>
                     </li>
                 </ul>
                 <ul id="artist3" class="artistList">
@@ -530,48 +576,79 @@
             <div class="cotentTitleBox crueTitle3">
                 <p class="contentTitle">행정스태프</p>
                 <div class="tabMenuBox iS5Box1">
-                    <a href="javascript:void(0)" data-tab="office1" class="tabbtn officeTab1 currentTab">수석무용수</a>
-                    <a href="javascript:void(0)" data-tab="office2" class="tabbtn officeTab2">솔리스트</a>
-                    <a href="javascript:void(0)" data-tab="office3" class="tabbtn officeTab3">드미솔리스트</a>
-                    <a href="javascript:void(0)" data-tab="office4" class="tabbtn officeTab4">코르드발레</a>
+                    <a href="javascript:void(0)" data-tab="office1" class="tabbtn tabOfficeBtn officeTab1 currentOfficeTab">경영관리팀</a>
+                    <a href="javascript:void(0)" data-tab="office2" class="tabbtn tabOfficeBtn officeTab2">공연기획팀</a>
+                    <a href="javascript:void(0)" data-tab="office3" class="tabbtn tabOfficeBtn officeTab3">홍보마케팅팀</a>
+                    <a href="javascript:void(0)" data-tab="office4" class="tabbtn tabOfficeBtn officeTab4">예술사업지원팀</a>
                 </div>
             </div>
             <div class="contentBox">
-                <ul id="office1" class="officeList currentTabCont">
+                <ul id="office1" class="photoCardList officeList currentOfficeTabCont">
                     <li>
-                        <a href="javascript:void(0)" class="officeBtn office1">
+                        <a href="javascript:void(0)" class="photoCardBtn officeBtn office1">
                             <img src="img/office1.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">사무국장</p>
+                            <p class="photoName">이 종 민</p>
+                        </div>
                     </li>
+                    <li></li>
                     <li>
-                        <a href="javascript:void(0)" class="officeBtn office2">
+                        <a href="javascript:void(0)" class="photoCardBtn officeBtn office2">
                             <img src="img/office2.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">팀장</p>
+                            <p class="photoName">김 현 아</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="officeBtn office3">
+                        <a href="javascript:void(0)" class="photoCardBtn officeBtn office3">
                             <img src="img/office3.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">차장</p>
+                            <p class="photoName">오 유 선</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="officeBtn office4">
+                        <a href="javascript:void(0)" class="photoCardBtn officeBtn office4">
                             <img src="img/office4.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">팀원</p>
+                            <p class="photoName">박 슬 기</p>
+                        </div>
                     </li>
+                    <li></li>
+                    <li></li>
                     <li>
-                        <a href="javascript:void(0)" class="officeBtn office5">
+                        <a href="javascript:void(0)" class="photoCardBtn officeBtn office5">
                             <img src="img/office5.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">팀원</p>
+                            <p class="photoName">김 태 이</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="officeBtn office6">
+                        <a href="javascript:void(0)" class="photoCardBtn officeBtn office6">
                             <img src="img/office6.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">팀원</p>
+                            <p class="photoName">이 다 정</p>
+                        </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" class="officeBtn office7">
+                        <a href="javascript:void(0)" class="photoCardBtn officeBtn office7">
                             <img src="img/office7.jpg" alt="knbartist">
                         </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">팀원</p>
+                            <p class="photoName">최 소 담</p>
+                        </div>
                     </li>
                 </ul>
                 <ul id="office2" class="officeList">
@@ -672,7 +749,7 @@
                 },
             });
 
-            $('.tabbtn').on('click', function(){
+            $('.tabArtisteBtn').on('click', function(){
                 var ACT_TAB = $(this);
                 var actTab_DATA = ACT_TAB.attr('data-tab');
                 var ACT_TABCONTENT = $('#' + actTab_DATA);
@@ -685,6 +762,21 @@
                     $('.currentTabCont').removeClass('currentTabCont');
                     ACT_TAB.addClass('currentTab').css({ 'pointer-events': 'none' });
                     ACT_TABCONTENT.addClass('currentTabCont');
+                }
+            });
+            $('.tabOfficeBtn').on('click', function(){
+                var ACT_OTAB = $(this);
+                var actOTab_DATA = ACT_OTAB.attr('data-tab');
+                var ACT_OTABCONTENT = $('#' + actOTab_DATA);
+
+                if(ACT_OTAB.hasClass('currentOfficeTab')){
+                    ACT_OTAB.removeClass('currentOfficeTab').css({ 'pointer-events': 'auto' });
+                    ACT_OTABCONTENT.removeClass('currentOfficeTabCont');
+                }else{
+                    $('.currentOfficeTab').removeClass('currentOfficeTab').css({ 'pointer-events': 'auto' });
+                    $('.currentOfficeTabCont').removeClass('currentOfficeTabCont');
+                    ACT_OTAB.addClass('currentOfficeTab').css({ 'pointer-events': 'none' });
+                    ACT_OTABCONTENT.addClass('currentOfficeTabCont');
                 }
             });
         });
