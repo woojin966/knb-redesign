@@ -1,0 +1,5 @@
+.shedulePosterList{height: calc(100% - 40px);}
+.shedulePosterList li{width: calc(33.3333% - 13.4px); height: 100%; margin-bottom: 0;}
+.shedulePosterList li:nth-child(5n){margin-right: 20px;}
+.shedulePosterList li:nth-child(3n){margin-right: 0;}
+.shedulePosterList li a img{top: 0;}

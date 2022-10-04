@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <!-- coponent css -->
+    <link rel="stylesheet" href="css/component/schedule.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/calendar.css">
+    <title>국립발레단</title>
+</head>
+<body>
+    <header>
+        <div class="logoBox">
+            <a class="logoBtn">
+                <img src="img/logo/knblogo_w.png" alt="logo">
+            </a>
+        </div>
+        <div class="menuBox">
+            <ul>
+                <li class="menuLi menuLi1">
+                    <dl>
+                        <dt>
+                            <a href="knbIntro.html" class="menuBtn menuBtn1">국립발레단 소개</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">국립발레단<br>소개</span>
+                            <div class="menusubBox">
+                                <a href="knbIntro.html" class="menusubBtn">인사말</a>
+                                <a href="knbIntro.html" class="menusubBtn">발레단 소개</a>
+                                <a href="knbIntro.html" class="menusubBtn">조직도·이사진·자문위원</a>
+                                <a href="knbIntro.html" class="menusubBtn">CI소개</a>
+                                <a href="knbIntro.html)" class="menusubBtn">연보</a>
+                                <a href="knbIntro.html" class="menusubBtn">찾아오시는 길</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi2">
+                    <dl>
+                        <dt>
+                            <a href="knbcrue.html" class="menuBtn menuBtn2">발레단 사람들</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">발레단<br>사람들</span>
+                            <div class="menusubBox">
+                                <a href="knbcrue.html" class="menusubBtn">예술스태프</a>
+                                <a href="knbcrue.html" class="menusubBtn">아티스트</a>
+                                <a href="knbcrue.html" class="menusubBtn">행정스태프</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi3">
+                    <dl>
+                        <dt>
+                            <a href="knbschedule.html" class="menuBtn menuBtn3">공연정보</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">공연정보</span>
+                            <div class="menusubBox">
+                                <a href="knbschedule.html" class="menusubBtn">공연안내</a>
+                                <a href="knbschedule.html" class="menusubBtn">원간일정</a>
+                                <a href="knbschedule.html" class="menusubBtn">연간일정</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi4">
+                    <dl>
+                        <dt>
+                            <a href="javascript:void(0)" class="menuBtn menuBtn4">후원회</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">후원회</span>
+                            <div class="menusubBox">
+                                <a href="javascript:void(0)" class="menusubBtn">인사말</a>
+                                <a href="javascript:void(0)" class="menusubBtn">후원예우</a>
+                                <a href="javascript:void(0)" class="menusubBtn">후원조직</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi5">
+                    <dl>
+                        <dt>
+                            <a href="javascript:void(0)" class="menuBtn menuBtn5">아카데미</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">아카데미</span>
+                            <div class="menusubBox">
+                                <a href="javascript:void(0)" class="menusubBtn">교장 인사말</a>
+                                <a href="javascript:void(0)" class="menusubBtn">아카데미 소개</a>
+                                <a href="javascript:void(0)" class="menusubBtn">강사 소개</a>
+                                <a href="javascript:void(0)" class="menusubBtn">갤러리</a>
+                                <a href="javascript:void(0)" class="menusubBtn">강좌 및 등록안내</a>
+                                <a href="javascript:void(0)" class="menusubBtn">환불 관련안내</a>
+                                <a href="javascript:void(0)" class="menusubBtn">아카데미 공지사항</a>
+                                <a href="javascript:void(0)" class="menusubBtn">자주묻는 질문</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi6">
+                    <dl>
+                        <dt>
+                            <a href="javascript:void(0)" class="menuBtn menuBtn6">발레단 소식</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">발레단<br>소식</span>
+                            <div class="menusubBox">
+                                <a href="javascript:void(0)" class="menusubBtn">공지사항</a>
+                                <a href="javascript:void(0)" class="menusubBtn">뉴스레터</a>
+                                <a href="javascript:void(0)" class="menusubBtn">1:1 문의</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="loginlangBox">
+            <a href="javascript:void(0)" class="loginBtn">로그인</a>
+            <a href="javascript:void(0)" class="langBtn english">ENGLISH</a>
+        </div>
+        <!-- <span class="headerBg"></span> -->
+    </header>
+    <main>
+        <div class="contentSection scheduleSection1">
+            <div class="cotentTitleBox scheduleTitle1">
+                <p class="contentTitle">공연안내</p>
+            </div>
+            <div class="contentBox posterSwiper photolistswiper scheduleContentBox">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <ul class="photoCardList shedulePosterList">
+                            <li>
+                                <a href="javascript:void(0)" class="photoCardBtn posterBtn poster1">
+                                    <img src="img/schedule/sheduleposter1.jpg" alt="knbartist">
+                                </a>
+                                <div class="photoTxt">
+                                    <p class="photoPerform">해적</p>
+                                    <p class="photeDate">2021.3.23 ~ 3.28<br>예술의전당 오페라극장</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="photoCardBtn posterBtn poster1">
+                                    <img src="img/schedule/sheduleposter2.jpg" alt="knbartist">
+                                </a>
+                                <div class="photoTxt">
+                                    <p class="photoPerform">라 바야데르</p>
+                                    <p class="photeDate">2021.4.27 ~ 5.2<br>예술의전당 오페라극장</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="photoCardBtn posterBtn poster1">
+                                    <img src="img/schedule/sheduleposter3.jpg" alt="knbartist">
+                                </a>
+                                <div class="photoTxt">
+                                    <p class="photoPerform">허난설현-수월경화</p>
+                                    <p class="photeDate">2021.5.22 ~ 5.23<br>국립극장 달오름</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul class="photoCardList shedulePosterList">
+                            <li>
+                                <a href="javascript:void(0)" class="photoCardBtn posterBtn poster1">
+                                    <img src="img/schedule/sheduleposter4.jpg" alt="knbartist">
+                                </a>
+                                <div class="photoTxt">
+                                    <p class="photoPerform">말괄량이 길들이기</p>
+                                    <p class="photeDate">2021.6.15 ~ 6.20<br>예술의전당 오페라극장</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="photoCardBtn posterBtn poster1">
+                                    <img src="img/schedule/sheduleposter5.jpg" alt="knbartist">
+                                </a>
+                                <div class="photoTxt">
+                                    <p class="photoPerform">KNB Movement Series 6</p>
+                                    <p class="photeDate">2021.8.28 ~ 8.29<br>예술의전당 CJ 토월극장</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="photoCardBtn posterBtn poster1">
+                                    <img src="img/schedule/sheduleposter6.jpg" alt="knbartist">
+                                </a>
+                                <div class="photoTxt">
+                                    <p class="photoPerform">Evening Gala</p>
+                                    <p class="photeDate">2021.9.4 ~ 9.5<br>예술의전당 CJ 토월극장</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul class="photoCardList shedulePosterList">
+                            <li>
+                                <a href="javascript:void(0)" class="photoCardBtn posterBtn poster1">
+                                    <img src="img/schedule/sheduleposter7.jpg" alt="knbartist">
+                                </a>
+                                <div class="photoTxt">
+                                    <p class="photoPerform">주얼스</p>
+                                    <p class="photeDate">2021.10.20 ~ 10.24<br>예술의전당 오페라극장</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="photoCardBtn posterBtn poster1">
+                                    <img src="img/schedule/sheduleposter8.jpg" alt="knbartist">
+                                </a>
+                                <div class="photoTxt">
+                                    <p class="photoPerform">호두까기 인형</p>
+                                    <p class="photeDate">2021.12.14 ~ 12.26<br>예술의전당 오페라극장</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="contentSection scheduleSection1">
+            <div class="cotentTitleBox scheduleTitle2">
+                <p class="contentTitle">공연안내</p>
+            </div>
+            <div id="scheduleCallendar" class="contentBox callendarSwiper photolistswiper callendarContentBox">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="fbtneBox">
+            <a href="javascript:void(0)" class="fopenBtn"></a>
+        </section>
+        <section class="fcontentBox">
+            <ul class="flogoList">
+                <li class="flogoLi flogoLi1">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_1.png" class="flogo1" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi flogoLi2">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_2.png" class="flogo2" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi flogoLi3">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_3.png" class="flogo3" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi flogoLi4">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_4.png" class="flogo4" alt="flogo">
+                    </a>
+                </li>
+            </ul>
+            <p clss="sponserTitle"><strong>협찬사</strong></p>
+            <ul class="fsponserList">
+                <li class="flogoLi fsponserLi1">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_5.png" class="flogo5" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi fsponserLi2">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_6.png" class="flogo6" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi fsponserLi3">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_7.png" class="flogo7" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi fsponserLi4">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_8.png" class="flogo8" alt="flogo">
+                    </a>
+                </li>
+            </ul>
+            <div class="fadressBox">
+                <p class="adress">
+                    06757<br>서울시 서초구 남부순환로 2406<br>예술의전당 오페라하우스 4층(재)<br>국립발레단
+                </p>
+                <p class="knbNumber">
+                    <strong>국립발레단</strong><br><strong>Tel </strong>02-587-6180~5<br><strong>Fax </strong>02-587-6186
+                </p>
+                <p class="academyNumber">
+                    <strong>아카데미</strong><br><strong>Tel </strong>02-587-6199
+                </p>
+                <a class="privacyBtn">개인정보 처리방침</a>
+            </div>
+            <div class="flawinfoBox">
+                <strong>청탁급지법 적용대상 기관안내</strong><br><p>(재)국립발레단은 공직자윤리법 제3조의2에 따른 공직유관단체로서 부정척탁 및 금품 등 수수의 금지에 관한 법률(청탁금지법) 적용 대상 기관임을 알립니다.</p>
+            </div>
+            <div clss="fcopyBox">
+                <p>Copyright(c) KOREAN NATIONAL BALLET 2021.</p>
+            </div>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/callendar.js"></script>
+    <script>
+        $(document).ready(function(){
+            var posterSwiper = new Swiper(".posterSwiper", {
+                slidesPerView: 1,
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+            });
+
+            $(function (e) {
+    var calendar = $("#scheduleCallendar").calendarGC({
+      dayBegin: 0,
+      prevIcon: '&#x3c;',
+      nextIcon: '&#x3e;',
+      onPrevMonth: function (e) {
+        console.log("prev");
+        console.log(e)
+      },
+      onNextMonth: function (e) {
+        console.log("next");
+        console.log(e)
+      },
+      events: [
+        {
+          date: new Date("2022-02-07"),
+          eventName: "Holiday",
+          className: "badge bg-danger",
+          onclick(e, data) {
+            console.log(data);
+          },
+          dateColor: "red"
+        },
+        {
+          date: new Date("2022-02-07"),
+          eventName: "Holiday with wife",
+          className: "badge bg-danger",
+          onclick(e, data) {
+            console.log(data);
+          },
+          dateColor: "red"
+        },
+        {
+          date: new Date("2022-02-08"),
+          eventName: "Working day",
+          className: "badge bg-success",
+          onclick(e, data) {
+            console.log(data);
+          },
+          dateColor: "green"
+        }
+      ],
+      onclickDate: function (e, data) {
+        console.log(e, data);
+      }
+    });
+  })
+        });
+    </script>
+</body>
+</html>

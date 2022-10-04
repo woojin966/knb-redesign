@@ -64,16 +64,27 @@ main{position: relative; /*top: 96px;*/ }
 .tabbtn{position: relative; padding: 10px 20px; font-size: 20px;}
 .tabbtn.currentTab{font-weight: bold;}
 .tabbtn.currentTab:before{content: ''; position: absolute; bottom: 0; width: calc(100% - 40px); height: 3px; background-color: #68171C; left: 20px;}
-.photoCardList{width: 100%; height: calc(100% - 60px); flex-wrap: wrap;}
+
+.photolistswiper{overflow: hidden;}
+.photolistswiper .swiper-slide{display: flex; justify-content: space-between;}
+.photolistswiper .swiper-button-next, .photolistswiper .swiper-button-next, .photolistswiper .swiper-button-next.swiper-button-disabled, .photolistswiper .swiper-button-prev, .photolistswiper .swiper-button-prev, .photolistswiper .swiper-button-prev.swiper-button-disabled{width: 40px; height: 40px; top: unset; bottom: 0; z-index: 60; position: absolute; background-color: #68171C;}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{content: ''; width: 50%; height: 50%; border-top: 1px solid #fff; border-right: 1px solid #fff; transform: rotate(45deg); right: 15px; position: absolute;}
+.photolistswiper .swiper-button-next, .photolistswiper .swiper-button-next, .photolistswiper .swiper-button-next.swiper-button-disabled{right: 0;}
+.photolistswiper .swiper-button-prev, .photolistswiper .swiper-button-prev, .photolistswiper .swiper-button-prev.swiper-button-disabled{left: 0;}
+.photolistswiper .swiper-button-prev:after, .photolistswiper .swiper-rtl .swiper-button-next:after{content: ''; width: 50%; height: 50%; border-top: 1px solid #fff; border-right: 1px solid #fff; transform: rotate(-135deg); left: 15px; position: absolute;}
+.photoCardList{width: 100%; display: flex; flex-wrap: wrap;}
 .photoCardList li{position: relative; margin-right: 20px; margin-bottom: 20px; width: calc(20% - 16px); height: 50%; overflow: hidden;}
 .photoCardList li:nth-child(5n){margin-right: 0;}
 .photoCardList li:nth-last-child(1), .photoCardList li:nth-last-child(2), .photoCardList li:nth-last-child(3), .photoCardList li:nth-last-child(4), .photoCardList li:nth-last-child(5){margin-bottom: 0;}
-.photoCardList li a{width: 100%; height: 100%;}
+.photoCardList li a{position: relative; width: 100%; height: 100%;}
+.photoCardList li a:before{content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.05); z-index: 1;}
 .photoCardList li a img{width: 100%; position: relative; top: -15px;}
-.photoTxt{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.105);}
-.photoTxt p{position: absolute; right: 10px; margin-bottom: 0; color: #fff; font-weight: bold; text-shadow: 0 0 5px #000;}
+/* .photoTxt{position: absolute; top: 0; left: 0; width: 100%; height: 100%; } */
+.photoTxt p{position: absolute; right: 10px; margin-bottom: 0; color: #fff; font-weight: bold; text-shadow: 0 0 5px #000; z-index: 2;}
 .photoName{bottom: 10px; font-size: 16px;}
 .photoPosition{bottom: 31px; font-size: 14px;}
+.photeDate{bottom: 10px; font-size: 16px; line-height: 1.4; text-align: right;}
+.photoPerform{bottom: 62px; font-size: 20px;}
 
 /* footer */
 footer{position: absolute; top: 160px; left: 100px; z-index: 2; width: 165px;}

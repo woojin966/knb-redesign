@@ -1,16 +1,11 @@
-.artStaffSwiper{overflow: hidden;}
-.artStaffSwiper .swiper-slide{display: flex; justify-content: space-between;}
-.artStaffSwiper .swiper-button-next, .artStaffSwiper .swiper-button-next, .artStaffSwiper .swiper-button-next.swiper-button-disabled, .artStaffSwiper .swiper-button-prev, .artStaffSwiper .swiper-button-prev, .artStaffSwiper .swiper-button-prev.swiper-button-disabled{width: 40px; height: 40px; top: unset; bottom: 0; z-index: 60; position: absolute; background-color: #68171C;}
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{content: ''; width: 50%; height: 50%; border-top: 1px solid #fff; border-right: 1px solid #fff; transform: rotate(45deg); right: 15px; position: absolute;}
-.artStaffSwiper .swiper-button-next, .artStaffSwiper .swiper-button-next, .artStaffSwiper .swiper-button-next.swiper-button-disabled{right: 0;}
-.artStaffSwiper .swiper-button-prev, .artStaffSwiper .swiper-button-prev, .artStaffSwiper .swiper-button-prev.swiper-button-disabled{left: 0;}
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{content: ''; width: 50%; height: 50%; border-top: 1px solid #fff; border-right: 1px solid #fff; transform: rotate(-135deg); left: 15px; position: absolute;}
+
+
 .cS1Bottom, .cS2Bottom, .cS3Bottom{margin-top: 40px;}
 .pfTitle{margin-bottom: 20px; font-size: 20px; font-weight: bold; color: #68171C;}
 .pfList li{display: flex;}
 .pfList li span{display: inline-block; font-size: 16px; line-height: 1.4; margin-bottom: 5px;}
 .pfYear{width: 20%; font-weight: bold;}
-.masterCrueList{display: flex;}
+.masterCrueList{display: flex; height: calc(100% - 60px);}
 .masterCrueList li a img{top: 0;}
 .masterCrueList li .master3 img{top: -30px;}
 
@@ -26,9 +21,9 @@
 .cSBox2{width: 450px; margin-right: 20px;}
 .cSBox3{width: 450px;}
 
-.artistList{display: none;}
-.artistList.currentTabCont{display: flex;}
-
+.artistSwiper{display: none;}
+.artistSwiper.currentTabCont{display: flex;}
+.artistList{height: calc(100% - 60px);}
 
 .officeList{display: none;}
 .officeList.currentOfficeTabCont{display: flex;}

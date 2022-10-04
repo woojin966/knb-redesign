@@ -56,14 +56,14 @@
                 <li class="menuLi menuLi3">
                     <dl>
                         <dt>
-                            <a href="javascript:void(0)" class="menuBtn menuBtn3">공연정보</a>
+                            <a href="knbschedule.html" class="menuBtn menuBtn3">공연정보</a>
                         </dt>
                         <dd>
                             <span class="menuTitle">공연정보</span>
                             <div class="menusubBox">
-                                <a href="javascript:void(0)" class="menusubBtn">공연안내</a>
-                                <a href="javascript:void(0)" class="menusubBtn">원간일정</a>
-                                <a href="javascript:void(0)" class="menusubBtn">연간일정</a>
+                                <a href="knbschedule.html" class="menusubBtn">공연안내</a>
+                                <a href="knbschedule.html" class="menusubBtn">원간일정</a>
+                                <a href="knbschedule.html" class="menusubBtn">연간일정</a>
                             </div>
                         </dd>
                     </dl>
@@ -131,7 +131,7 @@
             <div class="cotentTitleBox crueTitle1">
                 <p class="contentTitle">예술스태프</p>
             </div>
-            <div class="artStaffSwiper contentBox">
+            <div class="artStaffSwiper photolistswiper contentBox">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide crueContBox1">
                         <div class="cSBox1 cS1profile">
@@ -475,101 +475,133 @@
                 </div>
             </div>
             <div class="contentBox">
-                <ul id="artist1" class="artistList">
-                    <span>aaaaa</span>
-                </ul>
-                <ul id="artist2" class="photoCardList artistList currentTabCont">
-                    <li>
-                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist1">
-                            <img src="img/artist1.jpg" alt="knbartist">
-                        </a>
-                        <div class="photoTxt">
-                            <p class="photoName">이 수 희</p>
+                <div id="artist1" class="artistSwiper photolistswiper artist1Swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="photoCardList artistList">
+                                <span>aaaaa</span>
+                            </ul>
                         </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist2">
-                            <img src="img/artist2.jpg" alt="knbartist">
-                        </a>
-                        <div class="photoTxt">
-                            <p class="photoName">송 정 빈</p>
+                    </div>
+                </div>
+                <div id="artist2" class="artistSwiper photolistswiper artist2Swiper currentTabCont">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="photoCardList artistList">
+                                <li>
+                                    <a href="javascript:void(0)" class="photoCardBtn artistBtn artist1">
+                                        <img src="img/artist1.jpg" alt="knbartist">
+                                    </a>
+                                    <div class="photoTxt">
+                                        <p class="photoName">이 수 희</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="photoCardBtn artistBtn artist2">
+                                        <img src="img/artist2.jpg" alt="knbartist">
+                                    </a>
+                                    <div class="photoTxt">
+                                        <p class="photoName">송 정 빈</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="photoCardBtn artistBtn artist3">
+                                        <img src="img/artist3.jpg" alt="knbartist">
+                                    </a>
+                                    <div class="photoTxt">
+                                        <p class="photoName">정 은 영</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="photoCardBtn artistBtn artist4">
+                                        <img src="img/artist4.jpg" alt="knbartist">
+                                    </a>
+                                    <div class="photoTxt">
+                                        <p class="photoName">배 민 순</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="photoCardBtn artistBtn artist5">
+                                        <img src="img/artist5.jpg" alt="knbartist">
+                                    </a>
+                                    <div class="photoTxt">
+                                        <p class="photoName">한 나 래</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="photoCardBtn artistBtn artist6">
+                                        <img src="img/artist6.jpg" alt="knbartist">
+                                    </a>
+                                    <div class="photoTxt">
+                                        <p class="photoName">김 희 현</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="photoCardBtn artistBtn artist7">
+                                        <img src="img/artist7.jpg" alt="knbartist">
+                                    </a>
+                                    <div class="photoTxt">
+                                        <p class="photoName">변 성 완</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="photoCardBtn artistBtn artist8">
+                                        <img src="img/artist8.jpg" alt="knbartist">
+                                    </a>
+                                    <div class="photoTxt">
+                                        <p class="photoName">강 효 형</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="photoCardBtn artistBtn artist9">
+                                        <img src="img/artist9.jpg" alt="knbartist">
+                                    </a>
+                                    <div class="photoTxt">
+                                        <p class="photoName">박 나 리</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="photoCardBtn artistBtn artist10">
+                                        <img src="img/artist10.jpg" alt="knbartist">
+                                        <span class="photoshade"></span>
+                                    </a>
+                                    <div class="photoTxt">
+                                        <p class="photoName">하 지 석</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist3">
-                            <img src="img/artist3.jpg" alt="knbartist">
-                        </a>
-                        <div class="photoTxt">
-                            <p class="photoName">정 은 영</p>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div id="artist3" class="artistSwiper photolistswiper artist3Swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="artistList photoCardList">
+                                <span>bbbbb</span>
+                            </ul>
                         </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist4">
-                            <img src="img/artist4.jpg" alt="knbartist">
-                        </a>
-                        <div class="photoTxt">
-                            <p class="photoName">배 민 순</p>
+                    </div>
+                </div>
+                <div id="artist4" class="artistSwiper photolistswiper artist4Swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="artistList photoCardList">
+                                <span>ccccc</span>
+                            </ul>
                         </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist5">
-                            <img src="img/artist5.jpg" alt="knbartist">
-                        </a>
-                        <div class="photoTxt">
-                            <p class="photoName">한 나 래</p>
+                    </div>
+                </div>
+                <div id="artist5" class="artistSwiper photolistswiper artist5Swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="artistList photoCardList">
+                                <span>ddddd</span>
+                            </ul>
                         </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist6">
-                            <img src="img/artist6.jpg" alt="knbartist">
-                        </a>
-                        <div class="photoTxt">
-                            <p class="photoName">김 희 현</p>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist7">
-                            <img src="img/artist7.jpg" alt="knbartist">
-                        </a>
-                        <div class="photoTxt">
-                            <p class="photoName">변 성 완</p>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist8">
-                            <img src="img/artist8.jpg" alt="knbartist">
-                        </a>
-                        <div class="photoTxt">
-                            <p class="photoName">강 효 형</p>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist9">
-                            <img src="img/artist9.jpg" alt="knbartist">
-                        </a>
-                        <div class="photoTxt">
-                            <p class="photoName">박 나 리</p>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" class="photoCardBtn artistBtn artist10">
-                            <img src="img/artist10.jpg" alt="knbartist">
-                            <span class="photoshade"></span>
-                        </a>
-                        <div class="photoTxt">
-                            <p class="photoName">하 지 석</p>
-                        </div>
-                    </li>
-                </ul>
-                <ul id="artist3" class="artistList">
-                    <span>bbbbb</span>
-                </ul>
-                <ul id="artist4" class="artistList">
-                    <span>ccccc</span>
-                </ul>
-                <ul id="artist5" class="artistList">
-                    <span>ddddd</span>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="contentSection crueSection3">
