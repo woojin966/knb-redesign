@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <!-- coponent css -->
     <link rel="stylesheet" href="css/component/schedule.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/calendar.css">
+    
     <title>국립발레단</title>
 </head>
 <body>
@@ -225,11 +224,162 @@
                 <div class="swiper-button-prev"></div>
             </div>
         </div>
-        <div class="contentSection scheduleSection1">
+        <div class="contentSection scheduleSection2">
             <div class="cotentTitleBox scheduleTitle2">
-                <p class="contentTitle">공연안내</p>
+                <p class="contentTitle">월간일정</p>
             </div>
-            <div id="scheduleCallendar" class="contentBox callendarSwiper photolistswiper callendarContentBox">
+            <div id="scheduleCallendar" class="contentBox callendarContentBox">
+                
+            </div>
+        </div>
+        <div class="contentSection scheduleSection3">
+            <div class="cotentTitleBox scheduleTitle3">
+                <p class="contentTitle">연간일정</p>
+            </div>
+            <div class="contentBox YearScheduleContentBox">
+                <ul class="photoCardList yearScheduleList">
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">1월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyDate">4</p>
+                                <p class="yMonthlyPlan">[대구]Fly Higher with KNB / 대구수성아트피아 용지홀</p>
+                            </li>
+                            <li>
+                                <p class="yMonthlyDate">6</p>
+                                <p class="yMonthlyPlan">[용인]Fly Higher with KNB / 용인포인아트홀</p>
+                            </li>
+                            <li>
+                                <p class="yMonthlyDate">7</p>
+                                <p class="yMonthlyPlan">[강동]Fly Higher with KNB / 강동아트센터 대극장 한강</p>
+                            </li>
+                            <li>
+                                <p class="yMonthlyDate">11</p>
+                                <p class="yMonthlyPlan">[안성]Fly Higher with KNB / 안성맞춤아트홀 대공연장</p>
+                            </li>
+                            <li>
+                                <p class="yMonthlyDate">13</p>
+                                <p class="yMonthlyPlan">[경주]스페셜 갈라 / 경주예술의전당 화랑홀</p>
+                            </li>
+                            <li>
+                                <p class="yMonthlyDate">17</p>
+                                <p class="yMonthlyPlan">[전주]Fly Higher with KNB / 한국소리문화의전당 모악당</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">2월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">3월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">4월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">5월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">6월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">7월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">8월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">9월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">10월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">11월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn yearScheCard">
+                            <p class="yearScheMonth">12월</p>
+                        </a>
+                        <ul class="yearMonthlyList">
+                            <li>
+                                <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </main>
@@ -305,10 +455,8 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script src="js/common.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/callendar.js"></script>
     <script>
         $(document).ready(function(){
             var posterSwiper = new Swiper(".posterSwiper", {
@@ -318,54 +466,38 @@
                 prevEl: ".swiper-button-prev",
                 },
             });
+            
+            const CURRENT_DAY = new Date();
+            const CURRENT_MONTH = CURRENT_DAY.getMonth() + 1;
+            const CURRENT_YEAR = CURRENT_DAY.getFullYear();
+            const LAST_YEAR = CURRENT_YEAR - 1;
+            
+            console.log(CURRENT_DAY);
+            console.log(CURRENT_MONTH);
+            console.log(CURRENT_YEAR);
+            console.log(LAST_YEAR);
+            
 
-            $(function (e) {
-    var calendar = $("#scheduleCallendar").calendarGC({
-      dayBegin: 0,
-      prevIcon: '&#x3c;',
-      nextIcon: '&#x3e;',
-      onPrevMonth: function (e) {
-        console.log("prev");
-        console.log(e)
-      },
-      onNextMonth: function (e) {
-        console.log("next");
-        console.log(e)
-      },
-      events: [
-        {
-          date: new Date("2022-02-07"),
-          eventName: "Holiday",
-          className: "badge bg-danger",
-          onclick(e, data) {
-            console.log(data);
-          },
-          dateColor: "red"
-        },
-        {
-          date: new Date("2022-02-07"),
-          eventName: "Holiday with wife",
-          className: "badge bg-danger",
-          onclick(e, data) {
-            console.log(data);
-          },
-          dateColor: "red"
-        },
-        {
-          date: new Date("2022-02-08"),
-          eventName: "Working day",
-          className: "badge bg-success",
-          onclick(e, data) {
-            console.log(data);
-          },
-          dateColor: "green"
-        }
-      ],
-      onclickDate: function (e, data) {
-        console.log(e, data);
-      }
-    });
-  })
+            $( "#scheduleCallendar" ).datepicker({
+                dateFormat: 'yy-mm-dd' //Input Display Format 변경
+                ,showOtherMonths: true //빈 공간에 현재월의 앞뒤월의 날짜를 표시
+                ,showMonthAfterYear:false //년도 먼저 나오고, 뒤에 월 표시
+                ,changeYear: true //콤보박스에서 년 선택 가능
+                ,changeMonth: true //콤보박스에서 월 선택 가능                
+                ,showOn: "both" //button:버튼을 표시하고,버튼을 눌러야만 달력 표시 ^ both:버튼을 표시하고,버튼을 누르거나 input을 클릭하면 달력 표시  
+                ,buttonImage: "http://jqueryui.com/resources/demos/datepicker/images/calendar.gif" //버튼 이미지 경로
+                ,buttonImageOnly: true //기본 버튼의 회색 부분을 없애고, 이미지만 보이게 함
+                ,buttonText: "선택" //버튼에 마우스 갖다 댔을 때 표시되는 텍스트                
+                //,yearSuffix: "년" //달력의 년도 부분 뒤에 붙는 텍스트
+                ,monthNamesShort: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] //달력의 월 부분 텍스트
+                ,monthNames: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] //달력의 월 부분 Tooltip 텍스트
+                ,dayNamesMin: ['일요일','월요일','화요일','수요일','목요일','금요일','토요일'] //달력의 요일 부분 텍스트
+                ,dayNames: ['일요일','월요일','화요일','수요일','목요일','금요일','토요일'] //달력의 요일 부분 Tooltip 텍스트
+                //,minDate: "-1Y" //최소 선택일자(-1D:하루전, -1M:한달전, -1Y:일년전)
+                //,maxDate: "0Y" //최대 선택일자(+1D:하루후, -1M:한달후, -1Y:일년후) 
+                ,yearRange: LAST_YEAR + ':' + CURRENT_YEAR
+            });
+            //$('.ui-icon-circle-triangle-e').text('');
         });
     </script>
 </body>

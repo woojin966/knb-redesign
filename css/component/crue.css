@@ -1,29 +1,115 @@
+.cS1Bottom,
+.cS2Bottom,
+.cS3Bottom {
+    margin-top: 40px;
+}
 
+.pfTitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #68171C;
+}
 
-.cS1Bottom, .cS2Bottom, .cS3Bottom{margin-top: 40px;}
-.pfTitle{margin-bottom: 20px; font-size: 20px; font-weight: bold; color: #68171C;}
-.pfList li{display: flex;}
-.pfList li span{display: inline-block; font-size: 16px; line-height: 1.4; margin-bottom: 5px;}
-.pfYear{width: 20%; font-weight: bold;}
-.masterCrueList{display: flex; height: calc(100% - 60px);}
-.masterCrueList li a img{top: 0;}
-.masterCrueList li .master3 img{top: -30px;}
+.pfList li {
+    display: flex;
+}
 
-.tabbtn.currentOfficeTab{font-weight: bold;}
-.tabbtn.currentOfficeTab:before{content: ''; position: absolute; bottom: 0; width: calc(100% - 40px); height: 3px; background-color: #68171C; left: 20px;}
+.pfList li span {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
 
-.contentBox{display: flex; justify-content: space-between;}
-.contentBox > div{height: 100%;}
-.crueContBox2, .crueContBox3{height: 100%;}
-.cSBox1{width: 300px; margin-right: 20px;}
-.cS1Top{width: 100%; height: 290px; overflow: hidden;}
-.cS1Top img{position: relative; top: -20px; width: 100%;}
-.cSBox2{width: 450px; margin-right: 20px;}
-.cSBox3{width: 450px;}
+.pfYear {
+    width: 20%;
+    font-weight: bold;
+}
 
-.artistSwiper{display: none;}
-.artistSwiper.currentTabCont{display: flex;}
-.artistList{height: calc(100% - 60px);}
+.masterCrueList {
+    display: flex;
+    height: calc(100% - 60px);
+}
 
-.officeList{display: none;}
-.officeList.currentOfficeTabCont{display: flex;}
+.masterCrueList li a img {
+    top: 0;
+}
+
+.masterCrueList li .master3 img {
+    top: -30px;
+}
+
+.tabbtn.currentOfficeTab {
+    font-weight: bold;
+}
+
+.tabbtn.currentOfficeTab:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 40px);
+    height: 3px;
+    background-color: #68171C;
+    left: 20px;
+}
+
+.contentBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBox>div {
+    height: 100%;
+}
+
+.crueContBox2,
+.crueContBox3 {
+    height: 100%;
+}
+
+.cSBox1 {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.cS1Top {
+    width: 100%;
+    height: 290px;
+    overflow: hidden;
+}
+
+.cS1Top img {
+    position: relative;
+    top: -20px;
+    width: 100%;
+}
+
+.cSBox2 {
+    width: 450px;
+    margin-right: 20px;
+}
+
+.cSBox3 {
+    width: 450px;
+}
+
+.artistSwiper {
+    display: none;
+}
+
+.artistSwiper.currentTabCont {
+    display: flex;
+}
+
+.artistList {
+    height: calc(100% - 60px);
+}
+
+.officeList {
+    display: none;
+}
+
+.officeList.currentOfficeTabCont {
+    display: flex;
+}
