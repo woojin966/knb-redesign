@@ -1,11 +1,6 @@
 
 
 .introSection1{display: flex; flex-wrap: wrap;}
-.introContBox_60{width: 60%; padding-right: 20px;}
-/* .introContBox_60 p{margin-bottom: 10px;} */
-.introContBox_100{width: 100%;}
-.introPhotoBox_40{width: calc(40% - 20px); margin-left: 20px; height: 530px; overflow: hidden;}
-.introPhotoBox_40 img.sujin{display: block; width: 110%; position: relative; top: -40px; left: -50px;}
 
 .iS2_btnBox{margin-top: 40px; text-align: right;}
 .iS2_btnBox a{display: inline-block; margin-right: 10px; padding: 20px 30px; background-color: #000; color: #fff; transition: .4s; text-align: center;}
