@@ -91,6 +91,7 @@ footer {
   box-sizing: border-box;
   position: relative;
 }
+span{display: inline-block;}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -146,10 +147,11 @@ input {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+          border: none;
 }
 
 /* IE10 이상에서 input box 에 추가된 지우기 버튼 제거 */
-input::-ms-clear { display: none; }
+input::-ms-clear { display: none; border: none;}
 
 /* input type number 에서 화살표 제거 */
 input[type='number']::-webkit-inner-spin-button,
@@ -157,6 +159,7 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+          border: none;
 }
 
 /* Select box 스타일 초기화 */ 
@@ -164,7 +167,8 @@ select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+          border: none;
 }
 
 /* IE 에서 Select box 화살표 제거 */ 
-select::-ms-expand { display: none; }
+select::-ms-expand { display: none; border: none;}

@@ -1,860 +1,1261 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/common.css">
-        <!-- coponent css -->
-        <link rel="stylesheet" href="css/component/academy.css">
-        <title>국립발레단</title>
-    </head>
-    <body>
-        <header>
-            <div class="logoBox">
-                <a class="logoBtn">
-                    <img src="img/logo/knblogo_w.png" alt="logo">
-                </a>
-            </div>
-            <div class="menuBox">
-                <ul>
-                    <li class="menuLi menuLi1">
-                        <dl>
-                            <dt>
-                                <a href="knbIntro.html" class="menuBtn menuBtn1">국립발레단 소개</a>
-                            </dt>
-                            <dd>
-                                <span class="menuTitle">국립발레단<br>소개</span>
-                                <div class="menusubBox">
-                                    <a href="knbIntro.html" class="menusubBtn">인사말</a>
-                                    <a href="knbIntro.html" class="menusubBtn">발레단 소개</a>
-                                    <a href="knbIntro.html" class="menusubBtn">조직도·이사진·자문위원</a>
-                                    <a href="knbIntro.html" class="menusubBtn">CI소개</a>
-                                    <a href="knbIntro.html)" class="menusubBtn">연보</a>
-                                    <a href="knbIntro.html" class="menusubBtn">찾아오시는 길</a>
-                                </div>
-                            </dd>
-                        </dl>
-                    </li>
-                    <li class="menuLi menuLi2">
-                        <dl>
-                            <dt>
-                                <a href="knbcrue.html" class="menuBtn menuBtn2">발레단 사람들</a>
-                            </dt>
-                            <dd>
-                                <span class="menuTitle">발레단<br>사람들</span>
-                                <div class="menusubBox">
-                                    <a href="knbcrue.html" class="menusubBtn">예술스태프</a>
-                                    <a href="knbcrue.html" class="menusubBtn">아티스트</a>
-                                    <a href="knbcrue.html" class="menusubBtn">행정스태프</a>
-                                </div>
-                            </dd>
-                        </dl>
-                    </li>
-                    <li class="menuLi menuLi3">
-                        <dl>
-                            <dt>
-                                <a href="knbschedule.html" class="menuBtn menuBtn3">공연정보</a>
-                            </dt>
-                            <dd>
-                                <span class="menuTitle">공연정보</span>
-                                <div class="menusubBox">
-                                    <a href="knbschedule.html" class="menusubBtn">공연안내</a>
-                                    <a href="knbschedule.html" class="menusubBtn">원간일정</a>
-                                    <a href="knbschedule.html" class="menusubBtn">연간일정</a>
-                                </div>
-                            </dd>
-                        </dl>
-                    </li>
-                    <li class="menuLi menuLi4">
-                        <dl>
-                            <dt>
-                                <a href="knbsupport.html" class="menuBtn menuBtn4">후원회</a>
-                            </dt>
-                            <dd>
-                                <span class="menuTitle">후원회</span>
-                                <div class="menusubBox">
-                                    <a href="knbsupport.html" class="menusubBtn">인사말</a>
-                                    <a href="knbsupport.html" class="menusubBtn">후원예우</a>
-                                    <a href="knbsupport.html" class="menusubBtn">후원조직</a>
-                                </div>
-                            </dd>
-                        </dl>
-                    </li>
-                    <li class="menuLi menuLi5">
-                        <dl>
-                            <dt>
-                                <a href="knbacademy.html" class="menuBtn menuBtn5">아카데미</a>
-                            </dt>
-                            <dd>
-                                <span class="menuTitle">아카데미</span>
-                                <div class="menusubBox">
-                                    <a href="knbacademy.html" class="menusubBtn">교장 인사말</a>
-                                    <a href="knbacademy.html" class="menusubBtn">아카데미 소개</a>
-                                    <a href="knbacademy.html" class="menusubBtn">강사 소개</a>
-                                    <a href="knbacademy.html" class="menusubBtn">갤러리</a>
-                                    <a href="knbacademy.html" class="menusubBtn">강좌 및 등록안내</a>
-                                    <a href="knbacademy.html" class="menusubBtn">환불 관련안내</a>
-                                    <a href="knbacademy.html" class="menusubBtn">아카데미 공지사항</a>
-                                    <a href="knbacademy.html" class="menusubBtn">자주묻는 질문</a>
-                                </div>
-                            </dd>
-                        </dl>
-                    </li>
-                    <li class="menuLi menuLi6">
-                        <dl>
-                            <dt>
-                                <a href="knbnews.html" class="menuBtn menuBtn6">발레단 소식</a>
-                            </dt>
-                            <dd>
-                                <span class="menuTitle">발레단<br>소식</span>
-                                <div class="menusubBox">
-                                    <a href="knbnews.html" class="menusubBtn">공지사항</a>
-                                    <a href="knbnews.html" class="menusubBtn">뉴스레터</a>
-                                    <a href="knbnews.html" class="menusubBtn">1:1 문의</a>
-                                </div>
-                            </dd>
-                        </dl>
-                    </li>
-                </ul>
-            </div>
-            <div class="loginlangBox">
-                <a href="javascript:void(0)" class="loginBtn">로그인</a>
-                <a href="javascript:void(0)" class="langBtn english">ENGLISH</a>
-            </div>
-            <!-- <span class="headerBg"></span> -->
-        </header>
-        <main>
-            <div class="contentSection academyySection1">
-                <div class="cotentTitleBox academyTitle1">
-                    <p class="contentTitle">인사말</p>
-                </div>
-                <div class="contentBox academyContentBox1">
-                    <div class="introContBox_60">
-                        <p class="nomalSentence introSent1">안녕하세요.<br>국립발레단 부설 발레아카데미 5대 교장 신무섭입니다.</p>
-                        <p class="nomalSentence introSent2">올해로 28년 역사의 우리나라 최초 발레단 산하 국립발레단 부설 발레아카데미는<br>학생반 및 성인 취미반의 레벨별 체계적인 수업 프로그램을 개발하고,<br>발레의 기본기를 중심으로 교육하는데 힘써오고 있습니다.</p>
-                        <p class="nomalSentence introSent3">반짝이는 보석 같은 어린 발레 꿈나무들이 다양한 무대 경험의 기회를<br>가질 수 있도록 하며, 성인 취미반은 교양 있고, 체계적인 발레 클래스를<br>제공할 수 있도록 앞으로도 노력하겠습니다.</p>
-                        <p class="nomalSentence introSent4">코로나19로 전 세계가 힘든 상황 속에서 국립발레단 부설 발레아카데미를<br>통해 발레 인재 발굴과 육성 그리고 우리나라 발레 발전에 도움 될 수 있도록 최선을 다하겠습니다.</p>
-                        <p class="nomalSentence introSent5">감사합니다.</p>
-                        <div class="sentenceNameBox">
-                            <p class="middleSentence_bold">국립발레단 부예술감독 겸 국립발레단 부설 발레아카데미 교장</p>
-                            <p class="subTitleSentence">신 무 섭</p>
-                        </div>
-                    </div>
-                    <div class="introPhotoBox_40">
-                        <img src="img/master2.jpg" class="" alt="">
-                    </div>
-                </div>
-                <span class="bgSquare"></span>
-            </div>
-            <div class="contentSection academyySection2">
-                <div class="cotentTitleBox academyTitle2">
-                    <p class="contentTitle">아카데미 소개</p>
-                </div>
-                <div class="contentBox academyContentBox2">
-                    <div class="academyCont1">
-                        <div class="academyCont1left">
-                            <div>
-                                <p class="middleSentence_bold academysubTitle">국내 최초 발레단 산하 아카데미</p>
-                            </div>
-                            <div>
-                                <p class="nomalSentence">1993년 한국 발레 30년 숙원이던 발레단 부설 교육기관인 '문화학교'(현 국립발레단 부설 발레아카데미)가 국내 최초로 국립극장 내 개설 되었습니다. 이는 국립발레단 초대 단장으로서 재임한 故임성남 전 단장이 열망하던 '국립발레학교'의 중요한 첫 걸음 이었습니다. 당시 불모지이던 국내 발레교육에 해외유학이 아닌 자체적으로 조기교육이 가능하도록 이끈 셈이었는데 이로써 발레단은 한국발레의 앞날을 이끌어 갈 꿈나무를 키워내는 일을 본격적으로 시작하게 되었습니다.<br>그리고 러시아 명문 발레학교인 볼쇼이 발레학교와의 오랜 교류로 체계적인 실기교육을 실시하였음은 물론이고 세계적으로 유명한 러시아 바가노바 발레학교와 교류를 맺어 한층 더 전문적인 교육을 실시하였습니다. 저희 아카데미는 러시아 발레 메소드에 기초하여 전문적이고 체계적인 교육을 통해 인재를 조기 발굴, 육성하는데 최선을 다하고 있으며 그 결과 국립발레단 부설 발레아카데미에서는 많은 스타무용수들을 배출하여 대한민국 발레교육의 명실상부한 리더로 성장하고 있습니다.</p>
-                            </div>
-                        </div>
-                        <div class="academyCont1right">
-                            <img src="img/introduceacademy1.jpg" alt="introduceacademyimg">
-                        </div>
-                    </div>
-                    <div class="academyCont2">
-                        <div class="academyCont2left">
-                            <img src="img/introduceacademy2.jpg" alt="introduceacademyimg">
-                        </div>
-                        <div class="academyCont2right">
-                            <div>
-                                <p class="middleSentence_bold academysubTitle">국내 최초의 성인취미반</p>
-                            </div>
-                            <div>
-                                <p class="nomalSentence">2000년도, 국립발레단 부설 발레아카데미가 국내 최초로 발레전공자가 아닌 아마추어를 위한 성인취미반 발레교실을 열었습니다. 성인취미반은 발레 대중화에 앞장 서온 국립발레단 부설 발레아카데미의 전문적이고 체계적인 실기교육을 제공함으로써, 발레를 동경하는 일반인들에게 환영받음과 동시에 수강생들의 자세 및 체형교정의 효과도 얻는 프로그램으로 자리 잡고 있습니다. 또한 매년 아카데미 정기공연(1회)에 참가함으로써 무대 위 무용수로의 꿈을 실현할 수 있는 기회도 주어집니다.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="contentSection academyySection3">
-                <div class="cotentTitleBox academyTitle3">
-                    <p class="contentTitle">강사진 소개</p>
-                    <div class="tabMenuBox iS5Box1">
-                        <a href="javascript:void(0)" data-tab="academyStaff1" class="tabbtn tabAcademyStaffBtn academyStaffTab1 currentTab">강사진</a>
-                        <a href="javascript:void(0)" data-tab="academyStaff2" class="tabbtn tabAcademyStaffBtn academyStaffTab2">행정</a>
-                    </div>
-                </div>
-                <div class="contentBox academyContentBox3">
-                    <ul id="academyStaff1" class="photoCardList academyStaffList currentTabCont">
-                        <li>
-                            <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff1">
-                                <img src="img/tab1artiststaff1.jpg" alt="knbacademyStaff">
-                            </a>
-                            <div class="photoTxt">
-                                <p class="photoPosition">전임교사</p>
-                                <p class="photoName">노 지 영</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff2">
-                                <img src="img/tab1artiststaff2.jpg" alt="knbacademyStaff">
-                            </a>
-                            <div class="photoTxt">
-                                <p class="photoPosition">발레교사</p>
-                                <p class="photoName">이 종 은</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff3">
-                                <img src="img/tab1artiststaff3.jpg" alt="knbacademyStaff">
-                            </a>
-                            <div class="photoTxt">
-                                <p class="photoPosition">발레교사</p>
-                                <p class="photoName">유 수 민</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff4">
-                                <img src="img/tab1artiststaff4.jpg" alt="knbacademyStaff">
-                            </a>
-                            <div class="photoTxt">
-                                <p class="photoPosition">발레교사</p>
-                                <p class="photoName">김 지 영</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff5">
-                                <img src="img/tab1artiststaff5.jpg" alt="knbacademyStaff">
-                            </a>
-                            <div class="photoTxt">
-                                <p class="photoPosition">발레교사</p>
-                                <p class="photoName">김 정 은</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff6">
-                                <img src="img/tab1artiststaff6.png" alt="knbacademyStaff">
-                            </a>
-                            <div class="photoTxt">
-                                <p class="photoPosition">발레교사</p>
-                                <p class="photoName">방 은 지</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff7">
-                                <img src="img/tab1artiststaff7.jpg" alt="knbacademyStaff">
-                            </a>
-                            <div class="photoTxt">
-                                <p class="photoPosition">반주강사</p>
-                                <p class="photoName">정 혜 연</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff7">
-                                <img src="img/tab1artiststaff8.jpg" alt="knbacademyStaff">
-                            </a>
-                            <div class="photoTxt">
-                                <p class="photoPosition">반주강사</p>
-                                <p class="photoName">윤 혜 정</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff7">
-                                <img src="img/tab1artiststaff9.jpg" alt="knbacademyStaff">
-                            </a>
-                            <div class="photoTxt">
-                                <p class="photoPosition">반주강사</p>
-                                <p class="photoName">신 슬 기</p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff7">
-                                <img src="img/tab1artiststaff10.jpg" alt="knbacademyStaff">
-                            </a>
-                            <div class="photoTxt">
-                                <p class="photoPosition">반주강사</p>
-                                <p class="photoName">조 선 미</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul id="academyStaff2" class="academyStaffList">
-                        <span>aaaaa</span>
-                    </ul>
-                </div>
-            </div>
-            <div class="contentSection academyySection4">
-                <div class="cotentTitleBox academyTitle4">
-                    <p class="contentTitle">갤러리</p>
-                </div>
-                <div class="contentBox academyContentBox4">
-                    <div class="gallerySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="img/gellery1.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery2.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery3.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery4.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery5.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery6.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery7.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery8.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery9.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery10.jpg" alt="knb_gallery">
-                            </div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                    <div thumbsSlider="" class="galleryThumbSwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="img/gellery1.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery2.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery3.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery4.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery5.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery6.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery7.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery8.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery9.jpg" alt="knb_gallery">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gellery10.jpg" alt="knb_gallery">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="contentSection academyySection5">
-                <div class="cotentTitleBox academyTitle5">
-                    <p class="contentTitle">강좌 및 등록안내</p>
-                </div>
-                <div class="contentBox academyContentBox5">
-                    <div>
-                        <div class="ac5Con1">
-                            <div class="ac5ConLeft">
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">학생반</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">국립발레단 단원출신의 경험이 바탕이 된 실기교육</p>
-                                    <p class="nomalSentence">러시아 발레 메소드를 바탕으로 한 체계적이고 전문적인 실기교육</p>
-                                    <p class="nomalSentence">피아노 반주의 모든 수업으로 음악성을 높이는 교육</p>
-                                    <p class="nomalSentence">오디션을 통한 정원제의 단계별 학습</p>
-                                    <p class="nomalSentence">아카데미 정기공연 <쁠리에> 및 다수의 국립발레단 공연 참여 기회 제공</p>
-                                    <p class="nomalSentence">매년 해당 레벨 이수시 수료증 수여</p>
-                                </div>
-                            </div>
-                            <div class="ac5ConRight">
-                                <div thumbsSlider="" class="lessonThumbSwiper">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery3.jpg" src="knbacademyimg">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery4.jpg" src="knbacademyimg">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery5.jpg" src="knbacademyimg">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="lessonSwiper">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery3.jpg" src="knbacademyimg">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery4.jpg" src="knbacademyimg">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery5.jpg" src="knbacademyimg">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ac5Con2">
-                            <div class="ac5ConLeft">
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">
-                                        입학 절차
-                                        <span class="subTitleRemark">※ 각 반의 정원은 10명 내외로 정기 또는 수시 오디션을 거쳐 선발</span>
-                                    </p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence"><b>정기오디션</b> 매년 하반기(11월) 실시</p>
-                                    <p class="nomalSentence"><b>수시오디션</b> 각 반의 결원이 있을 경우 상반기(1~3월)까지 수시로 오디션 실시</p>
-                                </div>
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">오디션 응시 접수방법</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence"><b>정기오디션</b> 오디션 실시 접수기간 동안 공고 확인 후 응시</p>
-                                    <p class="nomalSentence"><b>수시오디션</b> 아카데미 사무실로 전화 접수 -> 오디션 일정을 잡은 후 오디션 진행</p>
-                                </div>
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">동계 특강 안내</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">매년 초 1월에 실시하며 선착순 모집</p>
-                                    <p class="nomalSentence">발레스타에게 배우는 다양한 수업 프로그램</p>
-                                    <p class="nomalSentence">발레스타에게 배우는 다양한 수업 프로그램</p>
-                                </div>
-                            </div>
-                            <div class="ac5ConRight">
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">
-                                        클래스 편성 및 수강료 안내
-                                        <span class="subTitleRemark">※ 공휴일에는 모든 수업이 쉽니다.</span>
-                                    </p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <table class="lessonTable">
-                                        <thead>
-                                            <tr>
-                                                <td class="whiteCell nomalSentence">반명</td>
-                                                <td class="whiteCell nomalSentence">학년</td>
-                                                <td class="whiteCell nomalSentence">수업횟수</td>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="redCell nomalSentence">Pre Level</td>
-                                                <td class="purpleCell nomalSentence">초등 1~2학년</td>
-                                                <td class="purpleCell nomalSentence">Class 주 3회 + 짐나스틱 주 1회</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="redCell nomalSentence">Level 1</td>
-                                                <td class="purpleCell nomalSentence">초등 3학년</td>
-                                                <td class="purpleCell nomalSentence">Class 주 4회 + 짐나스틱 주 1회</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="redCell nomalSentence">Level 2-A</td>
-                                                <td class="purpleCell nomalSentence">초등 4학년</td>
-                                                <td class="purpleCell nomalSentence">Class 주 4회 + 포인트클래스 주 1회</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ac5Con3">
-                            <div class="ac5ConLeft">
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">성인취미반</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">국립발레단 단원 출신의 교사들이 발레의 기본을 정석으로 지도</p>
-                                    <p class="nomalSentence">자세 및 체형 교정과 우아한 취미활동 </p>
-                                    <p class="nomalSentence">모든 수업은 피아노 반주로 진행</p> 
-                                    <p class="nomalSentence">오디션 없이 선착순으로 모집</p> 
-                                    <p class="nomalSentence">아카데미 정기공연 <쁠리에>참여 기회 제공</p>
-                                    <a href="javascript:void(0)" class="durationBtn">접수기간 및 수강기간</a>
-                                </div>
-                            </div>
-                            <div class="ac5ConRight">
-                                <div thumbsSlider="" class="lessonThumbSwiper2">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery8.jpg" src="knbacademyimg">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery9.jpg" src="knbacademyimg">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery10.jpg" src="knbacademyimg">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="lessonSwiper2">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery8.jpg" src="knbacademyimg">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery9.jpg" src="knbacademyimg">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/gellery10.jpg" src="knbacademyimg">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ac5Con4">
-                            <div class="ac5ConLeft">
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">수강 신청 안내</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">- 성인 남녀라면 연령 무관하며 각반 선착순 30명까지 수강신청 가능</p>
-                                    <p class="nomalSentence">- 1분기(3개월) 또는 1개월(4주) 단위로 접수기간 내에만 수강신청 가능</p>
-                                </div>
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">접수기간</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">매달 정해진 접수기간에만 신청가능 (오전 11시 ~ 오후 5시까지)</p>
-                                    <p class="nomalSentence">※ 재수강생 분들을 우선으로 등록완료 후 신규생 분들의 접수를 받게 됩니다.</p>
-                                    <p class="nomalSentence">※ 접수기간 및 수강기간 표를 참조하시고 접수하여 주시기 바랍니다.</p>
-                                    <p class="nomalSentence">※ 접수기간을 준수하지 않을 시 선착순 순번에서 밀릴 수 있으니 반드시 접수기간을 준수하여 주시기 바랍니다.</p>
-                                </div>
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">접수방법</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">신청 및 수강료 모두 확인된 순서로 선착순 모집 (각반 20명 정원)</p>
-                                </div>
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">동계특강 안내</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">- 매년 초 1월에 실시하며 선착순 모집 (재수강생 우선으로 등록완료 후 신규생 접수)</p>
-                                    <p class="nomalSentence">- 국립발레단 현 무용수들의 클래스를 받을 수 있는 기회</p>
-                                </div>
-                            </div>
-                            <div class="ac5ConRight">
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence boxText">온라인 신청 접수</p>
-                                    <span class="boxArrow"></span>
-                                    <p class="nomalSentence boxText">담당자와 신청접수 확인 전화</p>
-                                    <span class="boxArrow"></span>
-                                    <p class="nomalSentence boxText">수강생 이름으로 수강료 납부</p>
-                                </div>
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">수강료</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">1개월(4주) 120,000원 / 1분기(3개월) 360,000원 ※ 수강료 연기시 최대 3개월까지만 가능</p>
-                                </div>
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">납부방법</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">- 계좌납부 시 하나은행 103-402551-02004 (재)국립발레단</p>
-                                    <p class="nomalSentence">- 카드납부 시 접수기간 내에 아카데미 사무실로 방문하여 카드로 결재</p>
-                                </div>
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">복장 안내</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">연습용 슈즈(천 슈즈), 핑크색 타이즈, 레오타드, 랩 스커트 및 반바지</p>
-                                    <p class="nomalSentence">※연습용 슈즈는 반드시 준비하여 주시기 바랍니다.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ac5Con5">
-                            <table class="lessonTable">
-                                <thead>
-                                    <tr>
-                                        <td class="whiteCell nomalSentence">반명</td>
-                                        <td class="whiteCell nomalSentence">기초반</td>
-                                        <td class="whiteCell nomalSentence">초급A반</td>
-                                        <td class="whiteCell nomalSentence">초급B반</td>
-                                        <td class="whiteCell nomalSentence">중급A반</td>
-                                        <td class="whiteCell nomalSentence">중급B반</td>
-                                        <td class="whiteCell nomalSentence">고급반</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="redCell nomalSentence">수업요일</td>
-                                        <td class="purpleCell nomalSentence">토요일</td>
-                                        <td class="purpleCell nomalSentence">화요일</td>
-                                        <td class="purpleCell nomalSentence">토요일</td>
-                                        <td class="purpleCell nomalSentence">목요일</td>
-                                        <td colspan="2" class="purpleCell nomalSentence">토요일</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="redCell nomalSentence">수업시간</td>
-                                        <td class="purpleCell nomalSentence">11:00 ~ 13:00</td>
-                                        <td class="purpleCell nomalSentence">19:30 ~ 21:30</td>
-                                        <td class="purpleCell nomalSentence">13:00 ~ 15:00</td>
-                                        <td class="purpleCell nomalSentence">19:30 ~ 21:30</td>
-                                        <td class="purpleCell nomalSentence">15:00 ~ 17:00</td>
-                                        <td class="purpleCell nomalSentence">17:00 ~ 19:00</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="redCell nomalSentence">발레경력</td>
-                                        <td class="purpleCell nomalSentence">0개월 ~ 1년</td>
-                                        <td colspan="2" class="purpleCell nomalSentence">1년 ~ 3년</td>
-                                        <td colspan="2" class="purpleCell nomalSentence">3년 ~ 5년</td>
-                                        <td class="purpleCell nomalSentence">5년 이상</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="redCell nomalSentence">수업장소</td>
-                                        <td colspan="6" class="purpleCell nomalSentence">발레스튜디오2</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="cotentTitleBox academyTitle5">
-                            <p class="contentTitle">수강문의</p>
-                        </div>
-                        <div class="ac5Con6">
-                            <div class="ac5ConLeft">
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">소재지</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">서울시 서초구 서초동 남부순환로 2406 예술의전당 내 N studio 국립발레단 부설<br>발레아카데미</p>
-                                    <p class="nomalSentence"><b>tel.</b> 02)587-6199 <b>E-mail.</b> fairy00@knballet.kr</p>
-                                </div>
-                            </div>
-                            <div class="ac5ConRight">
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">문의시간</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">오전 10시 ~ 오후 7시 (점심시간 12 ~ 1시)</p>
-                                    <a href="javascript:void(0)" class="applyBtn">온라인 수강신청</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="contentSection academyySection6">
-                <div class="cotentTitleBox academyTitle6">
-                    <p class="contentTitle">환불관련 안내</p>
-                </div>
-                <div class="contentBox academyContentBox6">
-                    <div>
-                        <div class="ac5Con7">
-                            <div class="ac5ConLeft">
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">수강료 환불 규정</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">- 1분기 별 등록 시에는 남은 개월 단위로 환불 가능</p>
-                                    <p class="nomalSentence">- 1개월 분납 등록을 적용하되 남은 개월은 전액 환불</p>
-                                    <p class="nomalSentence">- 등록 후 수업 시작 전 환불 요청 시 전액 환불 가능</p>
-                                    <p class="nomalSentence">- 매달(4주 단위) 분납 등록 시 1주일 수업 경과 2/3 수강료 환불, 2주일 수업 경과 1/2 수강료 환불, 2주 경과 후 수강료 환불 불가. 단, 주의 시작점은 월요일로 한다.</p>
-                                    <p class="nomalSentence">※ 유의사항 환불 금액은 매달 초에 일괄 지급됨을 알려드립니다.</p>
-                                </div>
-                            </div>
-                            <div class="ac5ConRight">
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">수강료 환불 접수 방법</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence boxText">환불사유서 다운로드</p>
-                                    <span class="boxArrow"></span>
-                                    <p class="nomalSentence boxText">사유서 작성 후 환불 받을 통장사본과 함께 접수</p>
-                                    <span class="boxArrow"></span>
-                                    <p class="nomalSentence boxText">담당자와 확인 전화</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="cotentTitleBox academyTitle5">
-                            <p class="contentTitle">환불문의</p>
-                        </div>
-                        <div class="ac5Con8">
-                            <div class="ac5ConLeft">
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">소재지</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">서울시 서초구 서초동 남부순환로 2406 예술의전당 내 N studio 국립발레단 부설<br>발레아카데미</p>
-                                    <p class="nomalSentence"><b>tel.</b> 02)587-6199 <b>E-mail.</b> fairy00@knballet.kr</p>
-                                </div>
-                            </div>
-                            <div class="ac5ConRight">
-                                <div class="ac5SubTitle">
-                                    <p class="middleSentence_bold subTitle">문의시간</p>
-                                </div>
-                                <div class="ac4Cont">
-                                    <p class="nomalSentence">오전 10시 ~ 오후 7시 (점심시간 12 ~ 1시)</p>
-                                    <a href="javascript:void(0)" class="applyBtn">온라인 수강신청</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <section class="fbtneBox">
-                <a href="javascript:void(0)" class="fopenBtn"></a>
-            </section>
-            <section class="fcontentBox">
-                <ul class="flogoList">
-                    <li class="flogoLi flogoLi1">
-                        <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_1.png" class="flogo1" alt="flogo">
-                        </a>
-                    </li>
-                    <li class="flogoLi flogoLi2">
-                        <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_2.png" class="flogo2" alt="flogo">
-                        </a>
-                    </li>
-                    <li class="flogoLi flogoLi3">
-                        <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_3.png" class="flogo3" alt="flogo">
-                        </a>
-                    </li>
-                    <li class="flogoLi flogoLi4">
-                        <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_4.png" class="flogo4" alt="flogo">
-                        </a>
-                    </li>
-                </ul>
-                <p clss="sponserTitle"><strong>협찬사</strong></p>
-                <ul class="fsponserList">
-                    <li class="flogoLi fsponserLi1">
-                        <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_5.png" class="flogo5" alt="flogo">
-                        </a>
-                    </li>
-                    <li class="flogoLi fsponserLi2">
-                        <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_6.png" class="flogo6" alt="flogo">
-                        </a>
-                    </li>
-                    <li class="flogoLi fsponserLi3">
-                        <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_7.png" class="flogo7" alt="flogo">
-                        </a>
-                    </li>
-                    <li class="flogoLi fsponserLi4">
-                        <a href="javascript:void(0)" class="flogoBtn">
-                            <img src="img/logo/footer_8.png" class="flogo8" alt="flogo">
-                        </a>
-                    </li>
-                </ul>
-                <div class="fadressBox">
-                    <p class="adress">
-                        06757<br>서울시 서초구 남부순환로 2406<br>예술의전당 오페라하우스 4층(재)<br>국립발레단
-                    </p>
-                    <p class="knbNumber">
-                        <strong>국립발레단</strong><br><strong>Tel </strong>02-587-6180~5<br><strong>Fax </strong>02-587-6186
-                    </p>
-                    <p class="academyNumber">
-                        <strong>아카데미</strong><br><strong>Tel </strong>02-587-6199
-                    </p>
-                    <a class="privacyBtn">개인정보 처리방침</a>
-                </div>
-                <div class="flawinfoBox">
-                    <strong>청탁급지법 적용대상 기관안내</strong><br><p>(재)국립발레단은 공직자윤리법 제3조의2에 따른 공직유관단체로서 부정척탁 및 금품 등 수수의 금지에 관한 법률(청탁금지법) 적용 대상 기관임을 알립니다.</p>
-                </div>
-                <div clss="fcopyBox">
-                    <p>Copyright(c) KOREAN NATIONAL BALLET 2021.</p>
-                </div>
-            </section>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-        <script src="js/common.js"></script>
-        <script>
-            $(document).ready(function(){
-                $('.tabAcademyStaffBtn').on('click', function(){
-                    var ACT_TAB = $(this);
-                    var actTab_DATA = ACT_TAB.attr('data-tab');
-                    var ACT_TABCONTENT = $('#' + actTab_DATA);
 
-                    if(ACT_TAB.hasClass('currentTab')){
-                        ACT_TAB.removeClass('currentTab').css({ 'pointer-events': 'auto' });
-                        ACT_TABCONTENT.removeClass('currentTabCont');
-                    }else{
-                        $('.currentTab').removeClass('currentTab').css({ 'pointer-events': 'auto' });
-                        $('.currentTabCont').removeClass('currentTabCont');
-                        ACT_TAB.addClass('currentTab').css({ 'pointer-events': 'none' });
-                        ACT_TABCONTENT.addClass('currentTabCont');
-                    }
-                });
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"> -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <!-- coponent css -->
+    <link rel="stylesheet" href="css/component/academy.css">
+    <title>국립발레단</title>
+</head>
 
-                var galleryThumbSwiper = new Swiper(".galleryThumbSwiper", {
-                    spaceBetween: 10,
-                    slidesPerView: 4,
-                    freeMode: true,
-                    watchSlidesProgress: true,
-                });
-                var gallerySwiper = new Swiper(".gallerySwiper", {
-                    spaceBetween: 10,
-                    navigation: {
+<body>
+    <header>
+        <div class="logoBox">
+            <a class="logoBtn">
+                <img src="img/logo/knblogo_w.png" alt="logo">
+            </a>
+        </div>
+        <div class="menuBox">
+            <ul>
+                <li class="menuLi menuLi1">
+                    <dl>
+                        <dt>
+                            <a href="knbIntro.html" class="menuBtn menuBtn1">국립발레단 소개</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">국립발레단<br>소개</span>
+                            <div class="menusubBox">
+                                <a href="knbIntro.html" class="menusubBtn">인사말</a>
+                                <a href="knbIntro.html" class="menusubBtn">발레단 소개</a>
+                                <a href="knbIntro.html" class="menusubBtn">조직도·이사진·자문위원</a>
+                                <a href="knbIntro.html" class="menusubBtn">CI소개</a>
+                                <a href="knbIntro.html)" class="menusubBtn">연보</a>
+                                <a href="knbIntro.html" class="menusubBtn">찾아오시는 길</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi2">
+                    <dl>
+                        <dt>
+                            <a href="knbcrue.html" class="menuBtn menuBtn2">발레단 사람들</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">발레단<br>사람들</span>
+                            <div class="menusubBox">
+                                <a href="knbcrue.html" class="menusubBtn">예술스태프</a>
+                                <a href="knbcrue.html" class="menusubBtn">아티스트</a>
+                                <a href="knbcrue.html" class="menusubBtn">행정스태프</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi3">
+                    <dl>
+                        <dt>
+                            <a href="knbschedule.html" class="menuBtn menuBtn3">공연정보</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">공연정보</span>
+                            <div class="menusubBox">
+                                <a href="knbschedule.html" class="menusubBtn">공연안내</a>
+                                <a href="knbschedule.html" class="menusubBtn">원간일정</a>
+                                <a href="knbschedule.html" class="menusubBtn">연간일정</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi4">
+                    <dl>
+                        <dt>
+                            <a href="knbsupport.html" class="menuBtn menuBtn4">후원회</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">후원회</span>
+                            <div class="menusubBox">
+                                <a href="knbsupport.html" class="menusubBtn">인사말</a>
+                                <a href="knbsupport.html" class="menusubBtn">후원예우</a>
+                                <a href="knbsupport.html" class="menusubBtn">후원조직</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi5">
+                    <dl>
+                        <dt>
+                            <a href="knbacademy.html" class="menuBtn menuBtn5">아카데미</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">아카데미</span>
+                            <div class="menusubBox">
+                                <a href="knbacademy.html" class="menusubBtn">교장 인사말</a>
+                                <a href="knbacademy.html" class="menusubBtn">아카데미 소개</a>
+                                <a href="knbacademy.html" class="menusubBtn">강사 소개</a>
+                                <a href="knbacademy.html" class="menusubBtn">갤러리</a>
+                                <a href="knbacademy.html" class="menusubBtn">강좌 및 등록안내</a>
+                                <a href="knbacademy.html" class="menusubBtn">환불 관련안내</a>
+                                <a href="knbacademy.html" class="menusubBtn">아카데미 공지사항</a>
+                                <a href="knbacademy.html" class="menusubBtn">자주묻는 질문</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi6">
+                    <dl>
+                        <dt>
+                            <a href="knbnews.html" class="menuBtn menuBtn6">발레단 소식</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">발레단<br>소식</span>
+                            <div class="menusubBox">
+                                <a href="knbnews.html" class="menusubBtn">공지사항</a>
+                                <a href="knbnews.html" class="menusubBtn">뉴스레터</a>
+                                <a href="knbnews.html" class="menusubBtn">1:1 문의</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="loginlangBox">
+            <a href="javascript:void(0)" class="loginBtn">로그인</a>
+            <a href="javascript:void(0)" class="langBtn english">ENGLISH</a>
+        </div>
+        <!-- <span class="headerBg"></span> -->
+    </header>
+    <main>
+        <div class="contentSection academyySection1">
+            <div class="cotentTitleBox academyTitle1">
+                <p class="contentTitle">인사말</p>
+            </div>
+            <div class="contentBox academyContentBox1">
+                <div class="introContBox_60">
+                    <p class="nomalSentence introSent1">안녕하세요.<br>국립발레단 부설 발레아카데미 5대 교장 신무섭입니다.</p>
+                    <p class="nomalSentence introSent2">올해로 28년 역사의 우리나라 최초 발레단 산하 국립발레단 부설 발레아카데미는<br>학생반 및 성인 취미반의 레벨별
+                        체계적인 수업 프로그램을 개발하고,<br>발레의 기본기를 중심으로 교육하는데 힘써오고 있습니다.</p>
+                    <p class="nomalSentence introSent3">반짝이는 보석 같은 어린 발레 꿈나무들이 다양한 무대 경험의 기회를<br>가질 수 있도록 하며, 성인 취미반은 교양
+                        있고, 체계적인 발레 클래스를<br>제공할 수 있도록 앞으로도 노력하겠습니다.</p>
+                    <p class="nomalSentence introSent4">코로나19로 전 세계가 힘든 상황 속에서 국립발레단 부설 발레아카데미를<br>통해 발레 인재 발굴과 육성 그리고
+                        우리나라 발레 발전에 도움 될 수 있도록 최선을 다하겠습니다.</p>
+                    <p class="nomalSentence introSent5">감사합니다.</p>
+                    <div class="sentenceNameBox">
+                        <p class="middleSentence_bold">국립발레단 부예술감독 겸 국립발레단 부설 발레아카데미 교장</p>
+                        <p class="subTitleSentence">신 무 섭</p>
+                    </div>
+                </div>
+                <div class="introPhotoBox_40">
+                    <img src="img/master2.jpg" class="" alt="">
+                </div>
+            </div>
+            <span class="bgSquare"></span>
+        </div>
+        <div class="contentSection academyySection2">
+            <div class="cotentTitleBox academyTitle2">
+                <p class="contentTitle">아카데미 소개</p>
+            </div>
+            <div class="contentBox academyContentBox2">
+                <div class="academyCont1">
+                    <div class="academyCont1left">
+                        <div>
+                            <p class="middleSentence_bold academysubTitle">국내 최초 발레단 산하 아카데미</p>
+                        </div>
+                        <div>
+                            <p class="nomalSentence">1993년 한국 발레 30년 숙원이던 발레단 부설 교육기관인 '문화학교'(현 국립발레단 부설 발레아카데미)가 국내 최초로
+                                국립극장 내 개설 되었습니다. 이는 국립발레단 초대 단장으로서 재임한 故임성남 전 단장이 열망하던 '국립발레학교'의 중요한 첫 걸음 이었습니다. 당시
+                                불모지이던 국내 발레교육에 해외유학이 아닌 자체적으로 조기교육이 가능하도록 이끈 셈이었는데 이로써 발레단은 한국발레의 앞날을 이끌어 갈 꿈나무를 키워내는 일을
+                                본격적으로 시작하게 되었습니다.<br>그리고 러시아 명문 발레학교인 볼쇼이 발레학교와의 오랜 교류로 체계적인 실기교육을 실시하였음은 물론이고 세계적으로 유명한
+                                러시아 바가노바 발레학교와 교류를 맺어 한층 더 전문적인 교육을 실시하였습니다. 저희 아카데미는 러시아 발레 메소드에 기초하여 전문적이고 체계적인 교육을 통해
+                                인재를 조기 발굴, 육성하는데 최선을 다하고 있으며 그 결과 국립발레단 부설 발레아카데미에서는 많은 스타무용수들을 배출하여 대한민국 발레교육의 명실상부한
+                                리더로 성장하고 있습니다.</p>
+                        </div>
+                    </div>
+                    <div class="academyCont1right">
+                        <img src="img/introduceacademy1.jpg" alt="introduceacademyimg">
+                    </div>
+                </div>
+                <div class="academyCont2">
+                    <div class="academyCont2left">
+                        <img src="img/introduceacademy2.jpg" alt="introduceacademyimg">
+                    </div>
+                    <div class="academyCont2right">
+                        <div>
+                            <p class="middleSentence_bold academysubTitle">국내 최초의 성인취미반</p>
+                        </div>
+                        <div>
+                            <p class="nomalSentence">2000년도, 국립발레단 부설 발레아카데미가 국내 최초로 발레전공자가 아닌 아마추어를 위한 성인취미반 발레교실을
+                                열었습니다. 성인취미반은 발레 대중화에 앞장 서온 국립발레단 부설 발레아카데미의 전문적이고 체계적인 실기교육을 제공함으로써, 발레를 동경하는 일반인들에게
+                                환영받음과 동시에 수강생들의 자세 및 체형교정의 효과도 얻는 프로그램으로 자리 잡고 있습니다. 또한 매년 아카데미 정기공연(1회)에 참가함으로써 무대 위
+                                무용수로의 꿈을 실현할 수 있는 기회도 주어집니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contentSection academyySection3">
+            <div class="cotentTitleBox academyTitle3">
+                <p class="contentTitle">강사진 소개</p>
+                <div class="tabMenuBox iS5Box1">
+                    <a href="javascript:void(0)" data-tab="academyStaff1"
+                        class="tabbtn tabAcademyStaffBtn academyStaffTab1 currentTab">강사진</a>
+                    <a href="javascript:void(0)" data-tab="academyStaff2"
+                        class="tabbtn tabAcademyStaffBtn academyStaffTab2">행정</a>
+                </div>
+            </div>
+            <div class="contentBox academyContentBox3">
+                <ul id="academyStaff1" class="photoCardList academyStaffList currentTabCont">
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff1">
+                            <img src="img/tab1artiststaff1.jpg" alt="knbacademyStaff">
+                        </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">전임교사</p>
+                            <p class="photoName">노 지 영</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff2">
+                            <img src="img/tab1artiststaff2.jpg" alt="knbacademyStaff">
+                        </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">발레교사</p>
+                            <p class="photoName">이 종 은</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff3">
+                            <img src="img/tab1artiststaff3.jpg" alt="knbacademyStaff">
+                        </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">발레교사</p>
+                            <p class="photoName">유 수 민</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff4">
+                            <img src="img/tab1artiststaff4.jpg" alt="knbacademyStaff">
+                        </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">발레교사</p>
+                            <p class="photoName">김 지 영</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff5">
+                            <img src="img/tab1artiststaff5.jpg" alt="knbacademyStaff">
+                        </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">발레교사</p>
+                            <p class="photoName">김 정 은</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff6">
+                            <img src="img/tab1artiststaff6.png" alt="knbacademyStaff">
+                        </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">발레교사</p>
+                            <p class="photoName">방 은 지</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff7">
+                            <img src="img/tab1artiststaff7.jpg" alt="knbacademyStaff">
+                        </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">반주강사</p>
+                            <p class="photoName">정 혜 연</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff7">
+                            <img src="img/tab1artiststaff8.jpg" alt="knbacademyStaff">
+                        </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">반주강사</p>
+                            <p class="photoName">윤 혜 정</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff7">
+                            <img src="img/tab1artiststaff9.jpg" alt="knbacademyStaff">
+                        </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">반주강사</p>
+                            <p class="photoName">신 슬 기</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="photoCardBtn academyStaffBtn academyStaff7">
+                            <img src="img/tab1artiststaff10.jpg" alt="knbacademyStaff">
+                        </a>
+                        <div class="photoTxt">
+                            <p class="photoPosition">반주강사</p>
+                            <p class="photoName">조 선 미</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul id="academyStaff2" class="academyStaffList">
+                    <span>aaaaa</span>
+                </ul>
+            </div>
+        </div>
+        <div class="contentSection academyySection4">
+            <div class="cotentTitleBox academyTitle4">
+                <p class="contentTitle">갤러리</p>
+            </div>
+            <div class="contentBox academyContentBox4">
+                <div class="gallerySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/gellery1.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery2.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery3.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery4.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery5.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery6.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery7.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery8.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery9.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery10.jpg" alt="knb_gallery">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div thumbsSlider="" class="galleryThumbSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/gellery1.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery2.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery3.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery4.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery5.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery6.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery7.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery8.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery9.jpg" alt="knb_gallery">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/gellery10.jpg" alt="knb_gallery">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contentSection academyySection5">
+            <div class="cotentTitleBox academyTitle5">
+                <p class="contentTitle">강좌 및 등록안내</p>
+            </div>
+            <div class="contentBox academyContentBox5">
+                <div>
+                    <div class="ac5Con1">
+                        <div class="ac5ConLeft">
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">학생반</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">국립발레단 단원출신의 경험이 바탕이 된 실기교육</p>
+                                <p class="nomalSentence">러시아 발레 메소드를 바탕으로 한 체계적이고 전문적인 실기교육</p>
+                                <p class="nomalSentence">피아노 반주의 모든 수업으로 음악성을 높이는 교육</p>
+                                <p class="nomalSentence">오디션을 통한 정원제의 단계별 학습</p>
+                                <p class="nomalSentence">아카데미 정기공연 <쁠리에> 및 다수의 국립발레단 공연 참여 기회 제공</p>
+                                <p class="nomalSentence">매년 해당 레벨 이수시 수료증 수여</p>
+                            </div>
+                        </div>
+                        <div class="ac5ConRight">
+                            <div thumbsSlider="" class="lessonThumbSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery3.jpg" src="knbacademyimg">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery4.jpg" src="knbacademyimg">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery5.jpg" src="knbacademyimg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lessonSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery3.jpg" src="knbacademyimg">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery4.jpg" src="knbacademyimg">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery5.jpg" src="knbacademyimg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ac5Con2">
+                        <div class="ac5ConLeft">
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">
+                                    입학 절차
+                                    <span class="subTitleRemark">※ 각 반의 정원은 10명 내외로 정기 또는 수시 오디션을 거쳐 선발</span>
+                                </p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence"><b>정기오디션</b> 매년 하반기(11월) 실시</p>
+                                <p class="nomalSentence"><b>수시오디션</b> 각 반의 결원이 있을 경우 상반기(1~3월)까지 수시로 오디션 실시</p>
+                            </div>
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">오디션 응시 접수방법</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence"><b>정기오디션</b> 오디션 실시 접수기간 동안 공고 확인 후 응시</p>
+                                <p class="nomalSentence"><b>수시오디션</b> 아카데미 사무실로 전화 접수 -> 오디션 일정을 잡은 후 오디션 진행</p>
+                            </div>
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">동계 특강 안내</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">매년 초 1월에 실시하며 선착순 모집</p>
+                                <p class="nomalSentence">발레스타에게 배우는 다양한 수업 프로그램</p>
+                                <p class="nomalSentence">발레스타에게 배우는 다양한 수업 프로그램</p>
+                            </div>
+                        </div>
+                        <div class="ac5ConRight">
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">
+                                    클래스 편성 및 수강료 안내
+                                    <span class="subTitleRemark">※ 공휴일에는 모든 수업이 쉽니다.</span>
+                                </p>
+                            </div>
+                            <div class="ac4Cont">
+                                <table class="lessonTable">
+                                    <thead>
+                                        <tr>
+                                            <td class="whiteCell nomalSentence">반명</td>
+                                            <td class="whiteCell nomalSentence">학년</td>
+                                            <td class="whiteCell nomalSentence">수업횟수</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="redCell nomalSentence">Pre Level</td>
+                                            <td class="purpleCell nomalSentence">초등 1~2학년</td>
+                                            <td class="purpleCell nomalSentence">Class 주 3회 + 짐나스틱 주 1회</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="redCell nomalSentence">Level 1</td>
+                                            <td class="purpleCell nomalSentence">초등 3학년</td>
+                                            <td class="purpleCell nomalSentence">Class 주 4회 + 짐나스틱 주 1회</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="redCell nomalSentence">Level 2-A</td>
+                                            <td class="purpleCell nomalSentence">초등 4학년</td>
+                                            <td class="purpleCell nomalSentence">Class 주 4회 + 포인트클래스 주 1회</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="ac5Con3">
+                        <div class="ac5ConLeft">
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">성인취미반</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">국립발레단 단원 출신의 교사들이 발레의 기본을 정석으로 지도</p>
+                                <p class="nomalSentence">자세 및 체형 교정과 우아한 취미활동 </p>
+                                <p class="nomalSentence">모든 수업은 피아노 반주로 진행</p>
+                                <p class="nomalSentence">오디션 없이 선착순으로 모집</p>
+                                <p class="nomalSentence">아카데미 정기공연 <쁠리에>참여 기회 제공</p>
+                                <a href="javascript:void(0)" class="durationBtn">접수기간 및 수강기간</a>
+                            </div>
+                        </div>
+                        <div class="ac5ConRight">
+                            <div thumbsSlider="" class="lessonThumbSwiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery8.jpg" src="knbacademyimg">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery9.jpg" src="knbacademyimg">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery10.jpg" src="knbacademyimg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lessonSwiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery8.jpg" src="knbacademyimg">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery9.jpg" src="knbacademyimg">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/gellery10.jpg" src="knbacademyimg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ac5Con4">
+                        <div class="ac5ConLeft">
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">수강 신청 안내</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">- 성인 남녀라면 연령 무관하며 각반 선착순 30명까지 수강신청 가능</p>
+                                <p class="nomalSentence">- 1분기(3개월) 또는 1개월(4주) 단위로 접수기간 내에만 수강신청 가능</p>
+                            </div>
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">접수기간</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">매달 정해진 접수기간에만 신청가능 (오전 11시 ~ 오후 5시까지)</p>
+                                <p class="nomalSentence">※ 재수강생 분들을 우선으로 등록완료 후 신규생 분들의 접수를 받게 됩니다.</p>
+                                <p class="nomalSentence">※ 접수기간 및 수강기간 표를 참조하시고 접수하여 주시기 바랍니다.</p>
+                                <p class="nomalSentence">※ 접수기간을 준수하지 않을 시 선착순 순번에서 밀릴 수 있으니 반드시 접수기간을 준수하여 주시기 바랍니다.
+                                </p>
+                            </div>
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">접수방법</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">신청 및 수강료 모두 확인된 순서로 선착순 모집 (각반 20명 정원)</p>
+                            </div>
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">동계특강 안내</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">- 매년 초 1월에 실시하며 선착순 모집 (재수강생 우선으로 등록완료 후 신규생 접수)</p>
+                                <p class="nomalSentence">- 국립발레단 현 무용수들의 클래스를 받을 수 있는 기회</p>
+                            </div>
+                        </div>
+                        <div class="ac5ConRight">
+                            <div class="ac4Cont">
+                                <p class="nomalSentence boxText">온라인 신청 접수</p>
+                                <span class="boxArrow"></span>
+                                <p class="nomalSentence boxText">담당자와 신청접수 확인 전화</p>
+                                <span class="boxArrow"></span>
+                                <p class="nomalSentence boxText">수강생 이름으로 수강료 납부</p>
+                            </div>
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">수강료</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">1개월(4주) 120,000원 / 1분기(3개월) 360,000원 ※ 수강료 연기시 최대 3개월까지만 가능</p>
+                            </div>
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">납부방법</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">- 계좌납부 시 하나은행 103-402551-02004 (재)국립발레단</p>
+                                <p class="nomalSentence">- 카드납부 시 접수기간 내에 아카데미 사무실로 방문하여 카드로 결재</p>
+                            </div>
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">복장 안내</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">연습용 슈즈(천 슈즈), 핑크색 타이즈, 레오타드, 랩 스커트 및 반바지</p>
+                                <p class="nomalSentence">※연습용 슈즈는 반드시 준비하여 주시기 바랍니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ac5Con5">
+                        <table class="lessonTable">
+                            <thead>
+                                <tr>
+                                    <td class="whiteCell nomalSentence">반명</td>
+                                    <td class="whiteCell nomalSentence">기초반</td>
+                                    <td class="whiteCell nomalSentence">초급A반</td>
+                                    <td class="whiteCell nomalSentence">초급B반</td>
+                                    <td class="whiteCell nomalSentence">중급A반</td>
+                                    <td class="whiteCell nomalSentence">중급B반</td>
+                                    <td class="whiteCell nomalSentence">고급반</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="redCell nomalSentence">수업요일</td>
+                                    <td class="purpleCell nomalSentence">토요일</td>
+                                    <td class="purpleCell nomalSentence">화요일</td>
+                                    <td class="purpleCell nomalSentence">토요일</td>
+                                    <td class="purpleCell nomalSentence">목요일</td>
+                                    <td colspan="2" class="purpleCell nomalSentence">토요일</td>
+                                </tr>
+                                <tr>
+                                    <td class="redCell nomalSentence">수업시간</td>
+                                    <td class="purpleCell nomalSentence">11:00 ~ 13:00</td>
+                                    <td class="purpleCell nomalSentence">19:30 ~ 21:30</td>
+                                    <td class="purpleCell nomalSentence">13:00 ~ 15:00</td>
+                                    <td class="purpleCell nomalSentence">19:30 ~ 21:30</td>
+                                    <td class="purpleCell nomalSentence">15:00 ~ 17:00</td>
+                                    <td class="purpleCell nomalSentence">17:00 ~ 19:00</td>
+                                </tr>
+                                <tr>
+                                    <td class="redCell nomalSentence">발레경력</td>
+                                    <td class="purpleCell nomalSentence">0개월 ~ 1년</td>
+                                    <td colspan="2" class="purpleCell nomalSentence">1년 ~ 3년</td>
+                                    <td colspan="2" class="purpleCell nomalSentence">3년 ~ 5년</td>
+                                    <td class="purpleCell nomalSentence">5년 이상</td>
+                                </tr>
+                                <tr>
+                                    <td class="redCell nomalSentence">수업장소</td>
+                                    <td colspan="6" class="purpleCell nomalSentence">발레스튜디오2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="cotentTitleBox academyTitle5">
+                        <p class="contentTitle">수강문의</p>
+                    </div>
+                    <div class="ac5Con6">
+                        <div class="ac5ConLeft">
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">소재지</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">서울시 서초구 서초동 남부순환로 2406 예술의전당 내 N studio 국립발레단 부설<br>발레아카데미</p>
+                                <p class="nomalSentence"><b>tel.</b> 02)587-6199 <b>E-mail.</b> fairy00@knballet.kr</p>
+                            </div>
+                        </div>
+                        <div class="ac5ConRight">
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">문의시간</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">오전 10시 ~ 오후 7시 (점심시간 12 ~ 1시)</p>
+                                <a href="javascript:void(0)" class="applyBtn">온라인 수강신청</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contentSection academyySection6">
+            <div class="cotentTitleBox academyTitle6">
+                <p class="contentTitle">환불관련 안내</p>
+            </div>
+            <div class="contentBox academyContentBox6">
+                <div>
+                    <div class="ac5Con7">
+                        <div class="ac5ConLeft">
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">수강료 환불 규정</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">- 1분기 별 등록 시에는 남은 개월 단위로 환불 가능</p>
+                                <p class="nomalSentence">- 1개월 분납 등록을 적용하되 남은 개월은 전액 환불</p>
+                                <p class="nomalSentence">- 등록 후 수업 시작 전 환불 요청 시 전액 환불 가능</p>
+                                <p class="nomalSentence">- 매달(4주 단위) 분납 등록 시 1주일 수업 경과 2/3 수강료 환불, 2주일 수업 경과 1/2 수강료 환불,
+                                    2주 경과 후 수강료 환불 불가. 단, 주의 시작점은 월요일로 한다.</p>
+                                <p class="nomalSentence">※ 유의사항 환불 금액은 매달 초에 일괄 지급됨을 알려드립니다.</p>
+                            </div>
+                        </div>
+                        <div class="ac5ConRight">
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">수강료 환불 접수 방법</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence boxText">환불사유서 다운로드</p>
+                                <span class="boxArrow"></span>
+                                <p class="nomalSentence boxText">사유서 작성 후 환불 받을 통장사본과 함께 접수</p>
+                                <span class="boxArrow"></span>
+                                <p class="nomalSentence boxText">담당자와 확인 전화</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="cotentTitleBox academyTitle5">
+                        <p class="contentTitle">환불문의</p>
+                    </div>
+                    <div class="ac5Con8">
+                        <div class="ac5ConLeft">
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">소재지</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">서울시 서초구 서초동 남부순환로 2406 예술의전당 내 N studio 국립발레단 부설<br>발레아카데미</p>
+                                <p class="nomalSentence"><b>tel.</b> 02)587-6199 <b>E-mail.</b> fairy00@knballet.kr</p>
+                            </div>
+                        </div>
+                        <div class="ac5ConRight">
+                            <div class="ac5SubTitle">
+                                <p class="middleSentence_bold subTitle">문의시간</p>
+                            </div>
+                            <div class="ac4Cont">
+                                <p class="nomalSentence">오전 10시 ~ 오후 7시 (점심시간 12 ~ 1시)</p>
+                                <a href="javascript:void(0)" class="applyBtn">온라인 수강신청</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contentSection academyySection8">
+            <div class="cotentTitleBox academyTitle7">
+                <p class="contentTitle">아카데미 공지사항</p>
+            </div>
+            <div class="contentBox academyContentBox7">
+                <div class="tableTop academyNoticeTop">
+                    <div class="tableLength">
+                        <p class="nomalSentence_bold">전체 <span class="lengthNum nomalSentence_bold">256</span> 개</p>
+                    </div>
+                    <div class="tableSearchBox">
+                        <select id="academyNoticeSearchSort" class="tableSearchSort">
+                            <option value="">제목 + 내용</option>
+                        </select>
+                        <input type="search" id="academyNoticeSearch" class="tableSearch">
+                        <a href="javascript:void(0)" id="academyNoticeSearchBtn" class="taleSearchBtn">검색</a>
+                    </div>
+                </div>
+                <table id="academyNotice" class="display knbTable" style="width:100%">
+                    <!-- <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>name</th>
+                            <th>Title</th>
+                            <th>notice</th>
+                            <th>date</th>
+                        </tr>
+                    </thead> -->
+                    <tbody>
+                        <tr class="noticeRow">
+                            <td>
+                                <p class="nomalSentence_bold">성인취미반] 12월 신규접수(선착순) 안내</p>
+                                <p class="miniSentence">2021.11.9</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr class="noticeRow">
+                            <td>
+                                <p class="nomalSentence_bold">[학생반] 2022년도 국립발레단 부설 발레아카데미 학생반 신입생 오디션 안내</p>
+                                <p class="miniSentence">2021.10.7</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr class="noticeRow">
+                            <td>
+                                <p class="nomalSentence_bold">[성인취미반] 8월 성인취미반 초급A반 선착순 등록마감 안내</p>
+                                <p class="miniSentence">2021.7.20</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[성인취미반] 성인취미반 11월 개강 및 재수강 접수 안내</p>
+                                <p class="miniSentence">2021.10.27</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[성인취미반] 성인취미반 11월 개강 및 재수강 접수 안내</p>
+                                <p class="miniSentence">2021.10.27</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[성인취미반] 성인취미반 8월 신규 접수 안내</p>
+                                <p class="miniSentence">2021.7.17</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[성인취미반] 사회적 거리두기 4단계 격상으로 인한 성인취미반 휴강 안내</p>
+                                <p class="miniSentence">2021.7.12</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[성인취미반] 사회적 거리두기 4단계 격상으로 인한 성인취미반 휴강 안내</p>
+                                <p class="miniSentence">2021.7.12</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[부설아카데미] 국립발레단 부설 발레아카데미 여름방학 안내</p>
+                                <p class="miniSentence">2021.6.22</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[성인취미반] 7월 성인취미반 선착순 등록마감 안내</p>
+                                <p class="miniSentence">2021.6.22</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[성인취미반] 성인취미반 7월 신규 접수 안내</p>
+                                <p class="miniSentence">2021.6.20</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[성인취미반] 6월 성인취미반 기초반, 초급B반 선착순 등록마감 안내</p>
+                                <p class="miniSentence">2021.5.25</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[성인취미반] 성인취미반 6월 신규 접수 안내</p>
+                                <p class="miniSentence">2021.5.22</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="tablePaging">
+                    <a href="javascript:void(0)" class="pagingArrow pagingPrev pagingDisable"></a>
+                    <div class="paningNum">
+                        <span class="activePage">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>10</span>
+                    </div>
+                    <a href="javascript:void(0)" class="pagingArrow pagingNext"></a>
+                </div>
+            </div>
+        </div>
+        <div class="contentSection academyySection8">
+            <div class="cotentTitleBox academyTitle8">
+                <p class="contentTitle">자주묻는 질문</p>
+                <div class="tabMenuBox">
+                    <a href="javascript:void(0)" data-tab="academyFaq1" class="tabbtn tabacademyFaqBtn tabacademyFaqTab1 currentAFaqTab">성인방</a>
+                    <a href="javascript:void(0)" data-tab="academyFaq2" class="tabbtn tabacademyFaqBtn tabacademyFaqTab1">학생반</a>
+                </div>
+            </div>
+            <div class="contentBox academyContentBox8">
+                <div id="academyFaq1" class="academyTabCont currentAFaqTabCont">
+                    <table id="academyFaq" class="display knbTable" style="width:100%">
+                        <!-- <thead>
+                            <tr>
+                                <th>id</th>
+                                <th>name</th>
+                                <th>Title</th>
+                                <th>notice</th>
+                                <th>date</th>
+                            </tr>
+                        </thead> -->
+                        <tbody>
+                            <tr>
+                                <td class="faqTd">
+                                    <span class="middleSentence_bold faqAlphabet faqQ">Q</span>
+                                    <span class="miniSentence">수업 시 복장을 어떻게 해야 하나요?</span>
+                                    <span class="tableArrow faqArrow"></span>
+                                    <div class="answerBox">
+                                        <span class="middleSentence_bold faqAlphabet faqA">A</span>
+                                        <p class="miniSentence">우선 발레의 기본 복장은 레오타드(색상 및 디자인 자유), 핑크 타이즈, 랩 스커트 또는 반바지, 발레 슈즈(천 슈즈)가 필요합니다.
+                                            혹 발레 연습복을 제대로 갖추기가 힘들거나 부담스러우실 경우 간편한 운동복에 발레 슈즈만 갖춰주셔도 괜찮습니다. 
+                                            다만 헐렁한 복장은 피해주시는 것이 좋습니다.(몸에 피트감이 있는 복장일수록 담당선생님께서 신체의 움직임을 포착하시기 쉽습니다.) 
+                                            발레슈즈는 자신의 발에 꼭 맞는 것으로 구입하셔야 합니다.
+                                            발레복 전문 매장으로는 E발레샵, 브이데니에, 댄스마트, 카페지오, 그리쉬코 등이 있습니다.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="faqTd">
+                                    <span class="middleSentence_bold faqAlphabet faqQ">Q</span>
+                                    <span class="miniSentence">소득공제용 현금영수증 발급에 관해</span>
+                                    <span class="tableArrow faqArrow"></span>
+                                    <div class="answerBox">
+                                        <span class="middleSentence_bold faqAlphabet faqA">A</span>
+                                        <p class="miniSentence">우선 발레의 기본 복장은 레오타드(색상 및 디자인 자유), 핑크 타이즈, 랩 스커트 또는 반바지, 발레 슈즈(천 슈즈)가 필요합니다.
+                                            혹 발레 연습복을 제대로 갖추기가 힘들거나 부담스러우실 경우 간편한 운동복에 발레 슈즈만 갖춰주셔도 괜찮습니다. 
+                                            다만 헐렁한 복장은 피해주시는 것이 좋습니다.(몸에 피트감이 있는 복장일수록 담당선생님께서 신체의 움직임을 포착하시기 쉽습니다.) 
+                                            발레슈즈는 자신의 발에 꼭 맞는 것으로 구입하셔야 합니다.
+                                            발레복 전문 매장으로는 E발레샵, 브이데니에, 댄스마트, 카페지오, 그리쉬코 등이 있습니다.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="faqTd">
+                                    <span class="middleSentence_bold faqAlphabet faqQ">Q</span>
+                                    <span class="miniSentence">수강도중에 반을 변경 할 수 있나요?</span>
+                                    <span class="tableArrow faqArrow"></span>
+                                    <div class="answerBox">
+                                        <span class="middleSentence_bold faqAlphabet faqA">A</span>
+                                        <p class="miniSentence">우선 발레의 기본 복장은 레오타드(색상 및 디자인 자유), 핑크 타이즈, 랩 스커트 또는 반바지, 발레 슈즈(천 슈즈)가 필요합니다.
+                                            혹 발레 연습복을 제대로 갖추기가 힘들거나 부담스러우실 경우 간편한 운동복에 발레 슈즈만 갖춰주셔도 괜찮습니다. 
+                                            다만 헐렁한 복장은 피해주시는 것이 좋습니다.(몸에 피트감이 있는 복장일수록 담당선생님께서 신체의 움직임을 포착하시기 쉽습니다.) 
+                                            발레슈즈는 자신의 발에 꼭 맞는 것으로 구입하셔야 합니다.
+                                            발레복 전문 매장으로는 E발레샵, 브이데니에, 댄스마트, 카페지오, 그리쉬코 등이 있습니다.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="faqTd">
+                                    <span class="middleSentence_bold faqAlphabet faqQ">Q</span>
+                                    <span class="miniSentence">정원은 어떻게 되나요?</span>
+                                    <span class="tableArrow faqArrow"></span>
+                                    <div class="answerBox">
+                                        <span class="middleSentence_bold faqAlphabet faqA">A</span>
+                                        <p class="miniSentence">우선 발레의 기본 복장은 레오타드(색상 및 디자인 자유), 핑크 타이즈, 랩 스커트 또는 반바지, 발레 슈즈(천 슈즈)가 필요합니다.
+                                            혹 발레 연습복을 제대로 갖추기가 힘들거나 부담스러우실 경우 간편한 운동복에 발레 슈즈만 갖춰주셔도 괜찮습니다. 
+                                            다만 헐렁한 복장은 피해주시는 것이 좋습니다.(몸에 피트감이 있는 복장일수록 담당선생님께서 신체의 움직임을 포착하시기 쉽습니다.) 
+                                            발레슈즈는 자신의 발에 꼭 맞는 것으로 구입하셔야 합니다.
+                                            발레복 전문 매장으로는 E발레샵, 브이데니에, 댄스마트, 카페지오, 그리쉬코 등이 있습니다.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="faqTd">
+                                    <span class="middleSentence_bold faqAlphabet faqQ">Q</span>
+                                    <span class="miniSentence">신청을 하고 싶은데 어떻게 해야 하나요?</span>
+                                    <span class="tableArrow faqArrow"></span>
+                                    <div class="answerBox">
+                                        <span class="middleSentence_bold faqAlphabet faqA">A</span>
+                                        <p class="miniSentence">우선 발레의 기본 복장은 레오타드(색상 및 디자인 자유), 핑크 타이즈, 랩 스커트 또는 반바지, 발레 슈즈(천 슈즈)가 필요합니다.
+                                            혹 발레 연습복을 제대로 갖추기가 힘들거나 부담스러우실 경우 간편한 운동복에 발레 슈즈만 갖춰주셔도 괜찮습니다. 
+                                            다만 헐렁한 복장은 피해주시는 것이 좋습니다.(몸에 피트감이 있는 복장일수록 담당선생님께서 신체의 움직임을 포착하시기 쉽습니다.) 
+                                            발레슈즈는 자신의 발에 꼭 맞는 것으로 구입하셔야 합니다.
+                                            발레복 전문 매장으로는 E발레샵, 브이데니에, 댄스마트, 카페지오, 그리쉬코 등이 있습니다.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="faqTd">
+                                    <span class="middleSentence_bold faqAlphabet faqQ">Q</span>
+                                    <span class="miniSentence">유연성 기르려면 어떻게 해야 하나요?</span>
+                                    <span class="tableArrow faqArrow"></span>
+                                    <div class="answerBox">
+                                        <span class="middleSentence_bold faqAlphabet faqA">A</span>
+                                        <p class="miniSentence">우선 발레의 기본 복장은 레오타드(색상 및 디자인 자유), 핑크 타이즈, 랩 스커트 또는 반바지, 발레 슈즈(천 슈즈)가 필요합니다.
+                                            혹 발레 연습복을 제대로 갖추기가 힘들거나 부담스러우실 경우 간편한 운동복에 발레 슈즈만 갖춰주셔도 괜찮습니다. 
+                                            다만 헐렁한 복장은 피해주시는 것이 좋습니다.(몸에 피트감이 있는 복장일수록 담당선생님께서 신체의 움직임을 포착하시기 쉽습니다.) 
+                                            발레슈즈는 자신의 발에 꼭 맞는 것으로 구입하셔야 합니다.
+                                            발레복 전문 매장으로는 E발레샵, 브이데니에, 댄스마트, 카페지오, 그리쉬코 등이 있습니다.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="faqTd">
+                                    <span class="middleSentence_bold faqAlphabet faqQ">Q</span>
+                                    <span class="miniSentence">발레를 하면 날씬해지나요?</span>
+                                    <span class="tableArrow faqArrow"></span>
+                                    <div class="answerBox">
+                                        <span class="middleSentence_bold faqAlphabet faqA">A</span>
+                                        <p class="miniSentence">우선 발레의 기본 복장은 레오타드(색상 및 디자인 자유), 핑크 타이즈, 랩 스커트 또는 반바지, 발레 슈즈(천 슈즈)가 필요합니다.
+                                            혹 발레 연습복을 제대로 갖추기가 힘들거나 부담스러우실 경우 간편한 운동복에 발레 슈즈만 갖춰주셔도 괜찮습니다. 
+                                            다만 헐렁한 복장은 피해주시는 것이 좋습니다.(몸에 피트감이 있는 복장일수록 담당선생님께서 신체의 움직임을 포착하시기 쉽습니다.) 
+                                            발레슈즈는 자신의 발에 꼭 맞는 것으로 구입하셔야 합니다.
+                                            발레복 전문 매장으로는 E발레샵, 브이데니에, 댄스마트, 카페지오, 그리쉬코 등이 있습니다.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="faqTd">
+                                    <span class="middleSentence_bold faqAlphabet faqQ">Q</span>
+                                    <span class="miniSentence">저는 40대 주부이고 발레를 해본 적이 없는데 수업을 들을 수 있나요?</span>
+                                    <span class="tableArrow faqArrow"></span>
+                                    <div class="answerBox">
+                                        <span class="middleSentence_bold faqAlphabet faqA">A</span>
+                                        <p class="miniSentence">우선 발레의 기본 복장은 레오타드(색상 및 디자인 자유), 핑크 타이즈, 랩 스커트 또는 반바지, 발레 슈즈(천 슈즈)가 필요합니다.
+                                            혹 발레 연습복을 제대로 갖추기가 힘들거나 부담스러우실 경우 간편한 운동복에 발레 슈즈만 갖춰주셔도 괜찮습니다. 
+                                            다만 헐렁한 복장은 피해주시는 것이 좋습니다.(몸에 피트감이 있는 복장일수록 담당선생님께서 신체의 움직임을 포착하시기 쉽습니다.) 
+                                            발레슈즈는 자신의 발에 꼭 맞는 것으로 구입하셔야 합니다.
+                                            발레복 전문 매장으로는 E발레샵, 브이데니에, 댄스마트, 카페지오, 그리쉬코 등이 있습니다.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="faqTd">
+                                    <span class="middleSentence_bold faqAlphabet faqQ">Q</span>
+                                    <span class="miniSentence">수업편성 및 시간이 어떻게 되나요?</span>
+                                    <span class="tableArrow faqArrow"></span>
+                                    <div class="answerBox">
+                                        <span class="middleSentence_bold faqAlphabet faqA">A</span>
+                                        <p class="miniSentence">우선 발레의 기본 복장은 레오타드(색상 및 디자인 자유), 핑크 타이즈, 랩 스커트 또는 반바지, 발레 슈즈(천 슈즈)가 필요합니다.
+                                            혹 발레 연습복을 제대로 갖추기가 힘들거나 부담스러우실 경우 간편한 운동복에 발레 슈즈만 갖춰주셔도 괜찮습니다. 
+                                            다만 헐렁한 복장은 피해주시는 것이 좋습니다.(몸에 피트감이 있는 복장일수록 담당선생님께서 신체의 움직임을 포착하시기 쉽습니다.) 
+                                            발레슈즈는 자신의 발에 꼭 맞는 것으로 구입하셔야 합니다.
+                                            발레복 전문 매장으로는 E발레샵, 브이데니에, 댄스마트, 카페지오, 그리쉬코 등이 있습니다.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="faqTd">
+                                    <span class="middleSentence_bold faqAlphabet faqQ">Q</span>
+                                    <span class="miniSentence">발레를 못하면 못 들어가나요?</span>
+                                    <span class="tableArrow faqArrow"></span>
+                                    <div class="answerBox">
+                                        <span class="middleSentence_bold faqAlphabet faqA">A</span>
+                                        <p class="miniSentence">우선 발레의 기본 복장은 레오타드(색상 및 디자인 자유), 핑크 타이즈, 랩 스커트 또는 반바지, 발레 슈즈(천 슈즈)가 필요합니다.
+                                            혹 발레 연습복을 제대로 갖추기가 힘들거나 부담스러우실 경우 간편한 운동복에 발레 슈즈만 갖춰주셔도 괜찮습니다. 
+                                            다만 헐렁한 복장은 피해주시는 것이 좋습니다.(몸에 피트감이 있는 복장일수록 담당선생님께서 신체의 움직임을 포착하시기 쉽습니다.) 
+                                            발레슈즈는 자신의 발에 꼭 맞는 것으로 구입하셔야 합니다.
+                                            발레복 전문 매장으로는 E발레샵, 브이데니에, 댄스마트, 카페지오, 그리쉬코 등이 있습니다.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="academyFaq2" class="academyTabCont">
+                    <span>ccccccc</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="fbtneBox">
+            <a href="javascript:void(0)" class="fopenBtn"></a>
+        </section>
+        <section class="fcontentBox">
+            <ul class="flogoList">
+                <li class="flogoLi flogoLi1">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_1.png" class="flogo1" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi flogoLi2">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_2.png" class="flogo2" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi flogoLi3">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_3.png" class="flogo3" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi flogoLi4">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_4.png" class="flogo4" alt="flogo">
+                    </a>
+                </li>
+            </ul>
+            <p clss="sponserTitle"><strong>협찬사</strong></p>
+            <ul class="fsponserList">
+                <li class="flogoLi fsponserLi1">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_5.png" class="flogo5" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi fsponserLi2">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_6.png" class="flogo6" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi fsponserLi3">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_7.png" class="flogo7" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi fsponserLi4">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_8.png" class="flogo8" alt="flogo">
+                    </a>
+                </li>
+            </ul>
+            <div class="fadressBox">
+                <p class="adress">
+                    06757<br>서울시 서초구 남부순환로 2406<br>예술의전당 오페라하우스 4층(재)<br>국립발레단
+                </p>
+                <p class="knbNumber">
+                    <strong>국립발레단</strong><br><strong>Tel </strong>02-587-6180~5<br><strong>Fax </strong>02-587-6186
+                </p>
+                <p class="academyNumber">
+                    <strong>아카데미</strong><br><strong>Tel </strong>02-587-6199
+                </p>
+                <a class="privacyBtn">개인정보 처리방침</a>
+            </div>
+            <div class="flawinfoBox">
+                <strong>청탁급지법 적용대상 기관안내</strong><br>
+                <p>(재)국립발레단은 공직자윤리법 제3조의2에 따른 공직유관단체로서 부정척탁 및 금품 등 수수의 금지에 관한 법률(청탁금지법) 적용 대상 기관임을 알립니다.</p>
+            </div>
+            <div clss="fcopyBox">
+                <p>Copyright(c) KOREAN NATIONAL BALLET 2021.</p>
+            </div>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script> -->
+    <script src="js/common.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.tabAcademyStaffBtn').on('click', function () {
+                var ACT_TAB = $(this);
+                var actTab_DATA = ACT_TAB.attr('data-tab');
+                var ACT_TABCONTENT = $('#' + actTab_DATA);
+
+                if (ACT_TAB.hasClass('currentTab')) {
+                    ACT_TAB.removeClass('currentTab').css({ 'pointer-events': 'auto' });
+                    ACT_TABCONTENT.removeClass('currentTabCont');
+                } else {
+                    $('.currentTab').removeClass('currentTab').css({ 'pointer-events': 'auto' });
+                    $('.currentTabCont').removeClass('currentTabCont');
+                    ACT_TAB.addClass('currentTab').css({ 'pointer-events': 'none' });
+                    ACT_TABCONTENT.addClass('currentTabCont');
+                }
+            });
+
+            var galleryThumbSwiper = new Swiper(".galleryThumbSwiper", {
+                spaceBetween: 10,
+                slidesPerView: 4,
+                freeMode: true,
+                watchSlidesProgress: true,
+            });
+            var gallerySwiper = new Swiper(".gallerySwiper", {
+                spaceBetween: 10,
+                navigation: {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
-                    },
-                    thumbs: {
+                },
+                thumbs: {
                     swiper: galleryThumbSwiper,
-                    },
-                });
-
-                var lessonThumbSwiper = new Swiper(".lessonThumbSwiper", {
-                    spaceBetween: 10,
-                    slidesPerView: 3,
-                    freeMode: true,
-                    watchSlidesProgress: true,
-                });
-                var lessonSwiper = new Swiper(".lessonSwiper", {
-                    spaceBetween: 10,
-                    thumbs: {
-                    swiper: lessonThumbSwiper,
-                    },
-                });
-
-                var lessonThumbSwiper2 = new Swiper(".lessonThumbSwiper2", {
-                    spaceBetween: 10,
-                    slidesPerView: 3,
-                    freeMode: true,
-                    watchSlidesProgress: true,
-                });
-                var lessonSwiper2 = new Swiper(".lessonSwiper2", {
-                    spaceBetween: 10,
-                    thumbs: {
-                    swiper: lessonThumbSwiper2,
-                    },
-                });
+                },
             });
-        </script>
+
+            var lessonThumbSwiper = new Swiper(".lessonThumbSwiper", {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                freeMode: true,
+                watchSlidesProgress: true,
+            });
+            var lessonSwiper = new Swiper(".lessonSwiper", {
+                spaceBetween: 10,
+                thumbs: {
+                    swiper: lessonThumbSwiper,
+                },
+            });
+
+            var lessonThumbSwiper2 = new Swiper(".lessonThumbSwiper2", {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                freeMode: true,
+                watchSlidesProgress: true,
+            });
+            var lessonSwiper2 = new Swiper(".lessonSwiper2", {
+                spaceBetween: 10,
+                thumbs: {
+                    swiper: lessonThumbSwiper2,
+                },
+            });
+
+            $('.tabacademyFaqBtn').on('click', function () {
+                var ACT_aFAQTAB = $(this);
+                var actaFAQTab_DATA = ACT_aFAQTAB.attr('data-tab');
+                var ACT_aFAQTABCONTENT = $('#' + actaFAQTab_DATA);
+
+                if (ACT_aFAQTAB.hasClass('currentAFaqTab')) {
+                    ACT_aFAQTAB.removeClass('currentAFaqTab').css({ 'pointer-events': 'auto' });
+                    ACT_aFAQTABCONTENT.removeClass('currentAFaqTabCont');
+                } else {
+                    $('.currentAFaqTab').removeClass('currentAFaqTab').css({ 'pointer-events': 'auto' });
+                    $('.currentAFaqTabCont').removeClass('currentAFaqTabCont');
+                    ACT_aFAQTAB.addClass('currentAFaqTab').css({ 'pointer-events': 'none' });
+                    ACT_aFAQTABCONTENT.addClass('currentAFaqTabCont');
+                }
+            });
+
+            $('.faqTd').on('click', function(){
+                var ACT_FAQTD = $(this);
+                var ACT_faqANSWER = ACT_FAQTD.children('.answerBox');
+                if(ACT_FAQTD.hasClass('ACT_faqTd')){
+                    ACT_FAQTD.removeClass('ACT_faqTd');
+                    ACT_faqANSWER.removeClass('currentAnswer');
+                }else{
+                    $('.ACT_faqTd').removeClass('ACT_faqTd');
+                    $('.currentAnswer').removeClass('currentAnswer');
+                    ACT_FAQTD.addClass('ACT_faqTd');
+                    ACT_faqANSWER.addClass('currentAnswer');
+                }
+            });
+
+            // $('#academyNotice').DataTable({
+            //     ajax: 'data/academyNotice.txt',
+            // });
+
+            // $('#academyNotice').DataTable({
+            //     "order": [[1,'desc']],
+            //     "iDisplayLength":6,
+            //     "ajax" : {
+            //         url: 'D:/21 국립발레단/php/knb-redesign/js/academyNotice.json',
+            //         type:"POST",
+            // 	    data:function(d){
+            //             //$('#academyNotice tbody').html(JSON.stringify(d));
+            // 	    },
+            //     },
+            //     "pagingType": "full_numbers",
+            //     "columns": [
+            //         { "data": "id","visible": false},
+            //         { "data": "name", "class":"TD_NAME","visible": false},
+            //         { "data": "Title", "class":"TD_TITLE","orderable": false},
+            //         { "data": "notice", "visible": false},
+            //         { "data": "date", "class":"TD_date"},
+            //     ],
+            //     "initComplete": function(settings, data, dataIndex){
+
+            //     },
+            //     "fnDrawCallback": function(oSettings){
+            //     }
+            // });
+        });
+    </script>
 </body>
+
 </html>

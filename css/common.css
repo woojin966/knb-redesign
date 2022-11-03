@@ -94,7 +94,7 @@ main{position: relative; /*top: 96px;*/ }
 .photoPerform{bottom: 62px; font-size: 20px;}
 
 /* footer */
-footer{position: absolute; top: 160px; left: 100px; z-index: 2; width: 165px;}
+footer{position: fixed; top: 160px; left: 100px; z-index: 2; width: 165px;}
 footer > div{margin-bottom: 16px;}
 footer p{font-size: 12px; line-height: 1.4;}
 footer strong{font-weight: bold; font-size: 12px; line-height: 1.4; color: #68171C;}
@@ -115,3 +115,31 @@ footer strong{font-weight: bold; font-size: 12px; line-height: 1.4; color: #6817
 .flogoList li:last-child img, .fsponserList li:last-child img{margin-bottom: 0;}
 .fadressBox p{margin-bottom: 8px;}
 .privacyBtn{font-size: 12px; font-weight: bold; text-decoration: underline; margin-bottom: 8px;}
+
+.tableTop{display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px;}
+.tableSearchBox{display: flex; align-items: flex-end;}
+.tableSearchSort{font-size: 16px; padding-bottom: 10px; padding-right: 15px; margin-right: 10px; border-bottom: 1px solid #000;}
+.tableSearch{font-size: 16px; padding: 10px; margin-right: 10px; border-bottom: 1px solid #000;}
+.taleSearchBtn{padding: 10px; background-color: #68171C; color: #fff;}
+.knbTable tr{background-color: #fff; border-bottom: 1px solid #000;}
+.knbTable tr.noticeRow{background-color: rgba(239, 231, 231, .6); border-bottom: 1px solid #fff;}
+.knbTable td{padding: 16px 20px; cursor: pointer;;}
+.knbTable td .miniSentence{margin-bottom: 0;}
+.tableArrow{position: absolute; top: 32px; right: 27px; width: 20px; height: 20px; border-top: 1px solid #000; border-right: 1px solid #000; transform: rotate(45deg);}
+.tabbtn.currentAFaqTab:before{content: ''; position: absolute; bottom: 0; width: calc(100% - 40px); height: 3px; background-color: #68171C; left: 20px;}
+.academyTabCont{display: none;}
+.currentAFaqTabCont{display: block;}
+.answerBox{display: none; left: -20px; top: 16px; padding: 16px 20px; width: calc(100% + 40px); border-top: 1px solid #000; background-color: rgba(239, 231, 231, .6);}
+.currentAnswer{display: flex;}
+.faqArrow{transform: rotate(135deg); transition: .4s; top: 13px; right: 25px; width: 16px; height: 16px;}
+.ACT_faqTd .faqArrow{transform: rotate(-45deg); transition: .4s; top: 23px;}
+.faqAlphabet{margin-right: 10px; vertical-align: middle;}
+.faqQ{color: #68171C;}
+.tablePaging{display: flex; justify-content: space-between; align-items: center;}
+.pagingArrow{position: relative; width: 40px; height: 40px; background-color: #68171C;}
+.pagingDisable{background-color: #707070;}
+.pagingPrev::before{content: ''; position: absolute; top: 10px; left: 15px; width: 20px; height: 20px; border-top: 1px solid #fff; border-left: 1px solid #fff; transform: rotate(-45deg);}
+.pagingNext::before{content: ''; position: absolute; top: 10px; right: 15px; width: 20px; height: 20px; border-top: 1px solid #fff; border-right: 1px solid #fff; transform: rotate(45deg);}
+.paningNum span{margin-right: 5px; padding: 6px 0; width: 30px; height: 30px; border: 1px solid #fff; text-align: center;} 
+.paningNum span:last-child{margin-right: 0;}
+.paningNum span.activePage{border: 1px solid #68171C; color: #68171C; font-weight: bold;}

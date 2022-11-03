@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"> -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <!-- coponent css -->
+    <link rel="stylesheet" href="css/component/news.css">
+    <title>국립발레단</title>
+</head>
+
+<body>
+    <header>
+        <div class="logoBox">
+            <a class="logoBtn">
+                <img src="img/logo/knblogo_w.png" alt="logo">
+            </a>
+        </div>
+        <div class="menuBox">
+            <ul>
+                <li class="menuLi menuLi1">
+                    <dl>
+                        <dt>
+                            <a href="knbIntro.html" class="menuBtn menuBtn1">국립발레단 소개</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">국립발레단<br>소개</span>
+                            <div class="menusubBox">
+                                <a href="knbIntro.html" class="menusubBtn">인사말</a>
+                                <a href="knbIntro.html" class="menusubBtn">발레단 소개</a>
+                                <a href="knbIntro.html" class="menusubBtn">조직도·이사진·자문위원</a>
+                                <a href="knbIntro.html" class="menusubBtn">CI소개</a>
+                                <a href="knbIntro.html)" class="menusubBtn">연보</a>
+                                <a href="knbIntro.html" class="menusubBtn">찾아오시는 길</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi2">
+                    <dl>
+                        <dt>
+                            <a href="knbcrue.html" class="menuBtn menuBtn2">발레단 사람들</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">발레단<br>사람들</span>
+                            <div class="menusubBox">
+                                <a href="knbcrue.html" class="menusubBtn">예술스태프</a>
+                                <a href="knbcrue.html" class="menusubBtn">아티스트</a>
+                                <a href="knbcrue.html" class="menusubBtn">행정스태프</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi3">
+                    <dl>
+                        <dt>
+                            <a href="knbschedule.html" class="menuBtn menuBtn3">공연정보</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">공연정보</span>
+                            <div class="menusubBox">
+                                <a href="knbschedule.html" class="menusubBtn">공연안내</a>
+                                <a href="knbschedule.html" class="menusubBtn">원간일정</a>
+                                <a href="knbschedule.html" class="menusubBtn">연간일정</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi4">
+                    <dl>
+                        <dt>
+                            <a href="knbsupport.html" class="menuBtn menuBtn4">후원회</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">후원회</span>
+                            <div class="menusubBox">
+                                <a href="knbsupport.html" class="menusubBtn">인사말</a>
+                                <a href="knbsupport.html" class="menusubBtn">후원예우</a>
+                                <a href="knbsupport.html" class="menusubBtn">후원조직</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi5">
+                    <dl>
+                        <dt>
+                            <a href="knbacademy.html" class="menuBtn menuBtn5">아카데미</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">아카데미</span>
+                            <div class="menusubBox">
+                                <a href="knbacademy.html" class="menusubBtn">교장 인사말</a>
+                                <a href="knbacademy.html" class="menusubBtn">아카데미 소개</a>
+                                <a href="knbacademy.html" class="menusubBtn">강사 소개</a>
+                                <a href="knbacademy.html" class="menusubBtn">갤러리</a>
+                                <a href="knbacademy.html" class="menusubBtn">강좌 및 등록안내</a>
+                                <a href="knbacademy.html" class="menusubBtn">환불 관련안내</a>
+                                <a href="knbacademy.html" class="menusubBtn">아카데미 공지사항</a>
+                                <a href="knbacademy.html" class="menusubBtn">자주묻는 질문</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menuLi menuLi6">
+                    <dl>
+                        <dt>
+                            <a href="knbnews.html" class="menuBtn menuBtn6">발레단 소식</a>
+                        </dt>
+                        <dd>
+                            <span class="menuTitle">발레단<br>소식</span>
+                            <div class="menusubBox">
+                                <a href="knbnews.html" class="menusubBtn">공지사항</a>
+                                <a href="knbnews.html" class="menusubBtn">뉴스레터</a>
+                                <a href="knbnews.html" class="menusubBtn">1:1 문의</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="loginlangBox">
+            <a href="javascript:void(0)" class="loginBtn">로그인</a>
+            <a href="javascript:void(0)" class="langBtn english">ENGLISH</a>
+        </div>
+        <!-- <span class="headerBg"></span> -->
+    </header>
+    <main>
+        <div class="contentSection newsSection1">
+            <div class="cotentTitleBox newsTitle1">
+                <p class="contentTitle">공지사항</p>
+            </div>
+            <div class="contentBox newsContentBox1">
+                <div class="tableTop newsNoticeTop">
+                    <div class="tableLength">
+                        <p class="nomalSentence_bold">전체 <span class="lengthNum nomalSentence_bold">256</span> 개</p>
+                    </div>
+                    <div class="tableSearchBox">
+                        <select id="newsNoticeSearchSort" class="tableSearchSort">
+                            <option value="">제목 + 내용</option>
+                        </select>
+                        <input type="search" id="newsNoticeSearch" class="tableSearch">
+                        <a href="javascript:void(0)" id="newsNoticeSearchBtn" class="taleSearchBtn">검색</a>
+                    </div>
+                </div>
+                <table id="newsNotice" class="display knbTable" style="width:100%">
+                    <!-- <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>name</th>
+                            <th>Title</th>
+                            <th>notice</th>
+                            <th>date</th>
+                        </tr>
+                    </thead> -->
+                    <tbody>
+                        <tr class="noticeRow">
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 국립발레단 2022년 라인업 공개</p>
+                                <p class="miniSentence">2021.12.15</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr class="noticeRow">
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 코로나바이러스감염증-19 건강생활 수칙</p>
+                                <p class="miniSentence">2020.8.14</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr class="noticeRow">
+                            <td>
+                                <p class="nomalSentence_bold">[성인취미반] 8월 성인취미반 초급A반 선착순 등록마감 안내</p>
+                                <p class="miniSentence">2019.3.12</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr class="noticeRow">
+                            <td>
+                                <p class="nomalSentence_bold">[공지] [청탁금지법 관련] 국립발레단 공무수행사인 공개</p>
+                                <p class="miniSentence">2016.9.29</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 제191회 정기공연 <백조의 호수> 10/15(토) 14시 공연 캐스팅 변경 안내</p>
+                                <p class="miniSentence">2022.10.13</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 국립발레단 창단 60주년 기념 포럼 <대한민국 국립발레단, 100년을 본다></p>
+                                <p class="miniSentence">2022.10.13</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 제191회 정기공연 <백조의 호수> 고객만족도 조사 안내</p>
+                                <p class="miniSentence">2022.10.12</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 제191회 정기공연 <백조의 호수> 프로그램북 e-Book 제공 안내</p>
+                                <p class="miniSentence">2022.10.11</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 제191회 정기공연 <백조의 호수> 전체 캐스팅 변경 안내</p>
+                                <p class="miniSentence">2022.10.11</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 국립발레단 제191회 정기공연 <백조의 호수> 시야제한석 오픈 안내</p>
+                                <p class="miniSentence">2022.10.7</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 제191회 정기공연 <백조의 호수> 전체 캐스팅 안내</p>
+                                <p class="miniSentence">2022.10.7</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 국립발레단 대구 <백조의 호수> 캐스팅 변경 안내</p>
+                                <p class="miniSentence">2022.9.29</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 국립발레단 대구 <백조의 호수> 캐스팅 변경 안내</p>
+                                <p class="miniSentence">2022.9.27</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[공지] 국립발레단 대구 <백조의 호수> 전체 캐스팅 안내</p>
+                                <p class="miniSentence">2022.9.23</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[부설아카데미] 2021년 학생반 반주강사 공개 모집 안내</p>
+                                <p class="miniSentence">2021.5.21</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nomalSentence_bold">[체험클래스] 발레무료체험클래스 휴강 안내</p>
+                                <p class="miniSentence">2020.5.25</p>
+                                <span class="tableArrow"></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="tablePaging">
+                    <a href="javascript:void(0)" class="pagingArrow pagingPrev pagingDisable"></a>
+                    <div class="paningNum">
+                        <span class="activePage">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>10</span>
+                    </div>
+                    <a href="javascript:void(0)" class="pagingArrow pagingNext"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="fbtneBox">
+            <a href="javascript:void(0)" class="fopenBtn"></a>
+        </section>
+        <section class="fcontentBox">
+            <ul class="flogoList">
+                <li class="flogoLi flogoLi1">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_1.png" class="flogo1" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi flogoLi2">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_2.png" class="flogo2" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi flogoLi3">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_3.png" class="flogo3" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi flogoLi4">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_4.png" class="flogo4" alt="flogo">
+                    </a>
+                </li>
+            </ul>
+            <p clss="sponserTitle"><strong>협찬사</strong></p>
+            <ul class="fsponserList">
+                <li class="flogoLi fsponserLi1">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_5.png" class="flogo5" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi fsponserLi2">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_6.png" class="flogo6" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi fsponserLi3">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_7.png" class="flogo7" alt="flogo">
+                    </a>
+                </li>
+                <li class="flogoLi fsponserLi4">
+                    <a href="javascript:void(0)" class="flogoBtn">
+                        <img src="img/logo/footer_8.png" class="flogo8" alt="flogo">
+                    </a>
+                </li>
+            </ul>
+            <div class="fadressBox">
+                <p class="adress">
+                    06757<br>서울시 서초구 남부순환로 2406<br>예술의전당 오페라하우스 4층(재)<br>국립발레단
+                </p>
+                <p class="knbNumber">
+                    <strong>국립발레단</strong><br><strong>Tel </strong>02-587-6180~5<br><strong>Fax </strong>02-587-6186
+                </p>
+                <p class="academyNumber">
+                    <strong>아카데미</strong><br><strong>Tel </strong>02-587-6199
+                </p>
+                <a class="privacyBtn">개인정보 처리방침</a>
+            </div>
+            <div class="flawinfoBox">
+                <strong>청탁급지법 적용대상 기관안내</strong><br>
+                <p>(재)국립발레단은 공직자윤리법 제3조의2에 따른 공직유관단체로서 부정척탁 및 금품 등 수수의 금지에 관한 법률(청탁금지법) 적용 대상 기관임을 알립니다.</p>
+            </div>
+            <div clss="fcopyBox">
+                <p>Copyright(c) KOREAN NATIONAL BALLET 2021.</p>
+            </div>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script> -->
+    <script src="js/common.js"></script>
+    <script></script>
+</body>
+</html>
