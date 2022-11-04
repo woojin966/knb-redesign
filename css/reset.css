@@ -169,6 +169,10 @@ select {
           appearance: none;
           border: none;
 }
+select:focus{outline: none;}
 
 /* IE 에서 Select box 화살표 제거 */ 
 select::-ms-expand { display: none; border: none;}
+
+textarea{border: none; resize: none;}
+textarea:focus{outline: none;}

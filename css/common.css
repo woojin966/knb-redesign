@@ -117,6 +117,7 @@ footer strong{font-weight: bold; font-size: 12px; line-height: 1.4; color: #6817
 .privacyBtn{font-size: 12px; font-weight: bold; text-decoration: underline; margin-bottom: 8px;}
 
 .tableTop{display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px;}
+.tableLength p{margin-bottom: 0;}
 .tableSearchBox{display: flex; align-items: flex-end;}
 .tableSearchSort{font-size: 16px; padding-bottom: 10px; padding-right: 15px; margin-right: 10px; border-bottom: 1px solid #000;}
 .tableSearch{font-size: 16px; padding: 10px; margin-right: 10px; border-bottom: 1px solid #000;}
