@@ -13,7 +13,7 @@
 .supportContentBox3 > div{margin-bottom: 40px;}
 .supportContentBox3 > div:last-child{margin-bottom: 0;}
 
-.supportBox2_Top{display: flex; justify-content: space-between; align-items: center; padding: 60px 240px; margin-bottom: 40px; background: #EFE7E7 url('/img/supportbg.png') no-repeat;}
+.supportBox2_Top{display: flex; justify-content: space-between; align-items: center; padding: 60px 240px; margin-bottom: 40px; background: #EFE7E7 url('https://github.com/woojin966/knb-redesign/blob/main/img/supportbg.png?raw=true') no-repeat; background-size: contain;}
 .commonBenefit1 p{color: #68171C;}
 .commonTxt{position: relative; padding-left: 10px;}
 .commonTxt::before{content: ''; position: absolute; top: 5px; left: 0; width: 5px; height: 5px; border-radius: 5px; background-color: #68171C;}
