@@ -8,12 +8,12 @@
 .shedulePosterList li a img{top: 0;}
 
 .ui-datepicker-inline{height: 100%;}
-.ui-datepicker-year{position: absolute; top: -80px; right: 0; font-size: 20px; border: none; border-bottom: 1px solid #000; padding: 10px 20px; /* background: url(arr_pink.gif) no-repeat 97% 50%/15px auto;} */}
+.ui-datepicker-year{position: absolute; top: -80px; right: 0; font-size: 20px; border: none; border-bottom: 1px solid #000; padding: 10px 30px 10px 20px; /* background: url(arr_pink.gif) no-repeat 97% 50%/15px auto;} */}
 .ui-datepicker-header{position: relative; margin-bottom: 40px; text-align: center;}
 .ui-datepicker-prev{width: 15px; height: 15px; border-bottom: 8px solid transparent; border-top: 8px solid transparent; border-left: 13px solid #68171C; border-right: 13px solid transparent; transform: rotate(180deg); position: absolute; left: 550px; z-index: 2;}
 .ui-datepicker-next{width: 15px; height: 15px; border-bottom: 8px solid transparent; border-top: 8px solid transparent; border-left: 13px solid #68171C; border-right: 13px solid transparent; position: absolute; right: 550px; z-index: 2;}
 .ui-datepicker-prev span, .ui-datepicker-next span{font-size: 0;}
-.ui-datepicker-month{border: none; font-size: 20px; font-weight: bold; position: relative; bottom: 2px;}
+.ui-datepicker-month{border: none; font-size: 20px; font-weight: bold; position: relative; bottom: 2px; background: none;}
 .ui-datepicker-calendar{display: flex; flex-direction: column;}
 .ui-datepicker-calendar::-webkit-scrollbar {width: 10px;}
 .ui-datepicker-calendar::-webkit-scrollbar-thumb {background-color: rgba(0,0,0,.15); border-radius: 5px; background-clip: padding-box; border: 2px solid transparent;}

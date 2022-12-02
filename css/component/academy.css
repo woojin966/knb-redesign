@@ -68,7 +68,7 @@
 .ac5Con4 .ac5ConRight .ac4Cont, .ac5Con7 .ac5ConRight .ac4Cont{display: flex; flex-wrap: wrap; align-items: center;}
 .ac5Con7 .ac5ConRight .ac4Cont p{margin-bottom: 10px;}
 .boxText{padding: 15px; background-color: #fff; border: 1px solid #000; text-align: center; letter-spacing: -2px;}
-.boxArrow{display: inline-block; width: 15px; height: 14px; background-color: #68171C; margin-left: 5px; margin-right: 5px;}
+.boxArrow{display: inline-block; width: 15px; height: 14px; background: url('https://github.com/woojin966/knb-redesign/blob/main/img/arrowicon_bdy.png?raw=true') no-repeat; background-size: 15px; margin-left: 5px; margin-right: 5px; transform: rotate(-90deg);}
 
 .lessonTable{width: 100%;}
 .lessonTable thead{border-bottom: 1px solid #000;}

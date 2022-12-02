@@ -168,8 +168,15 @@ select {
      -moz-appearance: none;
           appearance: none;
           border: none;
+          -webkit-appearance: none;
+  -moz-appearance:none;
+  appearance:none;
+  background:url('https://github.com/woojin966/knb-redesign/blob/main/img/arrowicon_blk.png?raw=true') no-repeat right;
+  background-size: 15px;
 }
 select:focus{outline: none;}
+/* IE에서 Select box 화살표 제거 */
+select::-ms-expand { display:none; }
 
 /* IE 에서 Select box 화살표 제거 */ 
 select::-ms-expand { display: none; border: none;}
