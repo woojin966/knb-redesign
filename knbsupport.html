@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="css/common.css">
     <!-- coponent css -->
     <link rel="stylesheet" href="css/component/support.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
     <title>국립발레단</title>
 </head>
 <body>
     <header>
         <div class="logoBox">
-            <a class="logoBtn">
+            <a href="index.html" class="logoBtn">
                 <img src="img/logo/knblogo_w.png" alt="logo">
             </a>
         </div>
@@ -29,12 +32,12 @@
                         <dd>
                             <span class="menuTitle">국립발레단<br>소개</span>
                             <div class="menusubBox">
-                                <a href="knbIntro.html" class="menusubBtn">인사말</a>
-                                <a href="knbIntro.html" class="menusubBtn">발레단 소개</a>
-                                <a href="knbIntro.html" class="menusubBtn">조직도·이사진·자문위원</a>
-                                <a href="knbIntro.html" class="menusubBtn">CI소개</a>
-                                <a href="knbIntro.html)" class="menusubBtn">연보</a>
-                                <a href="knbIntro.html" class="menusubBtn">찾아오시는 길</a>
+                                <a href="knbIntro.html#introSection1" class="menusubBtn introGreeting">인사말</a>
+                                <a href="knbIntro.html#introSection2" class="menusubBtn introKnb">발레단 소개</a>
+                                <a href="knbIntro.html#introSection3" class="menusubBtn introOrganization">조직도·이사진·자문위원</a>
+                                <a href="knbIntro.html#introSection4" class="menusubBtn introCi">CI소개</a>
+                                <a href="knbIntro.html#introSection5" class="menusubBtn introYear">연보</a>
+                                <a href="knbIntro.html#introSection6" class="menusubBtn introMap">찾아오시는 길</a>
                             </div>
                         </dd>
                     </dl>
@@ -47,9 +50,9 @@
                         <dd>
                             <span class="menuTitle">발레단<br>사람들</span>
                             <div class="menusubBox">
-                                <a href="knbcrue.html" class="menusubBtn">예술스태프</a>
-                                <a href="knbcrue.html" class="menusubBtn">아티스트</a>
-                                <a href="knbcrue.html" class="menusubBtn">행정스태프</a>
+                                <a href="knbcrue.html#crueSection1" class="menusubBtn">예술스태프</a>
+                                <a href="knbcrue.html#crueSection2" class="menusubBtn">아티스트</a>
+                                <a href="knbcrue.html#crueSection3" class="menusubBtn">행정스태프</a>
                             </div>
                         </dd>
                     </dl>
@@ -62,9 +65,9 @@
                         <dd>
                             <span class="menuTitle">공연정보</span>
                             <div class="menusubBox">
-                                <a href="knbschedule.html" class="menusubBtn">공연안내</a>
-                                <a href="knbschedule.html" class="menusubBtn">원간일정</a>
-                                <a href="knbschedule.html" class="menusubBtn">연간일정</a>
+                                <a href="knbschedule.html#scheduleSection1" class="menusubBtn">공연안내</a>
+                                <a href="knbschedule.html#scheduleSection2" class="menusubBtn">원간일정</a>
+                                <a href="knbschedule.html#scheduleSection3" class="menusubBtn">연간일정</a>
                             </div>
                         </dd>
                     </dl>
@@ -77,9 +80,9 @@
                         <dd>
                             <span class="menuTitle">후원회</span>
                             <div class="menusubBox">
-                                <a href="knbsupport.html" class="menusubBtn">인사말</a>
-                                <a href="knbsupport.html" class="menusubBtn">후원예우</a>
-                                <a href="knbsupport.html" class="menusubBtn">후원조직</a>
+                                <a href="knbsupport.html#supportSection1" class="menusubBtn">인사말</a>
+                                <a href="knbsupport.html#supportSection2" class="menusubBtn">후원예우</a>
+                                <a href="knbsupport.html#supportSection3" class="menusubBtn">후원조직</a>
                             </div>
                         </dd>
                     </dl>
@@ -92,14 +95,14 @@
                         <dd>
                             <span class="menuTitle">아카데미</span>
                             <div class="menusubBox">
-                                <a href="knbacademy.html" class="menusubBtn">교장 인사말</a>
-                                <a href="knbacademy.html" class="menusubBtn">아카데미 소개</a>
-                                <a href="knbacademy.html" class="menusubBtn">강사 소개</a>
-                                <a href="knbacademy.html" class="menusubBtn">갤러리</a>
-                                <a href="knbacademy.html" class="menusubBtn">강좌 및 등록안내</a>
-                                <a href="knbacademy.html" class="menusubBtn">환불 관련안내</a>
-                                <a href="knbacademy.html" class="menusubBtn">아카데미 공지사항</a>
-                                <a href="knbacademy.html" class="menusubBtn">자주묻는 질문</a>
+                                <a href="knbacademy.html#academyySection1" class="menusubBtn">교장 인사말</a>
+                                <a href="knbacademy.html#academyySection2" class="menusubBtn">아카데미 소개</a>
+                                <a href="knbacademy.html#academyySection3" class="menusubBtn">강사 소개</a>
+                                <a href="knbacademy.html#academyySection4" class="menusubBtn">갤러리</a>
+                                <a href="knbacademy.html#academyySection5" class="menusubBtn">강좌 및 등록안내</a>
+                                <a href="knbacademy.html#academyySection6" class="menusubBtn">환불 관련안내</a>
+                                <a href="knbacademy.html#academyySection7" class="menusubBtn">아카데미 공지사항</a>
+                                <a href="knbacademy.html#academyySection8" class="menusubBtn">자주묻는 질문</a>
                             </div>
                         </dd>
                     </dl>
@@ -112,9 +115,9 @@
                         <dd>
                             <span class="menuTitle">발레단<br>소식</span>
                             <div class="menusubBox">
-                                <a href="knbnews.html" class="menusubBtn">공지사항</a>
-                                <a href="knbnews.html" class="menusubBtn">뉴스레터</a>
-                                <a href="knbnews.html" class="menusubBtn">1:1 문의</a>
+                                <a href="knbnews.html#newsSection1" class="menusubBtn">공지사항</a>
+                                <a href="knbnews.html#newsSection2" class="menusubBtn">뉴스레터</a>
+                                <a href="knbnews.html#newsSection3" class="menusubBtn">1:1 문의</a>
                             </div>
                         </dd>
                     </dl>
@@ -128,7 +131,7 @@
         <!-- <span class="headerBg"></span> -->
     </header>
     <main>
-        <div class="contentSection supportSection1">
+        <div class="contentSection supportSection1" id="supportSection1">
             <div class="cotentTitleBox supportTitle1">
                 <p class="contentTitle">인사말</p>
             </div>
@@ -151,14 +154,14 @@
             </div>
             <span class="bgSquare"></span>
         </div>
-        <div class="contentSection supportSection2">
+        <div class="contentSection supportSection2" id="supportSection2">
             <div class="cotentTitleBox supportTitle2">
                 <p class="contentTitle">후원예우</p>
             </div>
             <div class="contentBox supportContentBox2">
                 <div class="supportBox2_Top">
                     <div class="commonBenefit1">
-                        <p>공동혜택</p>
+                        <p class="middleSentence_bold">공동혜택</p>
                     </div>
                     <div class="commonBenefit2">
                         <p class="commonTxt">정기공연 첫 공연일 후원회 라운지 오픈</p>
@@ -176,7 +179,7 @@
                         <li>
                             <div class="benefitTop">
                                 <p class="miniSentence_bold">후원금액</p>
-                                <p class="miniSentence">2,000,000원</p>
+                                <p class="middleSentence_bold">2,000,000원</p>
                             </div>
                             <div class="benefitBottom">
                                 <div class="benefit1">
@@ -198,7 +201,7 @@
                         <li>
                             <div class="benefitTop">
                                 <p class="miniSentence_bold">후원금액</p>
-                                <p class="miniSentence">3,000,000원</p>
+                                <p class="middleSentence_bold">3,000,000원</p>
                             </div>
                             <div class="benefitBottom">
                                 <div class="benefit1">
@@ -220,7 +223,7 @@
                         <li>
                             <div class="benefitTop">
                                 <p class="miniSentence_bold">후원금액</p>
-                                <p class="miniSentence">5,000,000원</p>
+                                <p class="middleSentence_bold">5,000,000원</p>
                             </div>
                             <div class="benefitBottom">
                                 <div class="benefit1">
@@ -242,7 +245,7 @@
                         <li>
                             <div class="benefitTop">
                                 <p class="miniSentence_bold">후원금액</p>
-                                <p class="miniSentence">10,000,000원</p>
+                                <p class="middleSentence_bold">10,000,000원</p>
                             </div>
                             <div class="benefitBottom">
                                 <div class="benefit1">
@@ -265,7 +268,7 @@
                 </div>
             </div>
         </div>
-        <div class="contentSection supportSection3">
+        <div class="contentSection supportSection3" id="supportSection3">
             <div class="cotentTitleBox supportTitle3">
                 <p class="contentTitle">후원조직</p>
             </div>
@@ -362,10 +365,318 @@
                         <li class="nameCard">
                             <p class="nameTop">
                                 <span class="nCsub">회원</span>
-                                <span class="nCName middleSentence_bold">권 지 혜</span>
+                                <span class="nCName middleSentence_bold">금 성 혜</span>
                             </p>
-                            <p class="nameBottom">아이에스 지주 전무</p>
-                        </li
+                            <p class="nameBottom">민트리온 이사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">금 한 태</span>
+                            </p>
+                            <p class="nameBottom">(주)텔코웨어 대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">김 대 원</span>
+                            </p>
+                            <p class="nameBottom">UIB 코리아 부사장</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">김 명 섭</span>
+                            </p>
+                            <p class="nameBottom">우노감정평가사사무소 감정평가사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">김 세 훈</span>
+                            </p>
+                            <p class="nameBottom">(주)어썸레이 대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">김 수 로</span>
+                            </p>
+                            <p class="nameBottom">배우</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">김 익 환</span>
+                            </p>
+                            <p class="nameBottom">한세실업 대표이사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">김 하 은</span>
+                            </p>
+                            <p class="nameBottom">&nbsp;</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">레이먼드 정</span>
+                            </p>
+                            <p class="nameBottom">EOGF Partners, 매니징 파트너/공동대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">마크 테토</span>
+                            </p>
+                            <p class="nameBottom">TCK 대표이사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">문 윤 회</span>
+                            </p>
+                            <p class="nameBottom">(주)아주호텔앤리조트 대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">박 경 진</span>
+                            </p>
+                            <p class="nameBottom">진주햄 대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">박 경 호</span>
+                            </p>
+                            <p class="nameBottom">비오비엔터프라이즈 대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">박 대 준</span>
+                            </p>
+                            <p class="nameBottom">삼일회계법인 부대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">박 영 주</span>
+                            </p>
+                            <p class="nameBottom">삼일회계법인 부대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">배 동 현</span>
+                            </p>
+                            <p class="nameBottom">창성그룹 부회장</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">서 영 범</span>
+                            </p>
+                            <p class="nameBottom">세아특수강 대표이사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">성 미 화</span>
+                            </p>
+                            <p class="nameBottom">e-Ballet shop 대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">신 승 호</span>
+                            </p>
+                            <p class="nameBottom">(주)P&A</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">싱귤래러티 주식회사</span>
+                            </p>
+                            <p class="nameBottom">&nbsp;</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">유 영 석</span>
+                            </p>
+                            <p class="nameBottom">(주)코빗 이사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">윤 관</span>
+                            </p>
+                            <p class="nameBottom">BRV캐피털매니지먼트 대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">윤 정 선</span>
+                            </p>
+                            <p class="nameBottom">성보화학주식회사 대표이사 사장</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">윤 현 경</span>
+                            </p>
+                            <p class="nameBottom">(주)동화약품 상무</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">이 건 구</span>
+                            </p>
+                            <p class="nameBottom">현대에이치티(주) 대표이사/사장</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">이 경 태</span>
+                            </p>
+                            <p class="nameBottom">이경태정형외과 박사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">이 지 형</span>
+                            </p>
+                            <p class="nameBottom">수원지방법원 판사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">이 진 욱</span>
+                            </p>
+                            <p class="nameBottom">DL케미칼 상무</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">임 홍 서</span>
+                            </p>
+                            <p class="nameBottom">한국천문연구원 책임연구원</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">장 선 하</span>
+                            </p>
+                            <p class="nameBottom">교원인베스트 대표이사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">전 재 범</span>
+                            </p>
+                            <p class="nameBottom">금강공업 사장</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">정 유 리</span>
+                            </p>
+                            <p class="nameBottom">KBS 한국방송 외신 통역사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">정 진 호</span>
+                            </p>
+                            <p class="nameBottom">서울대학교 의대 피부과 교수</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">조 수 현</span>
+                            </p>
+                            <p class="nameBottom">플럼라인 대표이사 & 노던아크리조트 상무이사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">채 송 희</span>
+                            </p>
+                            <p class="nameBottom">서울리온의원 원장</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">최 두 준</span>
+                            </p>
+                            <p class="nameBottom">(주)동남유화 대표이사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">최 명 석</span>
+                            </p>
+                            <p class="nameBottom">김앤장 법률사무소 변호사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">최 수 준</span>
+                            </p>
+                            <p class="nameBottom">로커스에듀 대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">하나금융그룹</span>
+                            </p>
+                            <p class="nameBottom">&nbsp;</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">한 상 철</span>
+                            </p>
+                            <p class="nameBottom">(주)제일약품 부사장</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">한 승 묵</span>
+                            </p>
+                            <p class="nameBottom">&nbsp;</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">한 이 봉</span>
+                            </p>
+                            <p class="nameBottom">태평양법무법인 대표변호사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">한 혜 주</span>
+                            </p>
+                            <p class="nameBottom">진양자산관리주식회사 대표이사</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">허 인 영</span>
+                            </p>
+                            <p class="nameBottom">(주)승산 대표</p>
+                        </li>
+                        <li class="nameCard">
+                            <p class="nameTop">
+                                <span class="nCsub">회원</span>
+                                <span class="nCName middleSentence_bold">현 지 호</span>
+                            </p>
+                            <p class="nameBottom">(주)화승코퍼레이션 부회장</p>
+                        </li>
                     </ul>
                 </div>    
             </div>
@@ -441,9 +752,7 @@
             </div>
         </section>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/common.js"></script>
+    
     <script></script>
 </body>
 </html>

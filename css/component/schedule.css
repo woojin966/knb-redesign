@@ -31,14 +31,25 @@
 
 /* .yearScheduleList{height: calc(100% - 20px);} */
 .yearScheduleList{display: flex; flex-wrap: wrap;}
-.yearScheduleList li{width: calc((100% / 6) - 18px); height: 190px;}
-.yearScheduleList li:nth-child(5n){margin-right: 20px;}
+.yearScheduleList li{width: calc((100% / 6) - 18px); height: 190px; margin-right: 20px; margin-bottom: 20px;}
+.yearScheduleList li:nth-child(5n){}
 .yearScheduleList li:nth-child(6n){margin-right: 0;}
 .yearScheduleList li:nth-last-child(1), .yearScheduleList li:nth-last-child(2), .yearScheduleList li:nth-last-child(3), .yearScheduleList li:nth-last-child(4), .yearScheduleList li:nth-last-child(5), .yearScheduleList li:nth-last-child(6){margin-bottom: 0;}
 .yearScheCard{text-align: center; background-color: rgba(0,0,0,.02); width: 100%; height: 100%; font-weight: bold; padding: calc(50% - 16px); margin-bottom: 0; font-size: 16px;}
-.yearScheCard.actYear{background-color: #68171C; color: #fff;}
+.yearScheCard.actYear{}
 .yearScheduleList li{position: relative; top: unset; left: unset;}
 .yearScheduleList li.actyearList{position: absolute; top: 0; left: 0; z-index: 2;}
-.yearMonthlyList{display: none;}
-.monthList{display: none;}
-.monthList.actyearList{display: block; padding: 20px; border-top: 1px solid #68171C; border-bottom: 1px solid #68171C;}
+.yearMonthlyList{display: none; position: absolute; top: 0; left: 0; background-color: #fff; height: 100%; width: 1260px;}
+.monthList{display: none; width: 100%; height: 100%;}
+.monthList.actyearList{display: block; flex-wrap: wrap; border-top: 1px solid #68171C; border-bottom: 1px solid #68171C;}
+.monthList .month{padding: 20px; border-bottom: 1px solid rgba(0,0,0,.05);}
+.monthList .month p{font-size: 20px; font-weight: bold; color: #68171C; margin-bottom: 0;}
+.monthList .schedule{padding: 20px; display: flex; flex-wrap: wrap;}
+.monthList .schedule div{display: flex; align-items: center; margin-bottom: 20px; width: 50%;}
+.yMonthlyDate{color: #68171C; font-size: 20px; font-weight: bold; margin-right: 10px;}
+.monthList .schedule div:nth-last-child(1), .monthList .schedule div:nth-last-child(2){margin-bottom: 0;}
+.yMonthlyPlan{font-size: 16px;}
+.yMonthlyNone{font-size: 16px; text-align: center;}
+.scheduleClose{position: absolute; top: 12px; right: 20px; width: 30px; height: 30px;}
+.scheduleClose:before{content: ''; position: absolute; top: 0; left: 20px; width: 1px; height: 100%; background-color: #000; transform: rotate(45deg);}
+.scheduleClose::after{content: ''; position: absolute; top: 0; left: 20px; width: 1px; height: 100%; background-color: #000; transform: rotate(-45deg);}

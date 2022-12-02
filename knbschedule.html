@@ -10,12 +10,16 @@
     <link rel="stylesheet" href="css/common.css">
     <!-- coponent css -->
     <link rel="stylesheet" href="css/component/schedule.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/common.js"></script>
     <title>국립발레단</title>
 </head>
 <body>
     <header>
         <div class="logoBox">
-            <a class="logoBtn">
+            <a href="index.html" class="logoBtn">
                 <img src="img/logo/knblogo_w.png" alt="logo">
             </a>
         </div>
@@ -29,12 +33,12 @@
                         <dd>
                             <span class="menuTitle">국립발레단<br>소개</span>
                             <div class="menusubBox">
-                                <a href="knbIntro.html" class="menusubBtn">인사말</a>
-                                <a href="knbIntro.html" class="menusubBtn">발레단 소개</a>
-                                <a href="knbIntro.html" class="menusubBtn">조직도·이사진·자문위원</a>
-                                <a href="knbIntro.html" class="menusubBtn">CI소개</a>
-                                <a href="knbIntro.html)" class="menusubBtn">연보</a>
-                                <a href="knbIntro.html" class="menusubBtn">찾아오시는 길</a>
+                                <a href="knbIntro.html#introSection1" class="menusubBtn introGreeting">인사말</a>
+                                <a href="knbIntro.html#introSection2" class="menusubBtn introKnb">발레단 소개</a>
+                                <a href="knbIntro.html#introSection3" class="menusubBtn introOrganization">조직도·이사진·자문위원</a>
+                                <a href="knbIntro.html#introSection4" class="menusubBtn introCi">CI소개</a>
+                                <a href="knbIntro.html#introSection5" class="menusubBtn introYear">연보</a>
+                                <a href="knbIntro.html#introSection6" class="menusubBtn introMap">찾아오시는 길</a>
                             </div>
                         </dd>
                     </dl>
@@ -47,9 +51,9 @@
                         <dd>
                             <span class="menuTitle">발레단<br>사람들</span>
                             <div class="menusubBox">
-                                <a href="knbcrue.html" class="menusubBtn">예술스태프</a>
-                                <a href="knbcrue.html" class="menusubBtn">아티스트</a>
-                                <a href="knbcrue.html" class="menusubBtn">행정스태프</a>
+                                <a href="knbcrue.html#crueSection1" class="menusubBtn">예술스태프</a>
+                                <a href="knbcrue.html#crueSection2" class="menusubBtn">아티스트</a>
+                                <a href="knbcrue.html#crueSection3" class="menusubBtn">행정스태프</a>
                             </div>
                         </dd>
                     </dl>
@@ -62,9 +66,9 @@
                         <dd>
                             <span class="menuTitle">공연정보</span>
                             <div class="menusubBox">
-                                <a href="knbschedule.html" class="menusubBtn">공연안내</a>
-                                <a href="knbschedule.html" class="menusubBtn">원간일정</a>
-                                <a href="knbschedule.html" class="menusubBtn">연간일정</a>
+                                <a href="knbschedule.html#scheduleSection1" class="menusubBtn">공연안내</a>
+                                <a href="knbschedule.html#scheduleSection2" class="menusubBtn">원간일정</a>
+                                <a href="knbschedule.html#scheduleSection3" class="menusubBtn">연간일정</a>
                             </div>
                         </dd>
                     </dl>
@@ -77,9 +81,9 @@
                         <dd>
                             <span class="menuTitle">후원회</span>
                             <div class="menusubBox">
-                                <a href="knbsupport.html" class="menusubBtn">인사말</a>
-                                <a href="knbsupport.html" class="menusubBtn">후원예우</a>
-                                <a href="knbsupport.html" class="menusubBtn">후원조직</a>
+                                <a href="knbsupport.html#supportSection1" class="menusubBtn">인사말</a>
+                                <a href="knbsupport.html#supportSection2" class="menusubBtn">후원예우</a>
+                                <a href="knbsupport.html#supportSection3" class="menusubBtn">후원조직</a>
                             </div>
                         </dd>
                     </dl>
@@ -92,14 +96,14 @@
                         <dd>
                             <span class="menuTitle">아카데미</span>
                             <div class="menusubBox">
-                                <a href="knbacademy.html" class="menusubBtn">교장 인사말</a>
-                                <a href="knbacademy.html" class="menusubBtn">아카데미 소개</a>
-                                <a href="knbacademy.html" class="menusubBtn">강사 소개</a>
-                                <a href="knbacademy.html" class="menusubBtn">갤러리</a>
-                                <a href="knbacademy.html" class="menusubBtn">강좌 및 등록안내</a>
-                                <a href="knbacademy.html" class="menusubBtn">환불 관련안내</a>
-                                <a href="knbacademy.html" class="menusubBtn">아카데미 공지사항</a>
-                                <a href="knbacademy.html" class="menusubBtn">자주묻는 질문</a>
+                                <a href="knbacademy.html#academyySection1" class="menusubBtn">교장 인사말</a>
+                                <a href="knbacademy.html#academyySection2" class="menusubBtn">아카데미 소개</a>
+                                <a href="knbacademy.html#academyySection3" class="menusubBtn">강사 소개</a>
+                                <a href="knbacademy.html#academyySection4" class="menusubBtn">갤러리</a>
+                                <a href="knbacademy.html#academyySection5" class="menusubBtn">강좌 및 등록안내</a>
+                                <a href="knbacademy.html#academyySection6" class="menusubBtn">환불 관련안내</a>
+                                <a href="knbacademy.html#academyySection7" class="menusubBtn">아카데미 공지사항</a>
+                                <a href="knbacademy.html#academyySection8" class="menusubBtn">자주묻는 질문</a>
                             </div>
                         </dd>
                     </dl>
@@ -112,9 +116,9 @@
                         <dd>
                             <span class="menuTitle">발레단<br>소식</span>
                             <div class="menusubBox">
-                                <a href="knbnews.html" class="menusubBtn">공지사항</a>
-                                <a href="knbnews.html" class="menusubBtn">뉴스레터</a>
-                                <a href="knbnews.html" class="menusubBtn">1:1 문의</a>
+                                <a href="knbnews.html#newsSection1" class="menusubBtn">공지사항</a>
+                                <a href="knbnews.html#newsSection2" class="menusubBtn">뉴스레터</a>
+                                <a href="knbnews.html#newsSection3" class="menusubBtn">1:1 문의</a>
                             </div>
                         </dd>
                     </dl>
@@ -128,7 +132,7 @@
         <!-- <span class="headerBg"></span> -->
     </header>
     <main>
-        <div class="contentSection scheduleSection1">
+        <div class="contentSection scheduleSection1" id="scheduleSection1">
             <div class="cotentTitleBox scheduleTitle1">
                 <p class="contentTitle">공연안내</p>
             </div>
@@ -178,7 +182,7 @@
                             </li>
                             <li>
                                 <a href="javascript:void(0)" class="photoCardBtn posterBtn poster1">
-                                    <img src="img/schedule/sheduleposter5.jpg" alt="knbartist">
+                                    <img src="img/schedule/sheduleposter5.png" alt="knbartist">
                                 </a>
                                 <div class="photoTxt">
                                     <p class="photoPerform">KNB Movement Series 6</p>
@@ -223,7 +227,7 @@
                 <div class="swiper-button-prev"></div>
             </div>
         </div>
-        <div class="contentSection scheduleSection2">
+        <div class="contentSection scheduleSection2" id="scheduleSection2">
             <div class="cotentTitleBox scheduleTitle2">
                 <p class="contentTitle">월간일정</p>
             </div>
@@ -231,7 +235,7 @@
                 
             </div>
         </div>
-        <div class="contentSection scheduleSection3">
+        <div class="contentSection scheduleSection3" id="scheduleSection3">
             <div class="cotentTitleBox scheduleTitle3">
                 <p class="contentTitle">연간일정</p>
             </div>
@@ -253,7 +257,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" data-month="" class="photoCardBtn yearScheCard">
+                        <a href="javascript:void(0)" data-month="yearApril" class="photoCardBtn yearScheCard">
                             <p class="yearScheMonth">4월</p>
                         </a>
                     </li>
@@ -300,55 +304,111 @@
                 </ul>
                 <ul class="yearMonthlyList">
                     <li id="yearJanuary" class="monthList 2022Jan">
-                        <div>
-                            <p class="yMonthlyDate">4</p>
-                            <p class="yMonthlyPlan">[대구]Fly Higher with KNB / 대구수성아트피아 용지홀</p>
+                        <div class="month"><p>1월</p></div>
+                        <div  class="schedule">
+                            <div>
+                                <p class="yMonthlyDate">4</p>
+                                <p class="yMonthlyPlan">[대구]Fly Higher with KNB / 대구수성아트피아 용지홀</p>
+                            </div>
+                            <div>
+                                <p class="yMonthlyDate">6</p>
+                                <p class="yMonthlyPlan">[용인]Fly Higher with KNB / 용인포인아트홀</p>
+                            </div>
+                            <div>
+                                <p class="yMonthlyDate">7</p>
+                                <p class="yMonthlyPlan">[강동]Fly Higher with KNB / 강동아트센터 대극장 한강</p>
+                            </div>
+                            <div>
+                                <p class="yMonthlyDate">11</p>
+                                <p class="yMonthlyPlan">[안성]Fly Higher with KNB / 안성맞춤아트홀 대공연장</p>
+                            </div>
+                            <div>
+                                <p class="yMonthlyDate">13</p>
+                                <p class="yMonthlyPlan">[경주]스페셜 갈라 / 경주예술의전당 화랑홀</p>
+                            </div>
+                            <div>
+                                <p class="yMonthlyDate">17</p>
+                                <p class="yMonthlyPlan">[전주]Fly Higher with KNB / 한국소리문화의전당 모악당</p>
+                            </div>
                         </div>
-                        <div>
-                            <p class="yMonthlyDate">6</p>
-                            <p class="yMonthlyPlan">[용인]Fly Higher with KNB / 용인포인아트홀</p>
-                        </div>
-                        <div>
-                            <p class="yMonthlyDate">7</p>
-                            <p class="yMonthlyPlan">[강동]Fly Higher with KNB / 강동아트센터 대극장 한강</p>
-                        </div>
-                        <div>
-                            <p class="yMonthlyDate">11</p>
-                            <p class="yMonthlyPlan">[안성]Fly Higher with KNB / 안성맞춤아트홀 대공연장</p>
-                        </div>
-                        <div>
-                            <p class="yMonthlyDate">13</p>
-                            <p class="yMonthlyPlan">[경주]스페셜 갈라 / 경주예술의전당 화랑홀</p>
-                        </div>
-                        <div>
-                            <p class="yMonthlyDate">17</p>
-                            <p class="yMonthlyPlan">[전주]Fly Higher with KNB / 한국소리문화의전당 모악당</p>
-                        </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
                     </li>
                     <li id="yearFaburary" class="monthList 2022Fab">
-                        <div>
+                        <div class="month"><p>2월</p></div>
+                        <div class="schedule">
                             <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
                         </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
                     </li>
                     <li id="yearMarch"  class="monthList 2022Mar">
-                        <div>
+                        <div class="month"><p>3월</p></div>
+                        <div class="schedule">
                             <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
                         </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
                     </li>
                     <li id="yearApril" class="monthList 2022Apr">
-                        <div>
+                        <div class="month"><p>4월</p></div>
+                        <div class="schedule">
                             <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
                         </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
                     </li>
                     <li id="yearMay" class="monthList 2022May">
-                        <div>
+                        <div class="month"><p>5월</p></div>
+                        <div class="schedule">
                             <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
                         </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
                     </li>
                     <li id="yearJune" class="monthList 2022Jun">
-                        <div>
+                        <div class="month"><p>6월</p></div>
+                        <div class="schedule">
                             <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
                         </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
+                    </li>
+                    <li id="yearJuly" class="monthList 2022Jun">
+                        <div class="month"><p>7월</p></div>
+                        <div class="schedule">
+                            <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                        </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
+                    </li>
+                    <li id="yearAugust" class="monthList 2022Jun">
+                        <div class="month"><p>8월</p></div>
+                        <div class="schedule">
+                            <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                        </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
+                    </li>
+                    <li id="yearSeptember" class="monthList 2022Jun">
+                        <div class="month"><p>9월</p></div>
+                        <div class="schedule">
+                            <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                        </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
+                    </li>
+                    <li id="yearOctober" class="monthList 2022Jun">
+                        <div class="month"><p>10월</p></div>
+                        <div class="schedule">
+                            <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                        </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
+                    </li>
+                    <li id="yearNovember" class="monthList 2022Jun">
+                        <div class="month"><p>11월</p></div>
+                        <div class="schedule">
+                            <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                        </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
+                    </li>
+                    <li id="yearDecember" class="monthList 2022Jun">
+                        <div class="month"><p>12월</p></div>
+                        <div class="schedule">
+                            <p class="yMonthlyNone">해당 기간에는 공연 일정이 없습니다.</p>
+                        </div>
+                        <a href="javascript:void(0)" class="scheduleClose"></a>
                     </li>
                 </ul>
             </div>
@@ -424,10 +484,7 @@
             </div>
         </section>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script src="js/common.js"></script>
+    
     <script>
         $(document).ready(function(){
             var posterSwiper = new Swiper(".posterSwiper", {
@@ -481,6 +538,7 @@
                     ACT_YEARSCHEDULE.removeClass('actYear');
                     ACT_YEARSCHEDULE_LI.removeClass('actYearBtnLi');
                     ACT_YEARLIST.removeClass('actyearList');
+                    $('.scheduleClose').removeClass('actScheduleClose');
                 }else{
                     $('.yearMonthlyList').css('display','block');
                     $('.actYear').removeClass('actYear');
@@ -489,6 +547,21 @@
                     ACT_YEARSCHEDULE.addClass('actYear');
                     ACT_YEARSCHEDULE_LI.addClass('actYearBtnLi');
                     ACT_YEARLIST.addClass('actyearList');
+                    $('.scheduleClose').addClass('actScheduleClose');
+                }
+            });
+
+            $('.scheduleClose').on('click', function(){
+                var ACT_scheduleClose = $(this);
+                var ACT_schedule = ACT_scheduleClose.closest('.monthList');
+                var ACT_scheduleList = ACT_schedule.closest('.yearMonthlyList');
+                if(ACT_scheduleClose.hasClass('actScheduleClose')){
+                    ACT_scheduleClose.removeClass('actScheduleClose');
+                    ACT_scheduleList.css('display','none');
+                }else{
+                    $('.actScheduleClose').removeClass('actScheduleClose');
+                    ACT_scheduleClose.addClass('actScheduleClose');
+                    ACT_scheduleList.css('display','block');
                 }
             });
         });

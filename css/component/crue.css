@@ -29,15 +29,32 @@
 
 .masterCrueList {
     display: flex;
-    height: calc(100% - 60px);
+    height: calc(100% - 40px);
 }
+
+.masterCrueList li{height: 100%;}
 
 .masterCrueList li a img {
     top: 0;
+    width: auto;
+    height: 100%;
+    left: 50%;
 }
 
+.masterCrueList li .master1 img {
+    left: -50%;
+}
+.masterCrueList li .master2 img {
+    left: -30%;
+}
 .masterCrueList li .master3 img {
-    top: -30px;
+    left: -50%;
+}
+.masterCrueList li .master4 img {
+    left: -30%;
+}
+.masterCrueList li .master5 img {
+    left: -30%;
 }
 
 .tabbtn.currentOfficeTab {
